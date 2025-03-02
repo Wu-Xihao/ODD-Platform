@@ -109,8 +109,8 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
     },
     lang: {
       // Language variables for button
-      next: 'Next',
-      previous: 'Previous'
+      next: '下一页',
+      previous: '前一页'
     },
     disabledSteps: [],
     // Array Steps disabled
