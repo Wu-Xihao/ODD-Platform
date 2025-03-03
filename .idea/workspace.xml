@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="index文件" />
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="添加登录、注册HTML文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +72,9 @@
       <workItem from="1740831505753" duration="4623000" />
       <workItem from="1740879947285" duration="21533000" />
       <workItem from="1740932790733" duration="854000" />
-      <workItem from="1740963004942" duration="769000" />
+      <workItem from="1740963004942" duration="2560000" />
+      <workItem from="1740966813256" duration="1941000" />
+      <workItem from="1740991662836" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -242,7 +244,39 @@
       <option name="project" value="LOCAL" />
       <updated>1740963773226</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="提示文件">
+      <option name="closed" value="true" />
+      <created>1740963991943</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963991943</updated>
+    </task>
+    <task id="LOCAL-00023" summary="字体文件">
+      <option name="closed" value="true" />
+      <created>1740964030745</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740964030745</updated>
+    </task>
+    <task id="LOCAL-00024" summary="字体与配置文件">
+      <option name="closed" value="true" />
+      <created>1740964059459</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740964059459</updated>
+    </task>
+    <task id="LOCAL-00025" summary="添加登录、注册HTML文件">
+      <option name="closed" value="true" />
+      <created>1740996767959</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740996767959</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +313,10 @@
     <MESSAGE value="js空文件" />
     <MESSAGE value="后端文件" />
     <MESSAGE value="index文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="index文件" />
+    <MESSAGE value="提示文件" />
+    <MESSAGE value="字体文件" />
+    <MESSAGE value="字体与配置文件" />
+    <MESSAGE value="添加登录、注册HTML文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加登录、注册HTML文件" />
   </component>
 </project>
