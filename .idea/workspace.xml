@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="添加登录、注册HTML文件" />
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="删除预训练模型文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +76,8 @@
       <workItem from="1740932790733" duration="854000" />
       <workItem from="1740963004942" duration="2560000" />
       <workItem from="1740966813256" duration="1941000" />
-      <workItem from="1740991662836" duration="1559000" />
+      <workItem from="1740991662836" duration="3157000" />
+      <workItem from="1741007894724" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -276,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740996767959</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="删除预训练模型文件">
+      <option name="closed" value="true" />
+      <created>1740997361498</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740997361498</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +328,7 @@
     <MESSAGE value="字体文件" />
     <MESSAGE value="字体与配置文件" />
     <MESSAGE value="添加登录、注册HTML文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加登录、注册HTML文件" />
+    <MESSAGE value="删除预训练模型文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除预训练模型文件" />
   </component>
 </project>
