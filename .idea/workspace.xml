@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="index文件" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tiOc5H8f3nRn0mmBpDsBK8jc7Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Program_Files/anaconda3/condabin/conda.bat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model\checkpoints" />
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\static\img" />
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\html-old" />
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="" />
+      <created>1740831504410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740831504410</updated>
+      <workItem from="1740831505753" duration="4623000" />
+      <workItem from="1740879947285" duration="21533000" />
+      <workItem from="1740932790733" duration="854000" />
+      <workItem from="1740963004942" duration="769000" />
+    </task>
+    <task id="LOCAL-00001" summary="筛减后的模板源代码">
+      <option name="closed" value="true" />
+      <created>1740851555175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740851555175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="流程界面">
+      <option name="closed" value="true" />
+      <created>1740905176689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740905176689</updated>
+    </task>
+    <task id="LOCAL-00003" summary="原始html源代码存入一个单独的文件夹">
+      <option name="closed" value="true" />
+      <created>1740910598242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740910598242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="管理员头像图片">
+      <option name="closed" value="true" />
+      <created>1740920589632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740920589632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="表单步骤处理js文件修改">
+      <option name="closed" value="true" />
+      <created>1740920618136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740920618136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改位置">
+      <option name="closed" value="true" />
+      <created>1740921421926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740921421926</updated>
+    </task>
+    <task id="LOCAL-00007" summary="登录界面">
+      <option name="closed" value="true" />
+      <created>1740921440302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740921440302</updated>
+    </task>
+    <task id="LOCAL-00008" summary="注册界面">
+      <option name="closed" value="true" />
+      <created>1740921449216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740921449216</updated>
+    </task>
+    <task id="LOCAL-00009" summary="人物图片">
+      <option name="closed" value="true" />
+      <created>1740923759137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740923759137</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改图片路径image/pic1">
+      <option name="closed" value="true" />
+      <created>1740923790806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740923790806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="医疗诊断主界面(分步骤)">
+      <option name="closed" value="true" />
+      <created>1740923829255</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740923829255</updated>
+    </task>
+    <task id="LOCAL-00012" summary="index文件">
+      <option name="closed" value="true" />
+      <created>1740923947672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740923947672</updated>
+    </task>
+    <task id="LOCAL-00013" summary="预训练模型与训练好的一个模型">
+      <option name="closed" value="true" />
+      <created>1740932552401</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740932552401</updated>
+    </task>
+    <task id="LOCAL-00014" summary="js文件">
+      <option name="closed" value="true" />
+      <created>1740932568841</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740932568841</updated>
+    </task>
+    <task id="LOCAL-00015" summary="后端文件">
+      <option name="closed" value="true" />
+      <created>1740932579289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740932579289</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改主界面">
+      <option name="closed" value="true" />
+      <created>1740932623418</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740932623418</updated>
+    </task>
+    <task id="LOCAL-00017" summary="删除模型">
+      <option name="closed" value="true" />
+      <created>1740963062274</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963062274</updated>
+    </task>
+    <task id="LOCAL-00018" summary="删除预训练模型">
+      <option name="closed" value="true" />
+      <created>1740963312378</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963312378</updated>
+    </task>
+    <task id="LOCAL-00019" summary="js空文件">
+      <option name="closed" value="true" />
+      <created>1740963741629</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963741629</updated>
+    </task>
+    <task id="LOCAL-00020" summary="后端文件">
+      <option name="closed" value="true" />
+      <created>1740963757932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963757932</updated>
+    </task>
+    <task id="LOCAL-00021" summary="index文件">
+      <option name="closed" value="true" />
+      <created>1740963773226</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740963773226</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="筛减后的模板源代码" />
+    <MESSAGE value="流程界面" />
+    <MESSAGE value="原始html源代码存入一个单独的文件夹" />
+    <MESSAGE value="管理员头像图片" />
+    <MESSAGE value="表单步骤处理js文件修改" />
+    <MESSAGE value="修改位置" />
+    <MESSAGE value="登录界面" />
+    <MESSAGE value="注册界面" />
+    <MESSAGE value="人物图片" />
+    <MESSAGE value="修改图片路径image/pic1" />
+    <MESSAGE value="医疗诊断主界面(分步骤)" />
+    <MESSAGE value="预训练模型与训练好的一个模型" />
+    <MESSAGE value="js文件" />
+    <MESSAGE value="修改主界面" />
+    <MESSAGE value="删除模型" />
+    <MESSAGE value="删除预训练模型" />
+    <MESSAGE value="js空文件" />
+    <MESSAGE value="后端文件" />
+    <MESSAGE value="index文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="index文件" />
+  </component>
+</project>
