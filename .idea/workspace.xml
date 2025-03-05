@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="示例图片文件">
-      <change afterPath="$PROJECT_DIR$/Platform/static/css-new/preprocess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/static/css-new/upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preprocessImg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="后端文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +92,7 @@
       <workItem from="1741013339764" duration="1663000" />
       <workItem from="1741065153376" duration="25261000" />
       <workItem from="1741100166885" duration="8923000" />
-      <workItem from="1741159085370" duration="6296000" />
+      <workItem from="1741159085370" duration="6655000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -329,7 +318,39 @@
       <option name="project" value="LOCAL" />
       <updated>1741014648262</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="新增css文件">
+      <option name="closed" value="true" />
+      <created>1741165481110</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165481110</updated>
+    </task>
+    <task id="LOCAL-00030" summary="上传和预处理的js文件">
+      <option name="closed" value="true" />
+      <created>1741165502887</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165502887</updated>
+    </task>
+    <task id="LOCAL-00031" summary="完善上传和预处理的html文件">
+      <option name="closed" value="true" />
+      <created>1741165526643</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165526643</updated>
+    </task>
+    <task id="LOCAL-00032" summary="后端文件">
+      <option name="closed" value="true" />
+      <created>1741165554409</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1741165554409</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,9 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="流程界面" />
-    <MESSAGE value="原始html源代码存入一个单独的文件夹" />
-    <MESSAGE value="管理员头像图片" />
     <MESSAGE value="表单步骤处理js文件修改" />
     <MESSAGE value="修改位置" />
     <MESSAGE value="登录界面" />
@@ -363,7 +381,6 @@
     <MESSAGE value="删除模型" />
     <MESSAGE value="删除预训练模型" />
     <MESSAGE value="js空文件" />
-    <MESSAGE value="后端文件" />
     <MESSAGE value="index文件" />
     <MESSAGE value="提示文件" />
     <MESSAGE value="字体文件" />
@@ -372,7 +389,11 @@
     <MESSAGE value="删除预训练模型文件" />
     <MESSAGE value="css文件" />
     <MESSAGE value="示例图片文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="示例图片文件" />
+    <MESSAGE value="新增css文件" />
+    <MESSAGE value="上传和预处理的js文件" />
+    <MESSAGE value="完善上传和预处理的html文件" />
+    <MESSAGE value="后端文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="后端文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741163132515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
