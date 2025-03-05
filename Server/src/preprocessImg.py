@@ -111,15 +111,15 @@ class EyeImagePreprocessor:
 
             if enhanced is None:
                 logger.error(f"图像增强失败: {image_path}")
-                return False
+                return None
 
             cv2.imwrite(save_path, enhanced)
             logger.info(f"图像处理并保存成功: {save_path}")
-            return True
+            return enhanced
 
         except Exception as e:
             logger.error(f"处理图像失败: {str(e)}")
-            return False
+            return None
 
 def save_processed_image(image, output_path):
     """保存处理后的图像"""
