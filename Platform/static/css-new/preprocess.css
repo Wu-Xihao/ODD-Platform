@@ -1,0 +1,7 @@
+.eye-img{
+    height: 250px; /* 固定高度 */
+    width: 100%; /* 让图片适应容器宽度 */
+    object-fit: contain; /* 保持原始长宽比，完整显示 */
+    object-position: center; /* 居中显示 */
+    background-color: #f0f0f0; /* 添加背景色，避免透明区域 */
+}
