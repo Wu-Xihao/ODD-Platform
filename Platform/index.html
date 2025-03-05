@@ -22,6 +22,11 @@
 	<!-- 主样式CSS文件   -->
 	<link href="static/css/style.css" rel="stylesheet">
 
+	<!-- 新增css -->
+	<link href="static/css-new/upload.css" rel="stylesheet">
+	<link href="static/css-new/preprocess.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -323,7 +328,7 @@
             Content body start
         ***********************************-->
 		<!--界面主体部分-->
-        <div class="content-body">
+        <div class="content-body" id="contentBody">
             <div class="container-fluid">
 				<div class="row page-titles">
 					<ol class="breadcrumb">
@@ -358,12 +363,140 @@
 											<span>4</span>
 										</a></li>
 									</ul>
-									<div class="tab-content">
+									<div class="tab-content" id="wizard-tab-content">
 										<div id="wizard_Upload" class="tab-pane" role="tabpanel">
 											<!-- 此处写相关信息与图片上传的相关代码 -->
+											<div class="card">
+												<div class="card-header">
+													<h3 class="card-title">步骤1：上传信息</h3>
+													<div class="basic-dropdown">
+														<div class="dropdown">
+															<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+																上传图像
+															</button>
+															<div class="dropdown-menu" style="margin: 0px;">
+																<a class="dropdown-item" onclick="showUploadOptions('single')">左眼、右眼图像</a>
+																<a class="dropdown-item" onclick="showUploadOptions('batch')">批量上传</a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="card-body">
+													<div class="basic-form">
+														<form action="/upload" method="post" enctype="multipart/form-data">
+															<!-- 信息填写 -->
+															<div class="row">
+																<div class="mb-3 col-md-6">
+																	<label class="form-label">姓名</label>
+																	<input type="text" class="form-control" name="name" placeholder="您的姓名">
+																</div>
+																<div class="mb-3 col-md-6">
+																	<label class="col-form-label col-sm-3 pt-0">性别</label>
+    																<div class="mb-3 mb-0" style="display: flex;">
+																		<label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 60px;">
+																			<input type="radio" name="gender" value="male" style="margin-right: 10px;"> 男
+																		</label>
+																		<label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 40px;">
+																			<input type="radio" name="gender" value="female" style="margin-right: 10px;"> 女
+																		</label>
+																	</div>
+																</div>
+																<div class="mb-3 col-md-6">
+																	<label class="form-label">联系方式</label>
+																	<input type="tel" class="form-control" name="contact" placeholder="您的联系方式">
+																</div>
+																<div class="mb-3 col-md-6">
+																	<label class="form-label">年龄</label>
+																	<div class="col-6 col-sm-4 mb-2">
+																		<div class="mb-3">
+																			<input class="form-control" value="20" type="number" name="age" id="input1">
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- 图像上传 -->
+															<div class="row">
+																<div class="upload-container">
+																	<div class="upload-buttons">
+																		<div id="upload-options">
+																			<!-- 默认隐藏 -->
+																			<div id="single-upload" class="input-group mb-3 mt-3" style="display: none;">
+																				<label for="leftEyeUpload">左眼图像</label>
+																				<div class="form-file" style="width: 40%; display: inline-block;">
+																					<input type="file" id="leftEyeUpload" name="leftEyeUpload" class="form-file-input form-control" onchange="displayImage('leftEyeUpload', 'left-eye-images')">
+																				</div>
+																				<label for="rightEyeUpload" style="margin-left: 4%;">右眼图像</label>
+																				<div class="form-file" style="width: 40%; display: inline-block;">
+																					<input type="file" id="rightEyeUpload" name="rightEyeUpload" class="form-file-input form-control" onchange="displayImage('rightEyeUpload', 'right-eye-images')">
+																				</div>
+																			</div>
+																			<div id="batch-upload" class="input-group mb-3 mt-3" style="display: none;">
+																				<label for="batchUpload">批量上传</label>
+																				<input type="file" id="batchUpload" name="batchUpload" webkitdirectory directory multiple onchange="displayBatchImages(event)" >
+																			</div>
+																		</div>
+																		<!-- 添加用于展示上传图像的区域 -->
+																		<div id="image-display" class="row mt-3">
+																			<div class="col-md-6">
+																				<!-- <h4>左眼图像</h4> -->
+																				<div id="left-eye-images" class="image-container"></div>
+																			</div>
+																			<div class="col-md-6">
+																				<!-- <h4>右眼图像</h4> -->
+																				<div id="right-eye-images" class="image-container"></div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="mb-3">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" name="agreement" checked>
+																	<label class="form-check-label">
+																		您同意使用您的信息进行眼疾检测
+																	</label>
+																</div>
+																<div class="d-flex justify-content-end">
+																	<button type="submit" class="btn btn-primary">确认</button>
+																</div>
+															</div>
+
+														</form>
+													</div>
+												</div>
+											</div>
 										</div>
 										<div id="wizard_Preprocess" class="tab-pane" role="tabpanel">
 											<!-- 此处写预处理图片以及图像对比的相关代码 -->
+											<div class="row">
+												<div class="card">
+													<div class="card-header">
+														<h4 class="card-title">步骤2：图像预处理</h4>
+														<button id="startPreprocessBtn" class="btn btn-primary sw-btn">开始预处理</button>
+													</div>
+													<div class="card-body">
+														<div>
+															<p>
+																图像数据易受到环境因素影响，如光照不均匀、拍摄角度偏移、
+																虹膜颜色和反射、图像噪声干扰等，因此得到的视网膜眼底图像会有
+																视盘不清晰、血管对比度较弱、色素沉着不明显等特点。
+															</p>
+															<p>
+															    预处理步骤包括：去除背景中的黑边信息、自适应直方图均衡化、统一
+															    尺寸设置等，经过预处理后，眼底图像的视盘、血管、色素沉着等
+															    特征更加明显，有利于后续的图像分割和特征提取。
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-12">
+													<div id="imageContainer">
+														<!-- 图片展示区域 -->
+													</div>
+												</div>
+											</div>
 										</div>
 										<div id="wizard_Predict" class="tab-pane" role="tabpanel">
 											<!-- 此处写检测结果的相关代码 -->
