@@ -80,26 +80,17 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <h5 class="card-title">处理后的左右眼图像</h5>
                                 </div>
                                 <div class="row">
-                                    <div class="col-xl-6">
+                                    <div class="col-xl-12">
                                         <div class="card">
                                             <div class="card-body">
                                                 <img class="card-img-bottom img-fluid eye-img"
-                                                    src="${item.processedLeft}"
-                                                    alt="处理后的左眼图像"
+                                                    src="${item.mergedImg}"
+                                                    alt="预处理并进行合并的图像"
                                                     onerror="this.src='placeholder.jpg'">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img class="card-img-bottom img-fluid eye-img"
-                                                    src="${item.processedRight}"
-                                                    alt="处理后的右眼图像"
-                                                    onerror="this.src='placeholder.jpg'">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
