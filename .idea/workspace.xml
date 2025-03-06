@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="修改登录、注册的html文件">
-      <change afterPath="$PROJECT_DIR$/Platform/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/static/image/profile-cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/static/img/manager-img0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platform/static/img/manager-img1.png" afterDir="false" />
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="index文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/img/manager-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/img/manager-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/predict.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/predict.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <workItem from="1741238862935" duration="740000" />
       <workItem from="1741244407325" duration="1540000" />
       <workItem from="1741261043082" duration="6528000" />
-      <workItem from="1741272272007" duration="4676000" />
+      <workItem from="1741272272007" duration="11656000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -421,7 +421,39 @@
       <option name="project" value="LOCAL" />
       <updated>1741272904543</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="管理员头像图片">
+      <option name="closed" value="true" />
+      <created>1741277497931</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1741277497931</updated>
+    </task>
+    <task id="LOCAL-00041" summary="个人中心背景图片">
+      <option name="closed" value="true" />
+      <created>1741277514088</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741277514088</updated>
+    </task>
+    <task id="LOCAL-00042" summary="配置">
+      <option name="closed" value="true" />
+      <created>1741277542533</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1741277542533</updated>
+    </task>
+    <task id="LOCAL-00043" summary="index文件">
+      <option name="closed" value="true" />
+      <created>1741277550962</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1741277550962</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,13 +471,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="预训练模型与训练好的一个模型" />
-    <MESSAGE value="js文件" />
-    <MESSAGE value="修改主界面" />
     <MESSAGE value="删除模型" />
     <MESSAGE value="删除预训练模型" />
     <MESSAGE value="js空文件" />
-    <MESSAGE value="index文件" />
     <MESSAGE value="提示文件" />
     <MESSAGE value="字体文件" />
     <MESSAGE value="字体与配置文件" />
@@ -464,13 +492,17 @@
     <MESSAGE value="修改后端预处理文件的函数" />
     <MESSAGE value="主界面文件" />
     <MESSAGE value="修改登录、注册的html文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改登录、注册的html文件" />
+    <MESSAGE value="管理员头像图片" />
+    <MESSAGE value="个人中心背景图片" />
+    <MESSAGE value="配置" />
+    <MESSAGE value="index文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="index文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ODD_Platform$eyeDiseasePredictor.coverage" NAME="eyeDiseasePredictor Coverage Results" MODIFIED="1741268397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741238978869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$pre_process.coverage" NAME="pre-process Coverage Results" MODIFIED="1741159243187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
-    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741268405637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741278050835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1741238999108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
   </component>
 </project>
