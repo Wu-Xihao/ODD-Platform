@@ -1,0 +1,68 @@
+/* 预测结果相关样式 */
+.prediction-item {
+    margin-bottom: 15px;
+}
+
+.prediction-item .progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.prediction-item .progress-bar {
+    background-color: #1362FC;
+    transition: width 0.6s ease;
+}
+
+/* 报告相关样式 */
+.report-container {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.report-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #1362FC;
+}
+
+.report-info {
+    margin-top: 20px;
+}
+
+.eye-results {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.left-eye, .right-eye {
+    flex: 1;
+}
+
+.diagnosis-summary {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.recommendations ul {
+    padding-left: 20px;
+}
+
+.recommendations li {
+    margin-bottom: 10px;
+}
+
+.report-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* 批量数据表格样式 */
+.table img.img-thumbnail {
+    max-width: 100px;
+    height: auto;
+}
