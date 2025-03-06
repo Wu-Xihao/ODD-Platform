@@ -531,7 +531,10 @@ async function renderTableData() {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
+                        if(patient.type === "single")
+                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}`;
+                        else if(patient.type === "batch")
+                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
                     });
                     loadImagePromises.push(leftImgPromise);
                 }
@@ -541,7 +544,10 @@ async function renderTableData() {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
+                        if(patient.type === "single")
+                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}`;
+                        else if(patient.type === "batch")
+                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
                     });
                     loadImagePromises.push(rightImgPromise);
                 }
@@ -550,14 +556,18 @@ async function renderTableData() {
                 row.innerHTML = `
                     <td>${patient.patient_name || ''}</td>
                     <td>${patient.left_eye ? `
-                        <img src="http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}" 
-                             class="img-thumbnail" alt="左眼图片">` : '无图片'}
+                        <img src="${patient.type === 'single' ? 
+                                `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}` :
+                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`}"
+                         class="img-thumbnail" alt="左眼图片">` : '无图片'}
                     </td>
                     <td>${patient.right_eye ? `
-                        <img src="http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}" 
-                             class="img-thumbnail" alt="右眼图片">` : '无图片'}
+                        <img src="${patient.type === 'single' ? 
+                                `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}` :
+                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`}"
+                         class="img-thumbnail" alt="右眼图片">` : '无图片'}
                     </td>
-                    <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.code : '') + 
+                    <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.code : '') +
                          (patient.right_eye ? ', ' + patient.right_eye.predictions.top_prediction.code : '')}</td>
                     <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.name : '') +
                          (patient.right_eye ? ', ' + patient.right_eye.predictions.top_prediction.name : '')}</td>
@@ -579,9 +589,15 @@ async function renderTableData() {
                 resolve();
             });
 
+            // 模拟点击 "上一步"
+            $('#smartwizard').smartWizard("prev");
+            // 模拟点击 "下一步"
+            $('#smartwizard').smartWizard("next");
+
         } catch (error) {
             console.error('渲染表格数据出错:', error);
             reject(error);
         }
     });
 }
+

@@ -300,57 +300,99 @@ def predict_image():
                 "error": f"未找到用户 {user_name} 的图片目录"
             }), 404
 
+        left_eye_file = None
+        right_eye_file = None
+
         # 获取用户目录下的所有病人文件夹
         patient_folders = [f for f in os.listdir(user_dir)
                            if os.path.isdir(os.path.join(user_dir, f))]
 
+        # 如果没有子文件夹
         if not patient_folders:
-            return jsonify({
-                "success": False,
-                "error": f"用户 {user_name} 的目录下未找到病人文件夹"
-            }), 404
+            # 检查是否有左右眼文件
+            for filename in os.listdir(user_dir):
+                if 'left' in filename.lower():
+                    left_eye_file = filename
+                elif 'right' in filename.lower():
+                    right_eye_file = filename
+
+            # 如果也没有找到左右眼的图像
+            if not left_eye_file or not right_eye_file:
+                return jsonify({
+                    "success": False,
+                    "error": f"用户 {user_name} 的目录下未找到病人文件夹"
+                }), 404
 
         # 存储所有病人的预测结果
         all_patients_predictions = []
 
-        # 处理每个病人的文件夹
-        for patient_folder in patient_folders:
-            patient_path = os.path.join(user_dir, patient_folder)
-
-            # 查找左右眼图片
-            image_files = os.listdir(patient_path)
-            left_eye_file = next((f for f in image_files if 'left' in f.lower()), None)
-            right_eye_file = next((f for f in image_files if 'right' in f.lower()), None)
-
+        if left_eye_file and right_eye_file:
             patient_results = {
-                "patient_name": patient_folder,
+                "patient_name": user_name,
                 "left_eye": None,
-                "right_eye": None
+                "right_eye": None,
+                "type": "single"
             }
+            # 左眼
+            left_eye_path = os.path.join(user_dir, left_eye_file)
+            left_results = predictor.predict(left_eye_path)
+            if left_results is not None:
+                patient_results["left_eye"] = {
+                    "image_name": left_eye_file,
+                    "predictions": left_results
+                }
+            # 右眼
+            right_eye_path = os.path.join(user_dir, right_eye_file)
+            right_results = predictor.predict(right_eye_path)
+            if right_results is not None:
+                patient_results["right_eye"] = {
+                    "image_name": right_eye_file,
+                    "predictions": right_results
+                }
 
-            # 处理左眼图片
-            if left_eye_file:
-                left_eye_path = os.path.join(patient_path, left_eye_file)
-                left_results = predictor.predict(left_eye_path)
-                if left_results is not None:
-                    patient_results["left_eye"] = {
-                        "image_name": left_eye_file,
-                        "predictions": left_results
-                    }
-
-            # 处理右眼图片
-            if right_eye_file:
-                right_eye_path = os.path.join(patient_path, right_eye_file)
-                right_results = predictor.predict(right_eye_path)
-                if right_results is not None:
-                    patient_results["right_eye"] = {
-                        "image_name": right_eye_file,
-                        "predictions": right_results
-                    }
-
-            # 如果至少有一只眼睛的预测结果，添加到结果列表
             if patient_results["left_eye"] is not None or patient_results["right_eye"] is not None:
                 all_patients_predictions.append(patient_results)
+        else:
+
+            # 处理每个病人的文件夹
+            for patient_folder in patient_folders:
+                patient_path = os.path.join(user_dir, patient_folder)
+
+                # 查找左右眼图片
+                image_files = os.listdir(patient_path)
+                left_eye_file = next((f for f in image_files if 'left' in f.lower()), None)
+                right_eye_file = next((f for f in image_files if 'right' in f.lower()), None)
+
+                patient_results = {
+                    "patient_name": patient_folder,
+                    "left_eye": None,
+                    "right_eye": None,
+                    "type": "batch"
+                }
+
+                # 处理左眼图片
+                if left_eye_file:
+                    left_eye_path = os.path.join(patient_path, left_eye_file)
+                    left_results = predictor.predict(left_eye_path)
+                    if left_results is not None:
+                        patient_results["left_eye"] = {
+                            "image_name": left_eye_file,
+                            "predictions": left_results
+                        }
+
+                # 处理右眼图片
+                if right_eye_file:
+                    right_eye_path = os.path.join(patient_path, right_eye_file)
+                    right_results = predictor.predict(right_eye_path)
+                    if right_results is not None:
+                        patient_results["right_eye"] = {
+                            "image_name": right_eye_file,
+                            "predictions": right_results
+                        }
+
+                # 如果至少有一只眼睛的预测结果，添加到结果列表
+                if patient_results["left_eye"] is not None or patient_results["right_eye"] is not None:
+                    all_patients_predictions.append(patient_results)
 
         if not all_patients_predictions:
             return jsonify({

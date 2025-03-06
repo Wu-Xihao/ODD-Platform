@@ -99,14 +99,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     imageContainer.appendChild(imgDiv);
                 });
 
-                // //强制触发重新渲染
-                // let wizardTab = document.getElementById("contentBody");
-                // if (wizardTab) {
-                //     // 强制浏览器重新计算布局
-                //     wizardTab.style.display = 'none'; // 隐藏
-                //     wizardTab.offsetHeight; // 读取属性触发 reflow
-                //     wizardTab.style.display = ''; // 显示
-                // }
+                // 模拟点击 "上一步"
+                $('#smartwizard').smartWizard("prev");
+                // 模拟点击 "下一步"
+                $('#smartwizard').smartWizard("next");
+
                 alert("预处理成功！");
             } else {
                 alert("预处理失败: " + (data.message || "未知错误"));
@@ -118,4 +115,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
 
