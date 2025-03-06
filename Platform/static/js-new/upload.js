@@ -217,6 +217,9 @@ function handleSubmit(event) {
         return;
     }
 
+    // 保存用户名到localStorage
+    localStorage.setItem('userName', userName);
+
     formData.append('user_name', userName);
     formData.append('gender', document.querySelector('input[name="gender"]:checked')?.value || '');
     formData.append('contact', document.querySelector('input[name="contact"]').value.trim());
