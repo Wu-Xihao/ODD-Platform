@@ -83,8 +83,8 @@
 					</defs>
 				</svg>
 				<!--平台名称-->
-				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-
+				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" style="display: flex;text-align: center;" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<p style="font-size: 35px;">明眸智诊</p>
 				</div>
             </a>
 			<div class="nav-control">
@@ -270,19 +270,19 @@
 				<ul class="metismenu" id="menu">
                     <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
 							<i class="flaticon-025-dashboard"></i>
-							<span class="nav-text">疾病诊断</span>
+							<span class="nav-text"><strong>疾病诊断</strong></span>
 						</a>
                         <ul aria-expanded="false">
 							<!--首页导航栏链接-->
 							<li><a href="index.html">疾病诊断</a></li>
-							<li><a href="#">其它</a></li>
+							<li><a href="#">眼疾科普</a></li>
 							<!-- ...... -->
 						</ul>
 
                     </li>
                     <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
 						<i class="flaticon-050-info"></i>
-							<span class="nav-text">导航示例</span>
+							<span class="nav-text"><strong>功能扩展</strong></span>
 						</a>
                         <ul aria-expanded="false">
                             <li><a href="#">页面</a></li>
@@ -297,22 +297,22 @@
 
                         </ul>
                     </li>
+					<!--个人中心-->
+					<li><a href="profile.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-029-ellipsis"></i>
+							<span class="nav-text"><strong>个人中心</strong></span>
+						</a>
+					</li>
 					<!--登录-->
 					<li><a href="login.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-046-home"></i>
-							<span class="nav-text">登录</span>
+							<span class="nav-text"><strong>登录</strong></span>
 						</a>
 					</li>
 					<!--注册-->
-					<li><a href="regiser.html" class="ai-icon" aria-expanded="false">
+					<li><a href="register.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-047-home"></i>
-							<span class="nav-text">注册</span>
-						</a>
-					</li>
-					<!--退出-->
-					<li><a href="login.html" class="ai-icon" aria-expanded="false">
-							<i class="flaticon-048-home"></i>
-							<span class="nav-text">退出</span>
+							<span class="nav-text"><strong>注册</strong></span>
 						</a>
 					</li>
                 </ul>
@@ -722,9 +722,6 @@
             const elements = {
                 startPredictBtn: document.getElementById('startPredictBtn'),
                 modelSelect: document.getElementById('modelSelect'),
-                // previewImage: document.getElementById('previewImage'),
-                // confidenceValue: document.getElementById('confidenceValue'),
-                // diseaseResult: document.getElementById('diseaseResult'),
                 predictionDetails: document.getElementById('predictionDetails')
             };
 
