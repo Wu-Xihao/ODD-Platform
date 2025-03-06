@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="后端文件">
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="主界面文件">
+      <change afterPath="$PROJECT_DIR$/Platform/static/css-new/predict.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/eyeDiseasePredictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/improved_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/css-new/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/css-new/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/predict.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/predict.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/preprocessImg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/preprocessImg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "branch-wu",
-    "last_opened_file_path": "D:/My_Code/Pycharm_Code/ODD-Platform/Platform/static/temp",
+    "last_opened_file_path": "D:/My_Code/Pycharm_Code/ODD-Platform/Server/model/checkpoints",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model\checkpoints" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\static\temp" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\upload\processed-img" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\upload\origin-img" />
@@ -102,6 +107,10 @@
       <workItem from="1741065153376" duration="25261000" />
       <workItem from="1741100166885" duration="8923000" />
       <workItem from="1741159085370" duration="6655000" />
+      <workItem from="1741229660015" duration="1052000" />
+      <workItem from="1741238862935" duration="740000" />
+      <workItem from="1741244407325" duration="1540000" />
+      <workItem from="1741261043082" duration="6528000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -359,7 +368,55 @@
       <option name="project" value="LOCAL" />
       <updated>1741165554409</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="预处理css修改图片显示高度">
+      <option name="closed" value="true" />
+      <created>1741198541350</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198541350</updated>
+    </task>
+    <task id="LOCAL-00034" summary="上传文件js和py代码，修改批量上传">
+      <option name="closed" value="true" />
+      <created>1741198594172</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198594172</updated>
+    </task>
+    <task id="LOCAL-00035" summary="预处理文件js和py代码，图片合并展示">
+      <option name="closed" value="true" />
+      <created>1741198614407</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198614407</updated>
+    </task>
+    <task id="LOCAL-00036" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1741198627649</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198627649</updated>
+    </task>
+    <task id="LOCAL-00037" summary="修改后端预处理文件的函数">
+      <option name="closed" value="true" />
+      <created>1741198652307</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198652307</updated>
+    </task>
+    <task id="LOCAL-00038" summary="主界面文件">
+      <option name="closed" value="true" />
+      <created>1741198670707</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1741198670707</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,12 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="表单步骤处理js文件修改" />
-    <MESSAGE value="修改位置" />
-    <MESSAGE value="登录界面" />
-    <MESSAGE value="注册界面" />
-    <MESSAGE value="人物图片" />
-    <MESSAGE value="修改图片路径image/pic1" />
     <MESSAGE value="医疗诊断主界面(分步骤)" />
     <MESSAGE value="预训练模型与训练好的一个模型" />
     <MESSAGE value="js文件" />
@@ -402,12 +453,19 @@
     <MESSAGE value="上传和预处理的js文件" />
     <MESSAGE value="完善上传和预处理的html文件" />
     <MESSAGE value="后端文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="后端文件" />
+    <MESSAGE value="预处理css修改图片显示高度" />
+    <MESSAGE value="上传文件js和py代码，修改批量上传" />
+    <MESSAGE value="预处理文件js和py代码，图片合并展示" />
+    <MESSAGE value="配置文件" />
+    <MESSAGE value="修改后端预处理文件的函数" />
+    <MESSAGE value="主界面文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="主界面文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741198134973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$eyeDiseasePredictor.coverage" NAME="eyeDiseasePredictor Coverage Results" MODIFIED="1741268397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741238978869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$pre_process.coverage" NAME="pre-process Coverage Results" MODIFIED="1741159243187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
-    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741164212595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
-    <SUITE FILE_PATH="coverage/ODD_Platform$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1741196309287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741268405637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1741238999108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
   </component>
 </project>
