@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="index文件">
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/predict.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/predict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/preprocess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js-new/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js-new/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "branch-wu",
-    "last_opened_file_path": "D:/My_Code/Pycharm_Code/ODD-Platform/Server/model/checkpoints",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;branch-wu&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/My_Code/Pycharm_Code/ODD-Platform/Server/model/checkpoints&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model\checkpoints" />
@@ -107,7 +102,10 @@
       <workItem from="1741238862935" duration="740000" />
       <workItem from="1741244407325" duration="1540000" />
       <workItem from="1741261043082" duration="6528000" />
-      <workItem from="1741272272007" duration="11656000" />
+      <workItem from="1741272272007" duration="12118000" />
+      <workItem from="1741318684427" duration="922000" />
+      <workItem from="1741324503118" duration="2109000" />
+      <workItem from="1741339982955" duration="2831000" />
     </task>
     <task id="LOCAL-00001" summary="筛减后的模板源代码">
       <option name="closed" value="true" />
@@ -453,7 +451,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741277550962</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="改bug:点击后界面不更新，左右眼提交与显示逻辑错误">
+      <option name="closed" value="true" />
+      <created>1741284633668</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1741284633668</updated>
+    </task>
+    <task id="LOCAL-00045" summary="配置">
+      <option name="closed" value="true" />
+      <created>1741284644649</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1741284644649</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除模型" />
     <MESSAGE value="删除预训练模型" />
     <MESSAGE value="js空文件" />
     <MESSAGE value="提示文件" />
@@ -494,15 +507,16 @@
     <MESSAGE value="修改登录、注册的html文件" />
     <MESSAGE value="管理员头像图片" />
     <MESSAGE value="个人中心背景图片" />
-    <MESSAGE value="配置" />
     <MESSAGE value="index文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="index文件" />
+    <MESSAGE value="改bug:点击后界面不更新，左右眼提交与显示逻辑错误" />
+    <MESSAGE value="配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ODD_Platform$eyeDiseasePredictor.coverage" NAME="eyeDiseasePredictor Coverage Results" MODIFIED="1741268397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741238978869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$pre_process.coverage" NAME="pre-process Coverage Results" MODIFIED="1741159243187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
-    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741278050835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1741349344434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1741238999108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
   </component>
 </project>
