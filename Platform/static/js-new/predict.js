@@ -61,7 +61,7 @@ const testData = {
             }
         }
     },
-
+    
     // 批量数据测试
     batchTest: [
         {
@@ -121,7 +121,7 @@ function initPredictPage() {
     // 绑定切换按钮事件
     $('#singleDataBtn').click(() => switchMode('single'));
     $('#batchDataBtn').click(() => switchMode('batch'));
-
+    
     // 初始化页面
     setupPredictionDisplay();
 
@@ -151,7 +151,7 @@ function setupPredictionDisplay() {
     const createPredictionBars = (containerId) => {
         const container = $(`#${containerId} .prediction-bars`);
         container.empty();
-
+        
         Object.entries(DISEASE_TYPES).forEach(([key, value]) => {
             container.append(`
                 <div class="prediction-item">
@@ -238,7 +238,7 @@ function updateBatchPredictions(predictions) {
 function getMainDiagnosis(predictions) {
     let maxProb = 0;
     let mainDisease = '';
-
+    
     Object.entries(predictions).forEach(([disease, probability]) => {
         if (probability > maxProb) {
             maxProb = probability;
@@ -279,7 +279,7 @@ function loadTestData() {
         leftEye: testData.singleTest.left,
         rightEye: testData.singleTest.right
     };
-
+    
     window.reportGenerator.updateReportPreview(reportData);
 }
 
@@ -290,7 +290,7 @@ $(document).ready(function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM加载完成，初始化预测功能...');
-
+    
     // 获取必要的DOM元素
     const startPredictBtn = document.getElementById('startPredictBtn');
     const modelSelect = document.getElementById('modelSelect');
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 开始识别按钮点击事件
     startPredictBtn.addEventListener('click', async function() {
         console.log('开始识别按钮被点击');
-
+        
         try {
             // 显示加载状态
             startPredictBtn.disabled = true;
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // 构建URL
             const url = new URL('http://localhost:5000/predict');
             url.searchParams.append('user_name', userName);
-
+            
             // 等待数据加载完成
             const response = await fetch(url, {
                 method: 'GET',
@@ -350,11 +350,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 清空现有数据
                 const tbody = document.getElementById('predictionDetails');
                 tbody.innerHTML = '';
-
+                
                 // 保存新数据
                 currentData = data.patients || [];
                 currentPage = 1;
-
+                
                 // 确保DOM更新完成
                 requestAnimationFrame(() => {
                     requestAnimationFrame(async () => {
@@ -386,10 +386,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const modal = new bootstrap.Modal(document.getElementById('detailsModal'));
         const leftEyeDetails = document.getElementById('leftEyeDetails');
         const rightEyeDetails = document.getElementById('rightEyeDetails');
-
+        
         // 更新模态框标题
         document.querySelector('#detailsModal .modal-title').textContent = `${patientName} 的详细预测结果`;
-
+        
         // 显示左眼详细结果
         if (patientData.left_eye) {
             leftEyeDetails.innerHTML = patientData.left_eye.predictions.all_predictions.map(pred => `
@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             leftEyeDetails.innerHTML = '<p>无左眼数据</p>';
         }
-
+        
         // 显示右眼详细结果
         if (patientData.right_eye) {
             rightEyeDetails.innerHTML = patientData.right_eye.predictions.all_predictions.map(pred => `
@@ -433,7 +433,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             rightEyeDetails.innerHTML = '<p>无右眼数据</p>';
         }
-
+        
         modal.show();
     };
 
@@ -445,16 +445,16 @@ function updatePagination(total) {
     totalPages = Math.ceil(total / PAGE_SIZE);
     const paginationContainer = document.createElement('div');
     paginationContainer.className = 'pagination-container d-flex justify-content-between align-items-center mt-3';
-
+    
     // 添加页码信息
     const pageInfo = document.createElement('div');
     pageInfo.className = 'page-info';
     pageInfo.textContent = `第 ${currentPage} 页，共 ${totalPages} 页`;
-
+    
     // 添加分页按钮
     const buttonGroup = document.createElement('div');
     buttonGroup.className = 'btn-group';
-
+    
     // 上一页按钮
     const prevBtn = document.createElement('button');
     prevBtn.className = 'btn btn-primary' + (currentPage === 1 ? ' disabled' : '');
@@ -465,7 +465,7 @@ function updatePagination(total) {
             renderTableData();
         }
     };
-
+    
     // 下一页按钮
     const nextBtn = document.createElement('button');
     nextBtn.className = 'btn btn-primary' + (currentPage === totalPages ? ' disabled' : '');
@@ -476,13 +476,13 @@ function updatePagination(total) {
             renderTableData();
         }
     };
-
+    
     buttonGroup.appendChild(prevBtn);
     buttonGroup.appendChild(nextBtn);
-
+    
     paginationContainer.appendChild(pageInfo);
     paginationContainer.appendChild(buttonGroup);
-
+    
     // 添加到表格容器后面
     const tableContainer = document.querySelector('.prediction-results');
     const existingPagination = tableContainer.querySelector('.pagination-container');
@@ -498,76 +498,66 @@ async function renderTableData() {
         try {
             console.log('开始渲染表格数据');
             console.log('当前页:', currentPage, '总数据:', currentData.length);
-
+            
             const tbody = document.getElementById('predictionDetails');
             const userName = localStorage.getItem('userName') || '';
-
+            
             // 清空现有内容
             tbody.innerHTML = '';
-
+            
             if (!currentData || currentData.length === 0) {
                 console.log('没有数据可显示');
                 resolve();
                 return;
             }
-
+            
             const start = (currentPage - 1) * PAGE_SIZE;
             const end = Math.min(start + PAGE_SIZE, currentData.length);
-
+            
             console.log('渲染数据范围:', start, '到', end);
-
+            
             // 使用Promise.all等待所有图片加载完成
             const loadImagePromises = [];
-
+            
             for (let i = start; i < end; i++) {
                 const patient = currentData[i];
                 if (!patient) continue;
-
+                
                 const row = document.createElement('tr');
-
+                
                 // 预加载图片
                 if (patient.left_eye) {
                     const leftImgPromise = new Promise((resolveImg) => {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        if(patient.type === "single")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}`;
-                        else if(patient.type === "batch")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
+                        img.src = `http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
                     });
                     loadImagePromises.push(leftImgPromise);
                 }
-
+                
                 if (patient.right_eye) {
                     const rightImgPromise = new Promise((resolveImg) => {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        if(patient.type === "single")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}`;
-                        else if(patient.type === "batch")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
+                        img.src = `http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
                     });
                     loadImagePromises.push(rightImgPromise);
                 }
-
+                
                 // 构建行内容
                 row.innerHTML = `
                     <td>${patient.patient_name || ''}</td>
                     <td>${patient.left_eye ? `
-                        <img src="${patient.type === 'single' ? 
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}` :
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`}"
-                         class="img-thumbnail" alt="左眼图片">` : '无图片'}
+                        <img src="http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}" 
+                             class="img-thumbnail" alt="左眼图片">` : '无图片'}
                     </td>
                     <td>${patient.right_eye ? `
-                        <img src="${patient.type === 'single' ? 
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}` :
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`}"
-                         class="img-thumbnail" alt="右眼图片">` : '无图片'}
+                        <img src="http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}" 
+                             class="img-thumbnail" alt="右眼图片">` : '无图片'}
                     </td>
-                    <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.code : '') +
+                    <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.code : '') + 
                          (patient.right_eye ? ', ' + patient.right_eye.predictions.top_prediction.code : '')}</td>
                     <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.name : '') +
                          (patient.right_eye ? ', ' + patient.right_eye.predictions.top_prediction.name : '')}</td>
@@ -577,10 +567,10 @@ async function renderTableData() {
                         </button>
                     </td>
                 `;
-
+                
                 tbody.appendChild(row);
             }
-
+            
             // 等待所有图片加载完成
             Promise.all(loadImagePromises).then(() => {
                 console.log('所有图片加载完成');
@@ -588,16 +578,10 @@ async function renderTableData() {
                 updatePagination(currentData.length);
                 resolve();
             });
-
-            // 模拟点击 "上一步"
-            $('#smartwizard').smartWizard("prev");
-            // 模拟点击 "下一步"
-            $('#smartwizard').smartWizard("next");
-
+            
         } catch (error) {
             console.error('渲染表格数据出错:', error);
             reject(error);
         }
     });
 }
-

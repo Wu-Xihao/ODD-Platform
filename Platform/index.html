@@ -22,12 +22,7 @@
 	<!-- 主样式CSS文件   -->
 	<link href="static/css/style.css" rel="stylesheet">
 
-	<!-- 新增css -->
-	<link href="static/css-new/upload.css" rel="stylesheet">
-	<link href="static/css-new/preprocess.css" rel="stylesheet">
-	<link href="static/css-new/predict.css" rel="stylesheet">
-	<link href="static/css-new/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="static/css/predict.css">
 
 </head>
 
@@ -83,8 +78,8 @@
 					</defs>
 				</svg>
 				<!--平台名称-->
-				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" style="display: flex;text-align: center;" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<p style="font-size: 35px;">明眸智诊</p>
+				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+
 				</div>
             </a>
 			<div class="nav-control">
@@ -256,6 +251,11 @@
             Header end ti-comment-alt
         ***********************************-->
 
+
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
         <!--**********************************
             Sidebar start
         ***********************************-->
@@ -265,19 +265,17 @@
 				<ul class="metismenu" id="menu">
                     <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
 							<i class="flaticon-025-dashboard"></i>
-							<span class="nav-text"><strong>疾病诊断</strong></span>
+							<span class="nav-text">疾病诊断</span>
 						</a>
                         <ul aria-expanded="false">
 							<!--首页导航栏链接-->
-							<li><a href="index.html">疾病诊断</a></li>
-							<li><a href="#">眼疾科普</a></li>
-							<!-- ...... -->
+							<li><a href="javascript:void(0)" onclick="showContent('disease-diagnosis')">疾病诊断</a></li>
+							<li><a href="javascript:void(0)" onclick="showContent('profile')">个人中心</a></li>
 						</ul>
-
                     </li>
                     <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
 						<i class="flaticon-050-info"></i>
-							<span class="nav-text"><strong>功能扩展</strong></span>
+							<span class="nav-text">导航示例</span>
 						</a>
                         <ul aria-expanded="false">
                             <li><a href="#">页面</a></li>
@@ -292,28 +290,28 @@
 
                         </ul>
                     </li>
-					<!--个人中心-->
-					<li><a href="profile.html" class="ai-icon" aria-expanded="false">
-							<i class="flaticon-029-ellipsis"></i>
-							<span class="nav-text"><strong>个人中心</strong></span>
-						</a>
-					</li>
 					<!--登录-->
 					<li><a href="login.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-046-home"></i>
-							<span class="nav-text"><strong>登录</strong></span>
+							<span class="nav-text">登录</span>
 						</a>
 					</li>
 					<!--注册-->
 					<li><a href="register.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-047-home"></i>
-							<span class="nav-text"><strong>注册</strong></span>
+							<span class="nav-text">注册</span>
+						</a>
+					</li>
+					<!--退出-->
+					<li><a href="login.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-048-home"></i>
+							<span class="nav-text">退出</span>
 						</a>
 					</li>
                 </ul>
 				<div class="copyright">
 					<p><strong>明眸智诊-眼科疾病智能诊断平台</strong> © 2025 版权所有</p>
-					<p class="fs-12"><span class="heart"></span> 由 “甲方说的都对”团队 制作</p>
+					<p class="fs-12"><span class="heart"></span> 由 "甲方说的都对"团队 制作</p>
 				</div>
 			</div>
         </div>
@@ -325,317 +323,497 @@
             Content body start
         ***********************************-->
 		<!--界面主体部分-->
-        <div class="content-body" id="contentBody">
+        <div class="content-body">
             <div class="container-fluid">
-				<div class="row page-titles">
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item active"><a href="javascript:void(0)">主页</a></li>
-						<li class="breadcrumb-item"><a href="javascript:void(0)">疾病诊断</a></li>
-					</ol>
-                </div>
-                <!-- row -->
-                <div class="row">
-                    <div class="col-xl-12 col-xxl-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">眼科疾病检测步骤</h4>
+                <!-- 疾病诊断部分 -->
+                <div id="disease-diagnosis-content">
+                    <div class="row page-titles">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active"><a href="javascript:void(0)">主页</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">疾病诊断</a></li>
+                        </ol>
+                    </div>
+
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-xl-12 col-xxl-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">眼科疾病检测步骤</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div id="smartwizard" class="form-wizard order-create">
+                                        <ul class="nav nav-wizard">
+                                            <!--步骤1 上传图片-->
+                                            <li><a class="nav-link" href="#wizard_Upload">
+                                                <span>1</span>
+                                            </a></li>
+                                            <!--步骤2 预处理-->
+                                            <li><a class="nav-link" href="#wizard_Preprocess">
+                                                <span>2</span>
+                                            </a></li>
+                                            <!--步骤3 检测结果-->
+                                            <li><a class="nav-link" href="#wizard_Predict">
+                                                <span>3</span>
+                                            </a></li>
+                                            <!--步骤4 报告生成-->
+                                            <li><a class="nav-link" href="#wizard_Report">
+                                                <span>4</span>
+                                            </a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="wizard_Upload" class="tab-pane" role="tabpanel">
+                                                <!-- 此处写相关信息与图片上传的相关代码 -->
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h3 class="card-title">步骤1：上传信息</h3>
+                                                        <div class="basic-dropdown">
+                                                            <div class="dropdown">
+                                                                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    上传图像
+                                                                </button>
+                                                                <div class="dropdown-menu" style="margin: 0px;">
+                                                                    <a class="dropdown-item" onclick="showUploadOptions('single')">左眼、右眼图像</a>
+                                                                    <a class="dropdown-item" onclick="showUploadOptions('batch')">批量上传</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="basic-form">
+                                                            <form action="/upload" method="post" enctype="multipart/form-data">
+                                                                <!-- 信息填写 -->
+                                                                <div class="row">
+                                                                    <div class="mb-3 col-md-6">
+                                                                        <label class="form-label">姓名</label>
+                                                                        <input type="text" class="form-control" name="name" placeholder="您的姓名">
+                                                                    </div>
+                                                                    <div class="mb-3 col-md-6">
+                                                                        <label class="col-form-label col-sm-3 pt-0">性别</label>
+                                                                        <div class="mb-3 mb-0" style="display: flex;">
+                                                                            <label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 60px;">
+                                                                                <input type="radio" name="gender" value="male" style="margin-right: 10px;"> 男
+                                                                            </label>
+                                                                            <label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 40px;">
+                                                                                <input type="radio" name="gender" value="female" style="margin-right: 10px;"> 女
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="mb-3 col-md-6">
+                                                                        <label class="form-label">联系方式</label>
+                                                                        <input type="tel" class="form-control" name="contact" placeholder="您的联系方式">
+                                                                    </div>
+                                                                    <div class="mb-3 col-md-6">
+                                                                        <label class="form-label">年龄</label>
+                                                                        <div class="col-6 col-sm-4 mb-2">
+                                                                            <div class="mb-3">
+                                                                                <input class="form-control" value="20" type="number" name="age" id="input1">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- 图像上传 -->
+                                                                <div class="row">
+                                                                    <div class="upload-container">
+                                                                        <div class="upload-buttons">
+                                                                            <div id="upload-options">
+                                                                                <!-- 默认隐藏 -->
+                                                                                <div id="single-upload" class="input-group mb-3 mt-3" style="display: none;">
+                                                                                    <label for="leftEyeUpload">左眼图像</label>
+                                                                                    <div class="form-file" style="width: 40%; display: inline-block;">
+                                                                                        <input type="file" id="leftEyeUpload" name="leftEyeUpload" class="form-file-input form-control"
+                                                                                            onchange="displayImage('leftEyeUpload', 'left-eye-images')">
+                                                                                    </div>
+                                                                                    <label for="rightEyeUpload" style="margin-left: 4%;">右眼图像</label>
+                                                                                    <div class="form-file" style="width: 40%; display: inline-block;">
+                                                                                        <input type="file" id="rightEyeUpload" name="rightEyeUpload" class="form-file-input form-control"
+                                                                                            onchange="displayImage('rightEyeUpload', 'right-eye-images')">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div id="batch-upload" class="input-group mb-3 mt-3" style="display: none;">
+                                                                                    <label for="batchUpload">批量上传</label>
+                                                                                    <input type="file" id="batchUpload" name="batchUpload" webkitdirectory directory multiple
+                                                                                        onchange="displayBatchImages(event)">
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- 添加用于展示上传图像的区域 -->
+                                                                            <div id="image-display" class="row mt-3">
+                                                                                <div class="col-md-6">
+                                                                                    <!-- <h4>左眼图像</h4> -->
+                                                                                    <div id="left-eye-images" class="image-container"></div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <!-- <h4>右眼图像</h4> -->
+                                                                                    <div id="right-eye-images" class="image-container"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-3">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" name="agreement" checked>
+                                                                        <label class="form-check-label">
+                                                                            您同意使用您的信息进行眼疾检测
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="d-flex justify-content-end">
+                                                                        <button type="submit" class="btn btn-primary">确认</button>
+                                                                    </div>
+                                                                </div>
+                                                   
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="wizard_Preprocess" class="tab-pane" role="tabpanel">
+                                                <!-- 此处写预处理图片以及图像对比的相关代码 -->
+                                                <div class="row">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <h4 class="card-title">步骤2：图像预处理</h4>
+                                                            <button id="startPreprocessBtn" class="btn btn-primary sw-btn">开始预处理</button>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div>
+                                                                <p>
+                                                                    图像数据易受到环境因素影响，如光照不均匀、拍摄角度偏移、
+                                                                    虹膜颜色和反射、图像噪声干扰等，因此得到的视网膜眼底图像会有
+                                                                    视盘不清晰、血管对比度较弱、色素沉着不明显等特点。
+                                                                </p>
+                                                                <p>
+                                                                    预处理步骤包括：去除背景中的黑边信息、自适应直方图均衡化、统一
+                                                                    尺寸设置等，经过预处理后，眼底图像的视盘、血管、色素沉着等
+                                                                    特征更加明显，有利于后续的图像分割和特征提取。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="wizard_Predict" class="tab-pane" role="tabpanel">
+                                                <div class="row">
+                                                    <div class="col-12 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-header">
+                                                                <h4 class="card-title">疾病识别</h4>
+                                                                <button class="btn btn-primary" id="startPredictBtn">
+                                                                    <i class="fas fa-play"></i> 开始识别
+                                                                </button>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <!-- 模型选择 -->
+                                                                <div class="model-selection mb-4">
+                                                                    <label class="form-label">选择权重：</label>
+                                                                    <select class="form-select" id="modelSelect">
+                                                                        <option value="ResNet50">ResNet50</option>
+                                                                        <option value="EfficientNet">EfficientNet</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <!-- 预测结果展示 -->
+                                                                <div class="prediction-results">
+                                                                    <!-- 表格形式显示结果 -->
+                                                                    <div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
+                                                                        <table class="table table-bordered table-hover">
+                                                                            <thead class="table-light sticky-top bg-light">
+                                                                                <tr>
+                                                                                    <th style="min-width: 100px;">姓名</th>
+                                                                                    <th style="min-width: 120px;">左眼图片</th>
+                                                                                    <th style="min-width: 120px;">右眼图片</th>
+                                                                                    <th style="min-width: 100px;">预测类别</th>
+                                                                                    <th style="min-width: 150px;">预测得到的可能所患的病症</th>
+                                                                                    <th style="min-width: 80px;">详情</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody id="predictionDetails">
+                                                                                <!-- 预测结果将通过JS动态添加 -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+
+                                                                    <!-- 详情模态框 -->
+                                                                    <div class="modal fade" id="detailsModal" tabindex="-1">
+                                                                        <div class="modal-dialog modal-lg">
+                                                                            <div class="modal-content">
+                                                                                <div class="modal-header">
+                                                                                    <h5 class="modal-title">详细预测结果</h5>
+                                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                                                </div>
+                                                                                <div class="modal-body">
+                                                                                    <div class="row">
+                                                                                        <div class="col-md-6">
+                                                                                            <h6>左眼预测结果</h6>
+                                                                                            <div id="leftEyeDetails"></div>
+                                                                                        </div>
+                                                                                        <div class="col-md-6">
+                                                                                            <h6>右眼预测结果</h6>
+                                                                                            <div id="rightEyeDetails"></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="wizard_Report" class="tab-pane" role="tabpanel">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h4 class="card-title">诊断报告</h4>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <!-- 预测结果表格 -->
+                                                        <div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
+                                                            <table class="table table-bordered table-hover">
+                                                                <thead class="table-light sticky-top bg-light">
+                                                                    <tr>
+                                                                        <th style="min-width: 100px;">姓名</th>
+                                                                        <th style="min-width: 120px;">左眼图片</th>
+                                                                        <th style="min-width: 120px;">右眼图片</th>
+                                                                        <th style="min-width: 100px;">预测类别</th>
+                                                                        <th style="min-width: 150px;">预测得到的可能所患的病症</th>
+                                                                        <th style="min-width: 80px;">下载报告</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody id="reportDetails">
+                                                                    <!-- 报告数据将通过JS动态添加 -->
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- PDF报告模板（隐藏） -->
+                                                <div id="reportTemplate" style="display: none;">
+                                                    <div class="report-container">
+                                                        <div class="report-header">
+                                                            <h2 class="text-center">眼科疾病智能诊断报告</h2>
+                                                            <div class="report-info">
+                                                                <p><strong>报告编号：</strong><span class="report-id"></span></p>
+                                                                <p><strong>检查日期：</strong><span class="exam-date"></span></p>
+                                                                <p><strong>患者姓名：</strong><span class="patient-name"></span></p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="report-content">
+                                                            <h4>检查结果</h4>
+                                                            <div class="eye-results">
+                                                                <div class="left-eye">
+                                                                    <h5>左眼</h5>
+                                                                    <div class="left-eye-image"></div>
+                                                                    <div class="left-eye-predictions"></div>
+                                                                </div>
+                                                                <div class="right-eye">
+                                                                    <h5>右眼</h5>
+                                                                    <div class="right-eye-image"></div>
+                                                                    <div class="right-eye-predictions"></div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="diagnosis-summary">
+                                                                <h4>诊断总结</h4>
+                                                                <div class="diagnosis-content"></div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="report-footer">
+                                                            <p><strong>诊断时间：</strong><span class="diagnosis-time"></span></p>
+                                                            <p class="text-center">（本报告仅供参考，具体诊断请以医生面诊为准）</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body">
-								<div id="smartwizard" class="form-wizard order-create">
-									<ul class="nav nav-wizard">
-										<!--步骤1 上传图片-->
-										<li><a class="nav-link" href="#wizard_Upload">
-											<span>1</span>
-										</a></li>
-										<!--步骤2 预处理-->
-										<li><a class="nav-link" href="#wizard_Preprocess">
-											<span>2</span>
-										</a></li>
-										<!--步骤3 检测结果-->
-										<li><a class="nav-link" href="#wizard_Predict">
-											<span>3</span>
-										</a></li>
-										<!--步骤4 报告生成-->
-										<li><a class="nav-link" href="#wizard_Report">
-											<span>4</span>
-										</a></li>
-									</ul>
-									<div class="tab-content" id="wizard-tab-content">
-										<div id="wizard_Upload" class="tab-pane" role="tabpanel">
-											<!-- 此处写相关信息与图片上传的相关代码 -->
-											<div class="card">
-												<div class="card-header">
-													<h3 class="card-title">步骤1：上传信息</h3>
-													<div class="basic-dropdown">
-														<div class="dropdown">
-															<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-																上传图像
-															</button>
-															<div class="dropdown-menu" style="margin: 0px;">
-																<a class="dropdown-item" onclick="showUploadOptions('single')">左眼、右眼图像</a>
-																<a class="dropdown-item" onclick="showUploadOptions('batch')">批量上传</a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="card-body">
-													<div class="basic-form">
-														<form action="/upload" method="post" enctype="multipart/form-data">
-															<!-- 信息填写 -->
-															<div class="row">
-																<div class="mb-3 col-md-6">
-																	<label class="form-label">姓名</label>
-																	<input type="text" class="form-control" name="name" placeholder="您的姓名">
-																</div>
-																<div class="mb-3 col-md-6">
-																	<label class="col-form-label col-sm-3 pt-0">性别</label>
-    																<div class="mb-3 mb-0" style="display: flex;">
-																		<label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 60px;">
-																			<input type="radio" name="gender" value="male" style="margin-right: 10px;"> 男
-																		</label>
-																		<label class="radio-inline me-3" style="display: flex; align-items: flex-end; height: 50px; width: 40px;">
-																			<input type="radio" name="gender" value="female" style="margin-right: 10px;"> 女
-																		</label>
-																	</div>
-																</div>
-																<div class="mb-3 col-md-6">
-																	<label class="form-label">联系方式</label>
-																	<input type="tel" class="form-control" name="contact" placeholder="您的联系方式">
-																</div>
-																<div class="mb-3 col-md-6">
-																	<label class="form-label">年龄</label>
-																	<div class="col-6 col-sm-4 mb-2">
-																		<div class="mb-3">
-																			<input class="form-control" value="20" type="number" name="age" id="input1">
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<!-- 图像上传 -->
-															<div class="row">
-																<div class="upload-container">
-																	<div class="upload-buttons">
-																		<div id="upload-options">
-																			<!-- 默认隐藏 -->
-																			<div id="single-upload" class="input-group mb-3 mt-3" style="display: none;">
-																				<label for="leftEyeUpload">左眼图像</label>
-																				<div class="form-file" style="width: 40%; display: inline-block;">
-																					<input type="file" id="leftEyeUpload" name="leftEyeUpload" class="form-file-input form-control" onchange="displayImage('leftEyeUpload', 'left-eye-images')">
-																				</div>
-																				<label for="rightEyeUpload" style="margin-left: 4%;">右眼图像</label>
-																				<div class="form-file" style="width: 40%; display: inline-block;">
-																					<input type="file" id="rightEyeUpload" name="rightEyeUpload" class="form-file-input form-control" onchange="displayImage('rightEyeUpload', 'right-eye-images')">
-																				</div>
-																			</div>
-																			<div id="batch-upload" class="input-group mb-3 mt-3" style="display: none;">
-																				<label for="batchUpload">批量上传</label>
-																				<input type="file" id="batchUpload" name="batchUpload" webkitdirectory directory multiple>
-																			</div>
-																		</div>
-																		<!-- 添加用于展示上传图像的区域 -->
-																		<div id="image-display" class="row mt-3">
-																			<div class="col-md-6">
-																				<!-- <h4>左眼图像</h4> -->
-																				<div id="left-eye-images" class="image-container"></div>
-																			</div>
-																			<div class="col-md-6">
-																				<!-- <h4>右眼图像</h4> -->
-																				<div id="right-eye-images" class="image-container"></div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="mb-3">
-																<div class="form-check">
-																	<input class="form-check-input" type="checkbox" name="agreement" checked>
-																	<label class="form-check-label">
-																		您同意使用您的信息进行眼疾检测
-																	</label>
-																</div>
-																<div class="d-flex justify-content-end">
-																	<button type="submit" class="btn btn-primary">确认</button>
-																</div>
-															</div>
+                        </div>
+                    </div>
+                </div>
 
-														</form>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div id="wizard_Preprocess" class="tab-pane" role="tabpanel">
-											<!-- 此处写预处理图片以及图像对比的相关代码 -->
-											<div class="row">
-												<div class="card">
-													<div class="card-header">
-														<h4 class="card-title">步骤2：图像预处理</h4>
-														<button id="startPreprocessBtn" class="btn btn-primary sw-btn">开始预处理</button>
-													</div>
-													<div class="card-body">
-														<div>
-															<p>
-																图像数据易受到环境因素影响，如光照不均匀、拍摄角度偏移、
-																虹膜颜色和反射、图像噪声干扰等，因此得到的视网膜眼底图像会有
-																视盘不清晰、血管对比度较弱、色素沉着不明显等特点。
-															</p>
-															<p>
-															    预处理步骤包括：去除背景中的黑边信息、自适应直方图均衡化、统一
-															    尺寸设置等，经过预处理后，眼底图像的视盘、血管、色素沉着等
-															    特征更加明显，有利于后续的图像分割和特征提取。
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-xl-12">
-													<div id="imageContainer">
-														<!-- 图片展示区域 -->
-													</div>
-												</div>
-											</div>
-										</div>
-										<div id="wizard_Predict" class="tab-pane" role="tabpanel">
-											<!-- 此处写检测结果的相关代码 -->
-											<div class="row">
-												<div class="col-12 mb-4">
-													<div class="card">
-														<div class="card-header">
-															<h4 class="card-title">步骤3：疾病检测</h4>
-															<button class="btn btn-primary" id="startPredictBtn">
-																<i class="fas fa-play"></i> 开始检测
-															</button>
-														</div>
-														<div class="card-body">
-															<!-- 模型选择 -->
-															<div class="model-selection mb-4">
-																<label class="form-label">选择权重：</label>
-																<select class="form-select" id="modelSelect">
-																	<option value="ResNet50">ResNet50</option>
-																	<option value="EfficientNet">EfficientNet</option>
-																</select>
-															</div>
+                <!-- 个人中心部分 -->
+                <div id="profile-content" style="display: none;">
+                    <div class="row page-titles">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active"><a href="javascript:void(0)">主页</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0)">个人中心</a></li>
+                        </ol>
+                    </div>
+                    <div class="row">
+                        <!-- 左侧个人信息卡片 -->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <div class="profile-photo mb-4">
+                                            <img src="static/picture/profile.png" class="img-fluid rounded-circle" alt="" style="width: 150px; height: 150px; border: 3px solid #1362FC;">
+                                        </div>
+                                        <h3 class="text-primary mb-2" id="profile-username">未登录</h3>
+                                        <p class="text-muted mb-0" id="profile-location">位置未知</p>
+                                        <div class="mt-4">
+                                            <button class="btn btn-primary px-4" onclick="showEditModal()">
+                                                <i class="fas fa-edit me-2"></i>修改信息
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="profile-info">
+                                        <div class="py-3 border-bottom">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-envelope text-primary me-3" style="font-size: 1.2rem;"></i>
+                                                <div>
+                                                    <p class="text-muted mb-1">邮箱</p>
+                                                    <h6 class="mb-0" id="profile-email">未登录</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-bottom">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-map-marker-alt text-primary me-3" style="font-size: 1.2rem;"></i>
+                                                <div>
+                                                    <p class="text-muted mb-1">所在地</p>
+                                                    <h6 class="mb-0" id="profile-location-details">位置未知</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="py-3">
+                                            <div class="d-flex align-items-center">
+                                                <i class="fas fa-clock text-primary me-3" style="font-size: 1.2rem;"></i>
+                                                <div>
+                                                    <p class="text-muted mb-1">注册时间</p>
+                                                    <h6 class="mb-0" id="profile-register-time">2024年</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 右侧统计信息卡片 -->
+                        <div class="col-lg-8">
+                            <!-- 统计数据卡片 -->
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon-box icon-box-lg bg-primary-light rounded-circle">
+                                                    <i class="fas fa-eye text-primary"></i>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h4 class="mb-0" id="total-diagnoses">0</h4>
+                                                    <p class="mb-0">诊断次数</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon-box icon-box-lg bg-success-light rounded-circle">
+                                                    <i class="fas fa-file-medical text-success"></i>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h4 class="mb-0" id="total-reports">0</h4>
+                                                    <p class="mb-0">报告数量</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center">
+                                                <div class="icon-box icon-box-lg bg-warning-light rounded-circle">
+                                                    <i class="fas fa-calendar-check text-warning"></i>
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h4 class="mb-0" id="last-diagnosis">--</h4>
+                                                    <p class="mb-0">最近诊断</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 最近诊断记录 -->
+                            <div class="card">
+                                <div class="card-header border-0 pb-0">
+                                    <h4 class="card-title">最近诊断记录</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-responsive-md">
+                                            <thead>
+                                                <tr>
+                                                    <th>日期</th>
+                                                    <th>诊断类型</th>
+                                                    <th>结果</th>
+                                                    <th>操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="recent-diagnoses">
+                                                <tr>
+                                                    <td colspan="4" class="text-center">暂无诊断记录</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-															<!-- 预测结果展示 -->
-															<div class="prediction-results">
-																<!-- 表格形式显示结果 -->
-																<div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
-																	<table class="table table-bordered table-hover">
-																		<thead class="table-light sticky-top bg-light">
-																			<tr>
-																				<th style="min-width: 100px;">姓名</th>
-																				<th style="min-width: 120px;">左眼图片</th>
-																				<th style="min-width: 120px;">右眼图片</th>
-																				<th style="min-width: 100px;">预测类别</th>
-																				<th style="min-width: 150px;">预测得到的可能所患的病症</th>
-																				<th style="min-width: 80px;">详情</th>
-																			</tr>
-																		</thead>
-																		<tbody id="predictionDetails">
-																			<!-- 预测结果将通过JS动态添加 -->
-																		</tbody>
-																	</table>
-																</div>
-
-																<!-- 详情模态框 -->
-																<div class="modal fade" id="detailsModal" tabindex="-1">
-																	<div class="modal-dialog modal-lg">
-																		<div class="modal-content">
-																			<div class="modal-header">
-																				<h5 class="modal-title">详细预测结果</h5>
-																				<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-																			</div>
-																			<div class="modal-body">
-																				<div class="row">
-																					<div class="col-md-6">
-																						<h6>左眼预测结果</h6>
-																						<div id="leftEyeDetails"></div>
-																					</div>
-																					<div class="col-md-6">
-																						<h6>右眼预测结果</h6>
-																						<div id="rightEyeDetails"></div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div id="wizard_Report" class="tab-pane" role="tabpanel">
-											<!-- 此处写报告生成的相关代码 -->
-											<div class="card">
-												<div class="card-header">
-													<h4 class="card-title">步骤4：诊断报告</h4>
-												</div>
-												<div class="card-body">
-													<!-- 预测结果表格 -->
-													<div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
-														<table class="table table-bordered table-hover">
-															<thead class="table-light sticky-top bg-light">
-																<tr>
-																	<th style="min-width: 100px;">姓名</th>
-																	<th style="min-width: 120px;">左眼图片</th>
-																	<th style="min-width: 120px;">右眼图片</th>
-																	<th style="min-width: 100px;">预测类别</th>
-																	<th style="min-width: 150px;">预测得到的可能所患的病症</th>
-																	<th style="min-width: 80px;">下载报告</th>
-																</tr>
-															</thead>
-															<tbody id="reportDetails">
-																<!-- 报告数据将通过JS动态添加 -->
-															</tbody>
-														</table>
-													</div>
-												</div>
-											</div>
-
-											<!-- PDF报告模板（隐藏） -->
-											<div id="reportTemplate" style="display: none;">
-												<div class="report-container">
-													<div class="report-header">
-														<h2 class="text-center">眼科疾病智能诊断报告</h2>
-														<div class="report-info">
-															<p><strong>报告编号：</strong><span class="report-id"></span></p>
-															<p><strong>检查日期：</strong><span class="exam-date"></span></p>
-															<p><strong>患者姓名：</strong><span class="patient-name"></span></p>
-														</div>
-													</div>
-
-													<div class="report-content">
-														<h4>检查结果</h4>
-														<div class="eye-results">
-															<div class="left-eye">
-																<h5>左眼</h5>
-																<div class="left-eye-image"></div>
-																<div class="left-eye-predictions"></div>
-															</div>
-															<div class="right-eye">
-																<h5>右眼</h5>
-																<div class="right-eye-image"></div>
-																<div class="right-eye-predictions"></div>
-															</div>
-														</div>
-
-														<div class="diagnosis-summary">
-															<h4>诊断总结</h4>
-															<div class="diagnosis-content"></div>
-														</div>
-													</div>
-
-													<div class="report-footer">
-														<p><strong>诊断时间：</strong><span class="diagnosis-time"></span></p>
-														<p class="text-center">（本报告仅供参考，具体诊断请以医生面诊为准）</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <!-- 修改信息模态框 -->
+                <div class="modal fade" id="editProfileModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">修改个人信息</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="editProfileForm">
+                                    <div class="mb-3">
+                                        <label class="form-label">用户名</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            <input type="text" class="form-control" id="edit-username">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">邮箱</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                            <input type="email" class="form-control" id="edit-email">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">位置</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                                            <input type="text" class="form-control" id="edit-location">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">取消</button>
+                                <button type="button" class="btn btn-primary" onclick="saveProfileChanges()">
+                                    <i class="fas fa-save me-2"></i>保存
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -652,7 +830,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>版权 &copy; 2025 “甲方说的都对”团队 版权所有 <a target="_blank" href="index.html">明眸智诊</a></p>
+                <p>版权 &copy; 2025 "甲方说的都对"团队 版权所有 <a target="_blank" href="index.html">明眸智诊</a></p>
             </div>
         </div>
         <!--**********************************
@@ -667,44 +845,48 @@
     <!--**********************************
         Scripts
     ***********************************-->
-	<!--所有依赖的js文件-->
-
     <!-- Required vendors -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- 其他第三方库 -->
     <script src="static/js/global.min.js"></script>
-
     <script src="static/js/jquery.steps.min.js"></script>
     <script src="static/js/jquery.validate.min.js"></script>
-    <!-- Form validate init -->
     <script src="static/js/jquery.validate-init.js"></script>
-
-
-	<!-- Form Steps -->
-	<script src="static/js/jquery.smartWizard.js"></script>
-	<script src="static/js/jquery.nice-select.min.js"></script>
-
-	<script src="static/js/custom.min.js"></script>
-	<script src="static/js/deznav-init.js"></script>
-	<script src="static/js/demo.js"></script>
-    <script src="static/js/styleSwitcher.js"></script>
-
-	<!-- PDF生成库 -->
+    <script src="static/js/jquery.smartWizard.js"></script>
+    <script src="static/js/jquery.nice-select.min.js"></script>
+    
+    <!-- PDF生成库 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
-
-
-	<!--自己编写的js文件-->
-	<script src="static/js-new/upload.js"></script>
-	<script src="static/js-new/preprocess.js"></script>
-	<script src="static/js-new/predict.js"></script>
-	<script src="static/js-new/report.js"></script>
-
-	<script>
+    
+    <!-- 自定义脚本 -->
+    <script src="static/js/custom.min.js"></script>
+    <script src="static/js/deznav-init.js"></script>
+    <script src="static/js/demo.js"></script>
+    <script src="static/js/styleSwitcher.js"></script>
+    
+    <!--自己编写的js文件，放在最后加载-->
+    <script src="static/js-new/upload.js"></script>
+    <script src="static/js-new/preprocess.js"></script>
+    <script src="static/js-new/predict.js"></script>
+    <script src="static/js-new/report.js"></script>
+    <script src="static/js-new/profile.js"></script>
+    
+    <script>
         // 等待所有资源加载完成
         window.addEventListener('load', function() {
             console.log('页面完全加载完成');
-
+            
             // 初始化 SmartWizard
             $('#smartwizard').smartWizard();
-
+            
             // 确保所有DOM元素都已经准备好
             if (typeof initPredictPage === 'function') {
                 console.log('初始化预测页面');
@@ -712,14 +894,17 @@
             } else {
                 console.error('initPredictPage 函数未定义');
             }
-
+            
             // 检查必要的DOM元素
             const elements = {
                 startPredictBtn: document.getElementById('startPredictBtn'),
                 modelSelect: document.getElementById('modelSelect'),
+                previewImage: document.getElementById('previewImage'),
+                confidenceValue: document.getElementById('confidenceValue'),
+                diseaseResult: document.getElementById('diseaseResult'),
                 predictionDetails: document.getElementById('predictionDetails')
             };
-
+            
             // 验证所有必要的DOM元素
             Object.entries(elements).forEach(([name, element]) => {
                 if (!element) {
@@ -730,6 +915,9 @@
             });
         });
     </script>
+
+    <!-- 添加隐藏的文件上传输入框 -->
+    <input type="file" id="avatar-upload" accept="image/*" style="display: none;">
 
 </body>
 

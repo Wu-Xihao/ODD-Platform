@@ -39,12 +39,12 @@ class ReportGenerator {
         // 添加诊断结果表格
         const table = $('<table class="table table-bordered"></table>');
         table.append('<thead><tr><th>疾病类型</th><th>概率</th><th>状态</th></tr></thead>');
-
+        
         const tbody = $('<tbody></tbody>');
         Object.entries(eyeData.predictions).forEach(([disease, probability]) => {
             const status = probability > 0.5 ? '异常' : '正常';
             const statusClass = probability > 0.5 ? 'text-danger' : 'text-success';
-
+            
             tbody.append(`
                 <tr>
                     <td>${DISEASE_TYPES[disease]}</td>
@@ -53,7 +53,7 @@ class ReportGenerator {
                 </tr>
             `);
         });
-
+        
         table.append(tbody);
         container.append(table);
     }
@@ -67,12 +67,12 @@ class ReportGenerator {
         const rightMainDiagnosis = this.getMainDiagnosis(data.rightEye?.predictions);
 
         let summaryText = '<p>根据AI诊断结果显示：</p>';
-
+        
         if (leftMainDiagnosis) {
             summaryText += `<p>左眼主要诊断为：${DISEASE_TYPES[leftMainDiagnosis.disease]}
                            (置信度：${(leftMainDiagnosis.probability * 100).toFixed(1)}%)</p>`;
         }
-
+        
         if (rightMainDiagnosis) {
             summaryText += `<p>右眼主要诊断为：${DISEASE_TYPES[rightMainDiagnosis.disease]}
                            (置信度：${(rightMainDiagnosis.probability * 100).toFixed(1)}%)</p>`;
@@ -87,7 +87,7 @@ class ReportGenerator {
         recommendations.empty();
 
         let recommendationText = '<ul>';
-
+        
         // 根据诊断结果生成建议
         const leftMainDiagnosis = this.getMainDiagnosis(data.leftEye?.predictions);
         const rightMainDiagnosis = this.getMainDiagnosis(data.rightEye?.predictions);
@@ -112,7 +112,7 @@ class ReportGenerator {
 
         let maxProb = 0;
         let mainDisease = '';
-
+        
         Object.entries(predictions).forEach(([disease, probability]) => {
             if (probability > maxProb) {
                 maxProb = probability;
@@ -175,74 +175,64 @@ async function renderReportTable() {
         try {
             console.log('开始渲染报告表格');
             console.log('当前页:', reportCurrentPage, '总数据:', reportData.length);
-
+            
             const tbody = document.getElementById('reportDetails');
             const userName = localStorage.getItem('userName') || '';
-
+            
             // 清空现有内容
             tbody.innerHTML = '';
-
+            
             if (!reportData || reportData.length === 0) {
                 console.log('没有数据可显示');
                 resolve();
                 return;
             }
-
+            
             const start = (reportCurrentPage - 1) * REPORT_PAGE_SIZE;
             const end = Math.min(start + REPORT_PAGE_SIZE, reportData.length);
-
+            
             console.log('渲染数据范围:', start, '到', end);
-
+            
             // 使用Promise.all等待所有图片加载完成
             const loadImagePromises = [];
-
+            
             for (let i = start; i < end; i++) {
                 const patient = reportData[i];
                 if (!patient) continue;
-
+                
                 const row = document.createElement('tr');
-
+                
                 // 预加载图片
                 if (patient.left_eye) {
                     const leftImgPromise = new Promise((resolveImg) => {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        if(patient.type === "single")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}`;
-                        else if(patient.type === "batch")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
+                        img.src = `http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`;
                     });
                     loadImagePromises.push(leftImgPromise);
                 }
-
+                
                 if (patient.right_eye) {
                     const rightImgPromise = new Promise((resolveImg) => {
                         const img = new Image();
                         img.onload = () => resolveImg();
                         img.onerror = () => resolveImg();
-                        if(patient.type === "single")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}`;
-                        else if(patient.type === "batch")
-                            img.src = `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
+                        img.src = `http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`;
                     });
                     loadImagePromises.push(rightImgPromise);
                 }
-
+                
                 // 构建行内容
                 row.innerHTML = `
                     <td>${patient.patient_name || ''}</td>
                     <td>${patient.left_eye ? `
-                        <img src="${patient.type === 'single' ? 
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.left_eye.image_name}` :
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}`}"
-                         class="img-thumbnail" alt="左眼图片">` : '无图片'}
+                        <img src="http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.left_eye.image_name}" 
+                             class="img-thumbnail" alt="左眼图片">` : '无图片'}
                     </td>
                     <td>${patient.right_eye ? `
-                        <img src="${patient.type === 'single' ? 
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.right_eye.image_name}` :
-                                `http://localhost:5000/upload/processed-img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}`}"
-                         class="img-thumbnail" alt="右眼图片">` : '无图片'}
+                        <img src="http://localhost:5000/upload/processed_img/${userName}/${patient.patient_name}/${patient.right_eye.image_name}" 
+                             class="img-thumbnail" alt="右眼图片">` : '无图片'}
                     </td>
                     <td>${(patient.left_eye ? patient.left_eye.predictions.top_prediction.code : '') + 
                          (patient.right_eye ? ', ' + patient.right_eye.predictions.top_prediction.code : '')}</td>
@@ -254,10 +244,10 @@ async function renderReportTable() {
                         </button>
                     </td>
                 `;
-
+                
                 tbody.appendChild(row);
             }
-
+            
             // 等待所有图片加载完成
             Promise.all(loadImagePromises).then(() => {
                 console.log('所有图片加载完成');
@@ -265,7 +255,7 @@ async function renderReportTable() {
                 updateReportPagination(reportData.length);
                 resolve();
             });
-
+            
         } catch (error) {
             console.error('渲染报告表格数据出错:', error);
             reject(error);
@@ -278,16 +268,16 @@ function updateReportPagination(total) {
     reportTotalPages = Math.ceil(total / REPORT_PAGE_SIZE);
     const paginationContainer = document.createElement('div');
     paginationContainer.className = 'pagination-container d-flex justify-content-between align-items-center mt-3';
-
+    
     // 添加页码信息
     const pageInfo = document.createElement('div');
     pageInfo.className = 'page-info';
     pageInfo.textContent = `第 ${reportCurrentPage} 页，共 ${reportTotalPages} 页`;
-
+    
     // 添加分页按钮
     const buttonGroup = document.createElement('div');
     buttonGroup.className = 'btn-group';
-
+    
     // 上一页按钮
     const prevBtn = document.createElement('button');
     prevBtn.className = 'btn btn-primary' + (reportCurrentPage === 1 ? ' disabled' : '');
@@ -298,7 +288,7 @@ function updateReportPagination(total) {
             renderReportTable();
         }
     };
-
+    
     // 下一页按钮
     const nextBtn = document.createElement('button');
     nextBtn.className = 'btn btn-primary' + (reportCurrentPage === reportTotalPages ? ' disabled' : '');
@@ -309,13 +299,13 @@ function updateReportPagination(total) {
             renderReportTable();
         }
     };
-
+    
     buttonGroup.appendChild(prevBtn);
     buttonGroup.appendChild(nextBtn);
-
+    
     paginationContainer.appendChild(pageInfo);
     paginationContainer.appendChild(buttonGroup);
-
+    
     // 添加到表格容器后面
     const tableContainer = document.querySelector('#wizard_Report .table-responsive');
     const existingPagination = tableContainer.parentElement.querySelector('.pagination-container');
@@ -348,11 +338,11 @@ async function getBase64Image(imgUrl) {
 async function generateReport(patientName, patientData) {
     try {
         console.log('生成报告:', patientName);
-
+        
         // 克隆报告模板
         const template = document.getElementById('reportTemplate').cloneNode(true);
         template.style.display = 'block';
-
+        
         // 更新报告内容
         const reportId = 'RPT' + new Date().getTime();
         template.querySelector('.report-id').textContent = reportId;
@@ -362,19 +352,19 @@ async function generateReport(patientName, patientData) {
 
         // 添加图片和预测结果
         const userName = localStorage.getItem('userName') || '';
-
+        
         // 预加载所有图片并转换为base64
         if (patientData.left_eye) {
             try {
                 const leftImgUrl = `http://localhost:5000/upload/processed_img/${userName}/${patientName}/${patientData.left_eye.image_name}`;
                 const leftImgBase64 = await getBase64Image(leftImgUrl);
-
+                
                 const leftEyeImg = document.createElement('img');
                 leftEyeImg.src = leftImgBase64;
                 leftEyeImg.className = 'img-fluid mb-3';
                 leftEyeImg.style.maxWidth = '100%';
                 template.querySelector('.left-eye-image').appendChild(leftEyeImg);
-
+                
                 // 添加左眼预测结果
                 const leftPredictions = document.createElement('div');
                 leftPredictions.innerHTML = patientData.left_eye.predictions.all_predictions.map(pred => `
@@ -404,13 +394,13 @@ async function generateReport(patientName, patientData) {
             try {
                 const rightImgUrl = `http://localhost:5000/upload/processed_img/${userName}/${patientName}/${patientData.right_eye.image_name}`;
                 const rightImgBase64 = await getBase64Image(rightImgUrl);
-
+                
                 const rightEyeImg = document.createElement('img');
                 rightEyeImg.src = rightImgBase64;
                 rightEyeImg.className = 'img-fluid mb-3';
                 rightEyeImg.style.maxWidth = '100%';
                 template.querySelector('.right-eye-image').appendChild(rightEyeImg);
-
+                
                 // 添加右眼预测结果
                 const rightPredictions = document.createElement('div');
                 rightPredictions.innerHTML = patientData.right_eye.predictions.all_predictions.map(pred => `
@@ -455,25 +445,20 @@ async function generateReport(patientName, patientData) {
             margin: 1,
             filename: `眼科诊断报告_${patientName}_${reportId}.pdf`,
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: {
+            html2canvas: { 
                 scale: 2,
                 useCORS: true,
                 logging: true
             },
             jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
         };
-
+        
         // 生成并下载PDF
         await html2pdf().set(opt).from(template).save();
-
+        
         // 移除临时模板
         document.body.removeChild(template);
-
-        // 模拟点击 "上一步"
-        $('#smartwizard').smartWizard("prev");
-        // 模拟点击 "下一步"
-        $('#smartwizard').smartWizard("next");
-
+        
     } catch (error) {
         console.error('生成PDF报告时出错:', error);
         alert('生成报告失败，请稍后重试');
