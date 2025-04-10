@@ -249,35 +249,42 @@
         <div class="deznav">
             <div class="deznav-scroll">
 				<ul class="metismenu" id="menu">
-                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <li><a class="ai-icon" href="index.html" aria-expanded="false">
 							<i class="flaticon-025-dashboard"></i>
 							<span class="nav-text"><strong>疾病诊断</strong></span>
 						</a>
-                        <ul aria-expanded="false">
-							<!--首页导航栏链接-->
-							<li><a href="index.html">疾病诊断</a></li>
-							<li><a href="#">眼疾科普</a></li>
-							<!-- ...... -->
-						</ul>
-
                     </li>
-                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
-						<i class="flaticon-050-info"></i>
-							<span class="nav-text"><strong>功能扩展</strong></span>
+					<li><a href="eyetables.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-033-feather"></i>
+							<span class="nav-text"><strong>眼疾科普</strong></span>
 						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="#">页面</a></li>
-							<li><a href="#">页面</a></li>
-                            <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">页面</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">子页面1</a></li>
-                                    <li><a href="#">子页面2</a></li>
-                                    <li><a href="#">子页面3</a></li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </li>
+					</li>
+					<li><a href="graph.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-021-command"></i>
+							<span class="nav-text"><strong>知识图谱</strong></span>
+						</a>
+					</li>
+					<li><a href="chatbot.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-050-info"></i>
+							<span class="nav-text"><strong>咨询助手</strong></span>
+						</a>
+					</li>
+<!--                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">-->
+<!--						<i class="flaticon-050-info"></i>-->
+<!--							<span class="nav-text"><strong>功能扩展</strong></span>-->
+<!--						</a>-->
+<!--                        <ul aria-expanded="false">-->
+<!--                            <li><a href="#">页面</a></li>-->
+<!--							<li><a href="#">页面</a></li>-->
+<!--                            <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">页面</a>-->
+<!--                                <ul aria-expanded="false">-->
+<!--                                    <li><a href="#">子页面1</a></li>-->
+<!--                                    <li><a href="#">子页面2</a></li>-->
+<!--                                    <li><a href="#">子页面3</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
 					<!--个人中心-->
 					<li><a href="profile.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-029-ellipsis"></i>
@@ -316,8 +323,8 @@
 
 				<div class="row page-titles">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item active"><a href="javascript:void(0)">个人中心</a></li>
-<!--						<li class="breadcrumb-item"><a href="javascript:void(0)">Profile</a></li>-->
+						<li class="breadcrumb-item active"><a href="javascript:void(0)">主页</a></li>
+						<li class="breadcrumb-item"><a href="javascript:void(0)">个人中心</a></li>
 					</ol>
                 </div>
                 <!-- row -->
@@ -357,35 +364,145 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="profile-tab">
+                        <div class="custom-tab-1">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item"><a href="#about-me" data-bs-toggle="tab" class="nav-link active show">个人信息</a></li>
+                                <li class="nav-item"><a href="#profile-settings" data-bs-toggle="tab" class="nav-link">设置</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="about-me" class="tab-pane fade">
+									<div class="profile-about-me">
+										<div class="pt-4 border-bottom-1 pb-3">
+											<h4 class="text-primary">个人信息</h4>
+											<p class="mb-2">近6个月双眼视力逐渐下降，伴右眼间歇性胀痛、视物模糊，夜间出现虹视现象（灯光周围出现彩色光环），偶有头痛。</p>
+											<p>高血压病史10年，长期服用氨氯地平控制血压（目前血压：135/85 mmHg）；视力：右眼0.4，左眼0.6（矫正后无改善）；眼压：右眼25 mmHg，左眼22 mmHg（正常值10-21 mmHg）；</p>
+										</div>
+									</div>
+									<div class="profile-skills mb-5">
+										<h4 class="text-primary mb-2">关键词</h4>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">视力下降</a>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">眼痛</a>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">视野缺损</a>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">糖尿病</a>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">高血压</a>
+										<a href="javascript:void(0);" class="btn btn-primary light btn-xs mb-1">虹视</a>
+									</div>
+									<div class="profile-lang mb-5">
+										<h4 class="text-primary mb-2">治疗</h4>
+										<a href="javascript:void(0);" class="text-muted pe-3 f-s-16"><i class="flag-icon flag-icon-us"></i> 降眼压药物</a>
+										<a href="javascript:void(0);" class="text-muted pe-3 f-s-16"><i class="flag-icon flag-icon-fr"></i> 白内障手术</a>
+										<a href="javascript:void(0);" class="text-muted pe-3 f-s-16"><i class="flag-icon flag-icon-bd"></i> 血糖控制</a>
+									</div>
+									<div class="profile-personal-info">
+										<h4 class="text-primary mb-4">个人信息</h4>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">姓名 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>王先生</span></div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">邮箱 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>example@examplel.com</span></div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">可用性 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>全职（自由职业者）</span></div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">年龄 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>27</span></div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">位置 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>湖北省武汉市</span></div>
+										</div>
+										<div class="row mb-2">
+											<div class="col-sm-3 col-5">
+												<h5 class="f-w-500">工作经验 <span class="pull-end">:</span></h5>
+											</div>
+											<div class="col-sm-9 col-7"><span>7年经验</span></div>
+										</div>
+									</div>
+								</div>
+								<div id="profile-settings" class="tab-pane fade">
+									<div class="pt-3">
+										<div class="settings-form">
+											<h4 class="text-primary">账户设置</h4>
+											<form>
+												<div class="row">
+													<div class="mb-3 col-md-6">
+														<label class="form-label">邮箱</label>
+														<input type="email" placeholder="邮箱" class="form-control">
+													</div>
+													<div class="mb-3 col-md-6">
+														<label class="form-label">密码</label>
+														<input type="password" placeholder="密码" class="form-control">
+													</div>
+												</div>
+												<div class="mb-3">
+													<label class="form-label">地址</label>
+													<input type="text" placeholder="1234 主街" class="form-control">
+												</div>
+												<div class="mb-3">
+													<label class="form-label">地址2</label>
+													<input type="text" placeholder="公寓、工作室或楼层" class="form-control">
+												</div>
+												<div class="row">
+													<div class="mb-3 col-md-6">
+														<label class="form-label">城市</label>
+														<input type="text" class="form-control">
+													</div>
+													<div class="mb-3 col-md-4">
+														<label class="form-label">区</label>
+														<select class="form-control default-select wide" id="inputState">
+															<option selected="">洪山区</option>
+															<option>武昌区</option>
+															<option>江夏区</option>
+															<option>江汉区</option>
+														</select>
+													</div>
+													<div class="mb-3 col-md-2">
+														<label class="form-label">邮政编码</label>
+														<input type="text" class="form-control">
+													</div>
+												</div>
+												<div class="mb-3">
+													<div class="form-check custom-checkbox">
+														<input type="checkbox" class="form-check-input" id="gridCheck">
+														<label class="form-check-label form-label" for="gridCheck">记住我</label>
+													</div>
+												</div>
+												<button class="btn btn-primary" type="submit">登录</button>
+											</form>
+										</div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-				</div>
             </div>
         </div>
-        <!--**********************************
-            Content body end
-        ***********************************-->
 
-
-        <!--**********************************
-            Footer start
-        ***********************************-->
         <div class="footer">
             <div class="copyright">
                 <p>版权 &copy; 2025 “甲方说的都对”团队 版权所有 <a target="_blank" href="index.html">明眸智诊</a></p>
             </div>
         </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
 
     </div>
-    <!--**********************************
-        Main wrapper end
-    ***********************************-->
 
-    <!--**********************************
-        Scripts
-    ***********************************-->
     <!-- Required vendors -->
     <script src="./static/js/global.min.js"></script>
 	<script src="./static/js/bootstrap-select.min.js"></script>
@@ -396,7 +513,6 @@
 	<script src="./static/js/deznav-init.js"></script>
 	<script src="./static/js/demo.js"></script>
     <script src="./static/js/styleSwitcher.js"></script>
-
 
 </body>
 </html>
