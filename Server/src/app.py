@@ -1,12 +1,11 @@
 import os
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
-import re
-import logging
-from flask import Flask, request, jsonify, send_from_directory, url_for
-from flask_cors import CORS
+from flask import Flask, request, jsonify, send_from_directory, url_for, render_template
 from preprocessImg import *
 from eyeDiseasePredictor import EyeDiseasePredictor
+from openai import OpenAI
+from py2neo import Graph
 
 app = Flask(__name__)
 
@@ -22,6 +21,7 @@ UPLOAD_PROCESSED_FOLDER = os.path.join(BASE_DIR, "upload", "processed-img")
 
 # 设置允许的文件扩展名
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+
 
 # ------------------Upload------------------
 
@@ -414,6 +414,88 @@ def predict_image():
         }), 500
 
 # ---------------------Report---------------------
+
+
+# ---------------------chatbot---------------------
+# 初始化OpenAI客户端，替换为你的DeepSeek API密钥
+client = OpenAI(api_key="sk-9c7bc7c42de849f6ac059f7484b3f147", base_url="https://api.deepseek.com")
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    data = request.get_json()
+    user_message = data.get('message')
+
+    if not user_message:
+        return jsonify({'reply': '请提供一个问题'}), 400
+
+    # 使用DeepSeek API获取回复
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-chat",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant"},
+                {"role": "user", "content": user_message},
+            ],
+            stream=False
+        )
+
+        # 获取并返回AI回复
+        bot_reply = response.choices[0].message.content
+        return jsonify({'reply': bot_reply})
+
+    except Exception as e:
+        return jsonify({'reply': '系统错误，请稍后再试。'}), 500
+
+
+# ---------------------graph---------------------
+# 连接 Neo4j 数据库（请根据实际修改）
+graph = Graph("bolt://localhost:7687", auth=("neo4j", "123654789"))
+
+
+@app.route('/query_graph', methods=['POST'])
+def query_kg():
+    data = request.get_json()
+    keyword = data.get('keyword', '')
+    category = data.get('category', '')
+    relations = data.get('relations', [])
+
+    if not keyword or not category:
+        return jsonify({"error": "关键词和类别不能为空"}), 400
+
+    cypher = f"""
+    MATCH (n:{category})- [r] -> (m)
+    WHERE n.name CONTAINS '{keyword}'
+    """
+
+    if relations:
+        relation_filter = " OR ".join([f"type(r) = '{rel}'" for rel in relations])
+        cypher += f" AND ({relation_filter})"
+
+    cypher += """
+    RETURN n.name AS source, type(r) AS relation, m.name AS target, labels(m)[0] AS target_label
+    LIMIT 50
+    """
+
+    result = graph.run(cypher).data()
+
+    nodes = set()
+    edges = []
+    for row in result:
+        nodes.add((row['source'], category))
+        nodes.add((row['target'], row['target_label']))
+        edges.append({
+            "source": row['source'],
+            "target": row['target'],
+            "relation": row['relation']
+        })
+
+    # 转换为节点列表格式
+    node_list = [{"id": name, "label": label} for name, label in nodes]
+
+    return jsonify({
+        "nodes": node_list,
+        "edges": edges
+    })
 
 
 if __name__ == '__main__':

@@ -15,7 +15,7 @@ class EyeDiseasePredictor:
 
         # 加载模型
         self.model = create_model(num_classes=self.config.num_classes, pretrained=False)
-        checkpoint = torch.load(model_path, map_location=self.device)
+        checkpoint = torch.load(model_path, map_location=self.device, weights_only=False)
 
         # 处理权重加载
         if 'model_state_dict' in checkpoint:
