@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="robots" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="明眸智诊-眼科疾病智能诊断平台">
+
+	<!-- PAGE TITLE HERE -->
+	<title>明眸智诊-眼科疾病智能诊断平台</title>
+
+	<link href="https://unpkg.com/vis-network/styles/vis-network.css" rel="stylesheet" />
+	<link href="./static/css/select2.min.css" rel="stylesheet">
+	<link href="./static/css/chartist.min.css" rel="stylesheet">
+	<link href="./static/css/nice-select.css" rel="stylesheet">
+	<link href="./static/css/lightgallery.min.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="waviy">
+		   <span style="--i:1">正</span>
+		   <span style="--i:2">在</span>
+		   <span style="--i:3">加</span>
+		   <span style="--i:4">载</span>
+		   <span style="--i:5">.</span>
+		   <span style="--i:6">.</span>
+		   <span style="--i:7">.</span>
+		</div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <!-- 页面主要包装容器，包含所有界面内容	-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+		<!-- 导航栏：包含logo	-->
+       <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+				<!--LOGO图标-->
+				<svg class="logo-abbr" width="80" height="80" viewbox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0)">
+					<rect class="rect-primary-rect" width="80" height="80" rx="16" fill="#1362FC"></rect>
+					<circle cx="42" cy="19" r="10" fill="white"></circle>
+					<circle cx="75.5" cy="76.5" r="16.5" fill="#12A7FB"></circle>
+					<circle cx="5.5" cy="1.5" r="17.5" fill="#1362FC"></circle>
+					<circle class="rect-primary-rect-1" cx="5.5" cy="1.5" r="16.5" stroke="white" stroke-opacity="0.66" stroke-width="2"></circle>
+					<path d="M33.7656 87.2159C34.9565 76.5246 37.5874 53.6112 38.5845 47.4881V47.4881C39.1698 43.8941 40.2547 47.2322 39.8692 50.8531C38.9933 59.0813
+					37.1429 74.1221 35.5121 87.4131C33.1225 106.889 33.3507 95.974 33.7635 88.0818" stroke="white" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"></path>
+					</g>
+					<defs>
+					<clippath id="clip0">
+					<rect class="rect-primary-rect" width="80" height="80" rx="16" fill="white"></rect>
+					</clippath>
+					</defs>
+				</svg>
+				<!--平台名称-->
+				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" style="display: flex;text-align: center;" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<p style="font-size: 35px;">明眸智诊</p>
+				</div>
+            </a>
+			<div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+
+		<div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+							<div class="dashboard_bar">
+                                知识图谱
+                            </div>
+                        </div>
+                        <ul class="navbar-nav header-right">
+							<!--搜索输入框-->
+							<li class="nav-item">
+								<div class="input-group search-area">
+									<input type="text" class="form-control" placeholder="搜索">
+									<!--此处可以添加js函数进行文本搜索的处理-->
+									<span class="input-group-text"><a href="javascript:void(0)"><i class="flaticon-381-search-2"></i></a></span>
+								</div>
+							</li>
+							<!--通知图标-->
+							<li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link bell-link ai-icon" href="javascript:void(0);">
+									<svg width="24" height="22" viewbox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M23.6667 5.16666C23.6667 2.5895 21.5772 0.5 19 0.5C15.1162 0.5 8.88387 0.5 5.00004 0.5C2.42287 0.5
+										0.333374 2.5895 0.333374 5.16666V20.3333C0.333374 20.8058 0.618046 21.2305 1.05321 21.4113C1.48955 21.5922 1.99121 21.4918 2.32487 21.1582C2.32487
+										21.1582 4.59287 18.8902 5.9672 17.517C6.4047 17.0795 6.99739 16.8333 7.61689 16.8333H19C21.5772 16.8333 23.6667 14.7438 23.6667 12.1667V5.16666ZM21.3334
+										5.16666C21.3334 3.87866 20.2892 2.83333 19 2.83333C15.1162 2.83333 8.88387 2.83333 5.00004 2.83333C3.71204 2.83333 2.66671 3.87866 2.66671
+										5.16666V17.517L4.31638 15.8673C5.19138 14.9923 6.37905 14.5 7.61689 14.5H19C20.2892 14.5 21.3334 13.4558 21.3334 12.1667V5.16666ZM6.16671
+										12.1667H15.5C16.144 12.1667 16.6667 11.644 16.6667 11C16.6667 10.356 16.144 9.83333 15.5 9.83333H6.16671C5.52271 9.83333 5.00004 10.356 5.00004
+										11C5.00004 11.644 5.52271 12.1667 6.16671 12.1667ZM6.16671 7.5H17.8334C18.4774 7.5 19 6.97733 19 6.33333C19 5.68933 18.4774 5.16666 17.8334
+										5.16666H6.16671C5.52271 5.16666 5.00004 5.68933 5.00004 6.33333C5.00004 6.97733 5.52271 7.5 6.16671 7.5Z" fill="#1362FC"></path>
+									</svg>
+									<div class="pulse-css"></div>
+                                </a>
+							</li>
+							<!--通知下拉菜单-->
+							<li class="nav-item dropdown notification_dropdown">
+								<!--触发按钮-->
+                                <a class="nav-link  ai-icon" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                                   	<!--svg图标-->
+									<svg width="20" height="24" viewbox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M8.83333 3.91738V1.50004C8.83333 0.856041 9.356 0.333374 10 0.333374C10.6428 0.333374 11.1667 0.856041
+										11.1667 1.50004V3.91738C12.9003 4.16704 14.5208 4.97204 15.7738 6.22504C17.3057 7.75687 18.1667 9.8347 18.1667 12V16.3914L19.1105 18.279C19.562 19.1832
+										19.5142 20.2565 18.9822 21.1164C18.4513 21.9762 17.5122 22.5 16.5018 22.5H11.1667C11.1667 23.144 10.6428 23.6667 10 23.6667C9.356 23.6667 8.83333 23.144
+										8.83333 22.5H3.49817C2.48667 22.5 1.54752 21.9762 1.01669 21.1164C0.484686 20.2565 0.436843 19.1832 0.889509 18.279L1.83333 16.3914V12C1.83333 9.8347
+										2.69319 7.75687 4.22502 6.22504C5.47919 4.97204 7.0985 4.16704 8.83333 3.91738ZM10 6.1667C8.45183 6.1667 6.96902 6.78154 5.87469 7.87587C4.78035 8.96904
+										4.16666 10.453 4.16666 12V16.6667C4.16666 16.8475 4.12351 17.026 4.04301 17.1882C4.04301 17.1882 3.52384 18.2265 2.9755 19.322C2.88567 19.5029 2.89501
+										19.7187 3.00117 19.8902C3.10734 20.0617 3.29517 20.1667 3.49817 20.1667H16.5018C16.7037 20.1667 16.8915 20.0617 16.9977 19.8902C17.1038 19.7187 17.1132
+										19.5029 17.0234 19.322C16.475 18.2265 15.9558 17.1882 15.9558 17.1882C15.8753 17.026 15.8333 16.8475 15.8333 16.6667V12C15.8333 10.453 15.2185 8.96904
+										14.1242 7.87587C13.0298 6.78154 11.547 6.1667 10 6.1667Z" fill="#1362FC"></path>
+									</svg>
+                                    <div class="pulse-css"></div>
+                                </a>
+								<!--下拉菜单容器-->
+                                <div class="dropdown-menu dropdown-menu-end">
+									<!--通知列表，可以滚动-->
+                                    <div id="DZ_W_Notification1" class="widget-media dz-scroll p-3" style="height:380px;">
+										<ul class="timeline">
+											<li>
+												<div class="timeline-panel">
+													<!--媒体图标-->
+													<div class="media me-2">
+														<img alt="image" width="50" src="static/img/person-img.png">
+													</div>
+													<div class="media-body">
+														<!--消息标题-->
+														<h6 class="mb-1">XXX 给你发了消息</h6>
+														<!--时间戳-->
+														<small class="d-block">2025年3月1日 12:00</small>
+													</div>
+												</div>
+											</li>
+											<!-- ...... -->
+										</ul>
+									</div>
+									<!--查看所有通知链接-->
+                                    <a class="all-notification" href="javascript:void(0);">查看所有通知 <i class="ti-arrow-end"></i></a>
+                                </div>
+                            </li>
+							<!-- 铃铛图标 -->
+							<li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link ai-icon" href="javascript:void(0);" data-bs-toggle="dropdown">
+									<svg width="24" height="22" viewbox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M2.15608 11.6592C0.937571 10.4299 0.253296 8.76839 0.253296 7.03607C0.253296
+										5.29415 0.944772 3.62306 2.17648 2.39134C3.4082 1.15963 5.0793 0.46814 6.82122 0.46814C8.56315 0.46814 10.2342 1.15963 11.466
+										2.39134L11.9149 2.84033L12.3639 2.39134C13.5956 1.15963 15.2655 0.46814 17.0075 0.46814C18.7506 0.46814 20.4205 1.15963 21.6522
+										2.39134C22.8839 3.62306 23.5766 5.29415 23.5766 7.03607C23.5766 8.76839 22.8923 10.4299 21.6726 11.6592L12.7625 21.0939C12.5428
+										21.3268 12.2355 21.4589 11.9149 21.4589C11.5944 21.4589 11.2871 21.3268 11.0674 21.0939L2.15608 11.6592ZM11.9149 18.5945L19.9799
+										10.0553L20.0039 10.0313C20.7974 9.23659 21.244 8.15974 21.244 7.03607C21.244 5.9124 20.7974 4.83556 20.0039 4.04083C19.2092 3.2461
+										18.1311 2.79951 17.0075 2.79951C15.885 2.79951 14.807 3.2461 14.0122 4.04083L12.7397 5.31456C12.2835 5.76955 11.5452 5.76955 11.0902
+										5.31456L9.81646 4.04083C9.02293 3.2461 7.94489 2.79951 6.82122 2.79951C5.69756 2.79951 4.62071 3.2461 3.82598 4.04083C3.03125 4.83556
+										2.58586 5.9124 2.58586 7.03607C2.58586 8.15974 3.03125 9.23659 3.82598 10.0313C3.83438 10.0397 3.84158 10.0469 3.84879 10.0553L11.9149
+										18.5945Z" fill="#1362FC"></path>
+									</svg>
+									<div class="pulse-css"></div>
+                                </a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<div id="DZ_W_TimeLine02" class="widget-timeline dz-scroll style-1 ps ps--active-y p-3 height370">
+                                    <ul class="timeline">
+                                        <li>
+                                            <div class="timeline-badge primary"></div>
+                                            <a class="timeline-panel text-muted" href="javascript:void(0);">
+                                                <span>10个月前</span>
+                                                <h6 class="mb-0">收到一份报告 <strong class="text-primary">XXX</strong>.</h6>
+                                            </a>
+                                        </li>
+                                        <!-- ...... -->
+                                    </ul>
+                                </div>
+								</div>
+							</li>
+							<!--用户头像下拉菜单-->
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                                    <img src="static/img/manager-img.png" alt="">
+									<div class="header-info ms-3">
+										<span>管理员</span>
+										<small>湖北 武汉</small>
+									</div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <!--个人中心链接-->
+									<a href="#" class="dropdown-item ai-icon">
+                                        <svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+											<circle cx="12" cy="7" r="4"></circle>
+										</svg>
+                                        <span class="ms-2">个人 </span>
+                                    </a>
+									<!--收件箱链接-->
+                                    <a href="#" class="dropdown-item ai-icon">
+                                        <svg id="icon-inbox" xmlns="http://www.w3.org/2000/svg" class="text-success" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+											<polyline points="22,6 12,13 2,6"></polyline>
+										</svg>
+                                        <span class="ms-2">收件箱 </span>
+                                    </a>
+									<!--退出链接-->
+                                    <a href="#" class="dropdown-item ai-icon">
+                                        <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+											<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+											<polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <span class="ms-2">退出 </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+				</nav>
+			</div>
+		</div>
+
+        <!--侧边导航栏-->
+        <div class="deznav">
+            <div class="deznav-scroll">
+				<ul class="metismenu" id="menu">
+                    <li><a class="ai-icon" href="index.html" aria-expanded="false">
+							<i class="flaticon-025-dashboard"></i>
+							<span class="nav-text"><strong>疾病诊断</strong></span>
+						</a>
+                    </li>
+					<li><a href="eyetables.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-033-feather"></i>
+							<span class="nav-text"><strong>眼疾科普</strong></span>
+						</a>
+					</li>
+					<li><a href="graph.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-021-command"></i>
+							<span class="nav-text"><strong>知识图谱</strong></span>
+						</a>
+					</li>
+					<li><a href="chatbot.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-050-info"></i>
+							<span class="nav-text"><strong>咨询助手</strong></span>
+						</a>
+					</li>
+					<!--个人中心-->
+					<li><a href="profile.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-029-ellipsis"></i>
+							<span class="nav-text"><strong>个人中心</strong></span>
+						</a>
+					</li>
+					<!--登录-->
+					<li><a href="login.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-046-home"></i>
+							<span class="nav-text"><strong>登录</strong></span>
+						</a>
+					</li>
+					<!--注册-->
+					<li><a href="register.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-047-home"></i>
+							<span class="nav-text"><strong>注册</strong></span>
+						</a>
+					</li>
+                </ul>
+				<div class="copyright">
+					<p><strong>明眸智诊-眼科疾病智能诊断平台</strong> © 2025 版权所有</p>
+					<p class="fs-12"><span class="heart"></span> 由 “甲方说的都对”团队 制作</p>
+				</div>
+			</div>
+        </div>
+
+		<div class="content-body">
+            <div class="container-fluid">
+
+
+				<div class="row page-titles">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item active"><a href="javascript:void(0)">主页</a></li>
+						<li class="breadcrumb-item"><a href="javascript:void(0)">知识图谱</a></li>
+					</ol>
+                </div>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-8">
+						<div class="card">
+							<div class="card-body">
+								<div id="graph">
+									<!--此处为知识图谱展示区域-->
+									<h5 class="text-muted">图谱结果展示</h5>
+            						<div id="graph-content" style="height: 520px; width: 100%;"></div>
+								</div>
+							</div>
+						</div>
+                    </div>
+					<div class="col-lg-4">
+						<div class="card">
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <h4 class="card-title">知识图谱限定条件</h4>
+                                    <p>输入想要选择的关键词并选择类别与关系类型条件，显示特定知识图谱</p>
+                                </div>
+								<!--关键词：输入框-->
+								<p class="mt-3">关键词：</p>
+								<input type="text" id="keyword" class="form-control" placeholder="关键词">
+
+								<!--类别：单选-->
+								<p class="mt-3">类别：</p>
+								<select id="single-select" class="form-control">
+                                    <option value="Disease">疾病</option>
+                                    <option value="Drug">药品</option>
+									<option value="Food">食品</option>
+									<option value="Check">检查</option>
+									<option value="Department">部门</option>
+									<option value="Producer">生产商</option>
+									<option value="Symptom">症状</option>
+                                </select>
+								<br><br>
+
+								<!--关系类型：多选-->
+								<p class="mt-3">关系类型：</p>
+                                <select id="multi-value-select" multiple="multiple" class="form-control">
+                                    <option selected="selected" value="recommand_eat">建议饮食</option>
+									<option selected="selected" value="no_eat">不可以吃</option>
+									<option selected="selected" value="do_eat">可以吃</option>
+									<option selected="selected" value="belongs_to">属于</option>
+									<option selected="selected" value="common_drug">常见药物</option>
+									<option selected="selected" value="drugs_of">药物的</option>
+									<option selected="selected" value="recommand_drug">推荐药物</option>
+									<option selected="selected" value="need_check">需要检查</option>
+									<option selected="selected" value="has_symptom">有症状</option>
+									<option selected="selected" value="acompany_with">伴随</option>
+                                </select>
+								<br><br>
+								<button type="button" class="btn btn-primary mt-4" id="search-graph">查询</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                <p>版权 &copy; 2025 “甲方说的都对”团队 版权所有 <a target="_blank" href="index.html">明眸智诊</a></p>
+            </div>
+        </div>
+
+    </div>
+
+	<!--jQuery最先加载 -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<!--Bootstrap、插件类库加载顺序 -->
+	<script src="./static/js/global.min.js"></script>
+	<script src="./static/js/bootstrap-select.min.js"></script>
+	<script src="./static/js/jquery.nice-select.min.js"></script>
+	<script src="./static/js/Chart.bundle.min.js"></script>
+	<script src="./static/js/lightgallery-all.min.js"></script>
+	<script src="./static/js/select2.full.min.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@9.0.4/dist/vis-network.min.js"></script>
+<!--	<script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>-->
+<!--	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>-->
+
+	<!--自定义初始化脚本需放在插件之后 -->
+	<script src="./static/js/select2-init.js"></script>
+	<script src="./static/js/custom.min.js"></script>
+	<script src="./static/js/deznav-init.js"></script>
+	<script src="./static/js/demo.js"></script>
+	<script src="./static/js/styleSwitcher.js"></script>
+
+	<!--自定义图谱脚本（最后加载） -->
+	<script src="./static/js-new/graph.js"></script>
+</body>
+</html>
