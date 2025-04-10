@@ -1,0 +1,5400 @@
+[{
+  "_id": {
+    "$oid": "67f76cecc15c52bff9c74b5a"
+  },
+  "title": "眼科重症肌无力",
+  "simple_description": "重症肌无力(myasthenia gravis，MG)是一种累及神经-肌肉接头处的突触后膜的乙酰胆碱受体，导致神经-肌肉间兴奋传递障碍，具有反复复发与缓解倾向的慢性自身免疫性疾病。",
+  "link": "https://jbk.39.net/ykzzjwl/",
+  "description": "重症肌无力(myasthenia gravis，MG)是一种累及神经-肌肉接头处的突触后膜的乙酰胆碱受体，导致神经-肌肉间兴奋传递障碍，具有反复复发与缓解倾向的慢性自身免疫性疾病。详细",
+  "disease_link": "https://jbk.39.net/ykzzjwl/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "西医药物治疗",
+  "治愈率：": "30%",
+  "治疗周期：": "3个月",
+  "多发人群：": "任何年龄均可起病，而相对的...",
+  "治疗费用：": "市三甲医院约（500—— 1000元）",
+  "典型症状：": "瞳孔异常\n眼球运动障碍\n视力障碍",
+  "临床检查：": "新斯的明试验\n疲劳试验\n肌电图",
+  "并发症：": "糖尿病",
+  "常用药品：": "甲硫酸新斯的明注射液\n溴吡斯的明片",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "西医药物治疗",
+      "symptom_link": "https://jbk.39.net/ykzzjwl/yyzl/"
+    },
+    {
+      "symptom": "瞳孔异常",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/tkyc/"
+    },
+    {
+      "symptom": "眼球运动障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "新斯的明试验",
+      "symptom_link": "https://jbk.39.net/jiancha/xsdmsy/"
+    },
+    {
+      "symptom": "疲劳试验",
+      "symptom_link": "https://jbk.39.net/jiancha/plsy/"
+    },
+    {
+      "symptom": "肌电图",
+      "symptom_link": "https://jbk.39.net/jiancha/jdt/"
+    },
+    {
+      "symptom": "糖尿病",
+      "symptom_link": "https://jbk.39.net/tnb/"
+    },
+    {
+      "symptom": "甲硫酸新斯的明注射液",
+      "symptom_link": "http://ypk.39.net/861880/"
+    },
+    {
+      "symptom": "溴吡斯的明片",
+      "symptom_link": "http://ypk.39.net/851309/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "西医药物治疗",
+      "check_link": "https://jbk.39.net/ykzzjwl/yyzl/"
+    },
+    {
+      "check": "瞳孔异常",
+      "check_link": "https://jbk.39.net/zhengzhuang/tkyc/"
+    },
+    {
+      "check": "眼球运动障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "新斯的明试验",
+      "check_link": "https://jbk.39.net/jiancha/xsdmsy/"
+    },
+    {
+      "check": "疲劳试验",
+      "check_link": "https://jbk.39.net/jiancha/plsy/"
+    },
+    {
+      "check": "肌电图",
+      "check_link": "https://jbk.39.net/jiancha/jdt/"
+    },
+    {
+      "check": "糖尿病",
+      "check_link": "https://jbk.39.net/tnb/"
+    },
+    {
+      "check": "甲硫酸新斯的明注射液",
+      "check_link": "http://ypk.39.net/861880/"
+    },
+    {
+      "check": "溴吡斯的明片",
+      "check_link": "http://ypk.39.net/851309/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "西医药物治疗",
+      "complication_link": "https://jbk.39.net/ykzzjwl/yyzl/"
+    },
+    {
+      "complication": "瞳孔异常",
+      "complication_link": "https://jbk.39.net/zhengzhuang/tkyc/"
+    },
+    {
+      "complication": "眼球运动障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "新斯的明试验",
+      "complication_link": "https://jbk.39.net/jiancha/xsdmsy/"
+    },
+    {
+      "complication": "疲劳试验",
+      "complication_link": "https://jbk.39.net/jiancha/plsy/"
+    },
+    {
+      "complication": "肌电图",
+      "complication_link": "https://jbk.39.net/jiancha/jdt/"
+    },
+    {
+      "complication": "糖尿病",
+      "complication_link": "https://jbk.39.net/tnb/"
+    },
+    {
+      "complication": "甲硫酸新斯的明注射液",
+      "complication_link": "http://ypk.39.net/861880/"
+    },
+    {
+      "complication": "溴吡斯的明片",
+      "complication_link": "http://ypk.39.net/851309/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "西医药物治疗",
+      "drug_link": "https://jbk.39.net/ykzzjwl/yyzl/"
+    },
+    {
+      "drug": "瞳孔异常",
+      "drug_link": "https://jbk.39.net/zhengzhuang/tkyc/"
+    },
+    {
+      "drug": "眼球运动障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "新斯的明试验",
+      "drug_link": "https://jbk.39.net/jiancha/xsdmsy/"
+    },
+    {
+      "drug": "疲劳试验",
+      "drug_link": "https://jbk.39.net/jiancha/plsy/"
+    },
+    {
+      "drug": "肌电图",
+      "drug_link": "https://jbk.39.net/jiancha/jdt/"
+    },
+    {
+      "drug": "糖尿病",
+      "drug_link": "https://jbk.39.net/tnb/"
+    },
+    {
+      "drug": "甲硫酸新斯的明注射液",
+      "drug_link": "http://ypk.39.net/861880/"
+    },
+    {
+      "drug": "溴吡斯的明片",
+      "drug_link": "http://ypk.39.net/851309/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76ceec15c52bff9c74b5b"
+  },
+  "title": "眼科检查",
+  "simple_description": "眼的一般检查，包括眼附属器和眼前段检查。",
+  "link": "https://jbk.39.net/jiancha/ykjc/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/ykjc/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cefc15c52bff9c74b5c"
+  },
+  "title": "眼眶肿瘤",
+  "simple_description": "眼眶肿瘤是全身肿瘤中的一种,发病率小,因为位置的关系,一般归眼科医生管,但正是因为发病率少，不够给一般的眼科医生以积累经验条件，故一般的眼科医生对其不太了解。眼眶肿瘤的治疗包括手术、化疗、放疗，生物治...",
+  "link": "https://jbk.39.net/ykzl/",
+  "description": "眼眶肿瘤是全身肿瘤中的一种,发病率小,因为位置的关系,一般归眼科医生管,但正是因为发病率少，不够给一般的眼科医生以积累经验条件，故一般的眼科医生对其不太了解。眼眶肿瘤的治疗包括手术、化疗、放疗，生物治疗、基因治疗...详细",
+  "disease_link": "https://jbk.39.net/ykzl/",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科\n肿瘤科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗",
+  "治愈率：": "70%",
+  "治疗周期：": "2-4月",
+  "多发人群：": "所有人群",
+  "治疗费用：": "市三甲医院约（5000-10000元）",
+  "典型症状：": "眼眶疼痛\n突眼症\n结膜充血",
+  "临床检查：": "眼球及眼眶检查法",
+  "并发症：": "眼眶脂肪肉瘤\n眼眶骨肉瘤\n眼眶骨化纤维瘤",
+  "常用药品：": "复方红豆杉胶囊\n抗癌平丸\n参一胶囊",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "肿瘤科",
+      "symptom_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "symptom": "药物治疗",
+      "symptom_link": "https://jbk.39.net/ykzl/yyzl/"
+    },
+    {
+      "symptom": "眼眶疼痛",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yktt/"
+    },
+    {
+      "symptom": "突眼症",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/tyz/"
+    },
+    {
+      "symptom": "结膜充血",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "symptom": "眼球及眼眶检查法",
+      "symptom_link": "https://jbk.39.net/jiancha/yqjykjcf/"
+    },
+    {
+      "symptom": "眼眶脂肪肉瘤",
+      "symptom_link": "https://jbk.39.net/ykzfrl/"
+    },
+    {
+      "symptom": "眼眶骨肉瘤",
+      "symptom_link": "https://jbk.39.net/ykgrl/"
+    },
+    {
+      "symptom": "眼眶骨化纤维瘤",
+      "symptom_link": "https://jbk.39.net/ykghxwl/"
+    },
+    {
+      "symptom": "复方红豆杉胶囊",
+      "symptom_link": "http://ypk.39.net/587941/"
+    },
+    {
+      "symptom": "抗癌平丸",
+      "symptom_link": "http://ypk.39.net/578432/"
+    },
+    {
+      "symptom": "参一胶囊",
+      "symptom_link": "http://ypk.39.net/578339/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "肿瘤科",
+      "check_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "check": "药物治疗",
+      "check_link": "https://jbk.39.net/ykzl/yyzl/"
+    },
+    {
+      "check": "眼眶疼痛",
+      "check_link": "https://jbk.39.net/zhengzhuang/yktt/"
+    },
+    {
+      "check": "突眼症",
+      "check_link": "https://jbk.39.net/zhengzhuang/tyz/"
+    },
+    {
+      "check": "结膜充血",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "check": "眼球及眼眶检查法",
+      "check_link": "https://jbk.39.net/jiancha/yqjykjcf/"
+    },
+    {
+      "check": "眼眶脂肪肉瘤",
+      "check_link": "https://jbk.39.net/ykzfrl/"
+    },
+    {
+      "check": "眼眶骨肉瘤",
+      "check_link": "https://jbk.39.net/ykgrl/"
+    },
+    {
+      "check": "眼眶骨化纤维瘤",
+      "check_link": "https://jbk.39.net/ykghxwl/"
+    },
+    {
+      "check": "复方红豆杉胶囊",
+      "check_link": "http://ypk.39.net/587941/"
+    },
+    {
+      "check": "抗癌平丸",
+      "check_link": "http://ypk.39.net/578432/"
+    },
+    {
+      "check": "参一胶囊",
+      "check_link": "http://ypk.39.net/578339/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "肿瘤科",
+      "complication_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "complication": "药物治疗",
+      "complication_link": "https://jbk.39.net/ykzl/yyzl/"
+    },
+    {
+      "complication": "眼眶疼痛",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yktt/"
+    },
+    {
+      "complication": "突眼症",
+      "complication_link": "https://jbk.39.net/zhengzhuang/tyz/"
+    },
+    {
+      "complication": "结膜充血",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "complication": "眼球及眼眶检查法",
+      "complication_link": "https://jbk.39.net/jiancha/yqjykjcf/"
+    },
+    {
+      "complication": "眼眶脂肪肉瘤",
+      "complication_link": "https://jbk.39.net/ykzfrl/"
+    },
+    {
+      "complication": "眼眶骨肉瘤",
+      "complication_link": "https://jbk.39.net/ykgrl/"
+    },
+    {
+      "complication": "眼眶骨化纤维瘤",
+      "complication_link": "https://jbk.39.net/ykghxwl/"
+    },
+    {
+      "complication": "复方红豆杉胶囊",
+      "complication_link": "http://ypk.39.net/587941/"
+    },
+    {
+      "complication": "抗癌平丸",
+      "complication_link": "http://ypk.39.net/578432/"
+    },
+    {
+      "complication": "参一胶囊",
+      "complication_link": "http://ypk.39.net/578339/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "肿瘤科",
+      "drug_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "drug": "药物治疗",
+      "drug_link": "https://jbk.39.net/ykzl/yyzl/"
+    },
+    {
+      "drug": "眼眶疼痛",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yktt/"
+    },
+    {
+      "drug": "突眼症",
+      "drug_link": "https://jbk.39.net/zhengzhuang/tyz/"
+    },
+    {
+      "drug": "结膜充血",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "drug": "眼球及眼眶检查法",
+      "drug_link": "https://jbk.39.net/jiancha/yqjykjcf/"
+    },
+    {
+      "drug": "眼眶脂肪肉瘤",
+      "drug_link": "https://jbk.39.net/ykzfrl/"
+    },
+    {
+      "drug": "眼眶骨肉瘤",
+      "drug_link": "https://jbk.39.net/ykgrl/"
+    },
+    {
+      "drug": "眼眶骨化纤维瘤",
+      "drug_link": "https://jbk.39.net/ykghxwl/"
+    },
+    {
+      "drug": "复方红豆杉胶囊",
+      "drug_link": "http://ypk.39.net/587941/"
+    },
+    {
+      "drug": "抗癌平丸",
+      "drug_link": "http://ypk.39.net/578432/"
+    },
+    {
+      "drug": "参一胶囊",
+      "drug_link": "http://ypk.39.net/578339/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cf0c15c52bff9c74b5d"
+  },
+  "title": "弱视",
+  "simple_description": "弱视(amblyopia)是眼科临床常见的儿童眼病。眼部内外没有器质性病变而矫正视力达不到正常(低于0.9)者称为弱视。弱视与斜视有密切关系，单眼偏斜可致该眼弱视，而弱视又可形成斜视。对弱视的研究除眼科的诊断、治疗及...",
+  "link": "https://jbk.39.net/rs/",
+  "description": "弱视(amblyopia)是眼科临床常见的儿童眼病。眼部内外没有器质性病变而矫正视力达不到正常(低于0.9)者称为弱视。弱视与斜视有密切关系，单眼偏斜可致该眼弱视，而弱视又可形成斜视。对弱视的研究除眼科的诊断、治疗及预防外，还涉...详细",
+  "disease_link": "https://jbk.39.net/rs/",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗、手术治疗",
+  "治疗周期：": ">120天(终身间断治疗)",
+  "多发人群：": "儿童",
+  "治疗费用：": "市三甲医院约（3000 —— 5000元",
+  "典型症状：": "视力障碍\n屈光介质混浊\n色觉丧失",
+  "临床检查：": "光觉检查\n对比敏感度\n屈光检查",
+  "常用药品：": "明目地黄丸\n左旋多巴片",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "药物治疗、手术治疗",
+      "symptom_link": "https://jbk.39.net/rs/yyzl/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "屈光介质混浊",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/qgjzhz/"
+    },
+    {
+      "symptom": "色觉丧失",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/sjss/"
+    },
+    {
+      "symptom": "光觉检查",
+      "symptom_link": "https://jbk.39.net/jiancha/gjjc2/"
+    },
+    {
+      "symptom": "对比敏感度",
+      "symptom_link": "https://jbk.39.net/jiancha/dbmgdcsfjc/"
+    },
+    {
+      "symptom": "屈光检查",
+      "symptom_link": "https://jbk.39.net/jiancha/qgjc/"
+    },
+    {
+      "symptom": "明目地黄丸",
+      "symptom_link": "http://ypk.39.net/568584/"
+    },
+    {
+      "symptom": "左旋多巴片",
+      "symptom_link": "http://ypk.39.net/833572/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "药物治疗、手术治疗",
+      "check_link": "https://jbk.39.net/rs/yyzl/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "屈光介质混浊",
+      "check_link": "https://jbk.39.net/zhengzhuang/qgjzhz/"
+    },
+    {
+      "check": "色觉丧失",
+      "check_link": "https://jbk.39.net/zhengzhuang/sjss/"
+    },
+    {
+      "check": "光觉检查",
+      "check_link": "https://jbk.39.net/jiancha/gjjc2/"
+    },
+    {
+      "check": "对比敏感度",
+      "check_link": "https://jbk.39.net/jiancha/dbmgdcsfjc/"
+    },
+    {
+      "check": "屈光检查",
+      "check_link": "https://jbk.39.net/jiancha/qgjc/"
+    },
+    {
+      "check": "明目地黄丸",
+      "check_link": "http://ypk.39.net/568584/"
+    },
+    {
+      "check": "左旋多巴片",
+      "check_link": "http://ypk.39.net/833572/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "药物治疗、手术治疗",
+      "complication_link": "https://jbk.39.net/rs/yyzl/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "屈光介质混浊",
+      "complication_link": "https://jbk.39.net/zhengzhuang/qgjzhz/"
+    },
+    {
+      "complication": "色觉丧失",
+      "complication_link": "https://jbk.39.net/zhengzhuang/sjss/"
+    },
+    {
+      "complication": "光觉检查",
+      "complication_link": "https://jbk.39.net/jiancha/gjjc2/"
+    },
+    {
+      "complication": "对比敏感度",
+      "complication_link": "https://jbk.39.net/jiancha/dbmgdcsfjc/"
+    },
+    {
+      "complication": "屈光检查",
+      "complication_link": "https://jbk.39.net/jiancha/qgjc/"
+    },
+    {
+      "complication": "明目地黄丸",
+      "complication_link": "http://ypk.39.net/568584/"
+    },
+    {
+      "complication": "左旋多巴片",
+      "complication_link": "http://ypk.39.net/833572/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "药物治疗、手术治疗",
+      "drug_link": "https://jbk.39.net/rs/yyzl/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "屈光介质混浊",
+      "drug_link": "https://jbk.39.net/zhengzhuang/qgjzhz/"
+    },
+    {
+      "drug": "色觉丧失",
+      "drug_link": "https://jbk.39.net/zhengzhuang/sjss/"
+    },
+    {
+      "drug": "光觉检查",
+      "drug_link": "https://jbk.39.net/jiancha/gjjc2/"
+    },
+    {
+      "drug": "对比敏感度",
+      "drug_link": "https://jbk.39.net/jiancha/dbmgdcsfjc/"
+    },
+    {
+      "drug": "屈光检查",
+      "drug_link": "https://jbk.39.net/jiancha/qgjc/"
+    },
+    {
+      "drug": "明目地黄丸",
+      "drug_link": "http://ypk.39.net/568584/"
+    },
+    {
+      "drug": "左旋多巴片",
+      "drug_link": "http://ypk.39.net/833572/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cf0c15c52bff9c74b5e"
+  },
+  "title": "颈动脉海绵窦瘘",
+  "simple_description": "颈动脉与海绵窦的直接交通即颈动脉海绵窦瘘(carotid cavernous fistula，CCF)，是一种较为常见的神经眼科综合征。由于特殊的解剖原因，海绵窦区是全身发生动静脉瘘最多的部位。80%以上的患者首先发生眼部症状和体征，如眼球...",
+  "link": "https://jbk.39.net/jdmhmdl/",
+  "description": "颈动脉与海绵窦的直接交通即颈动脉海绵窦瘘(carotid cavernous fistula，CCF)，是一种较为常见的神经眼科综合征。由于特殊的解剖原因，海绵窦区是全身发生动静脉瘘最多的部位。80%以上的患者首先发生眼部症状和体征，如眼球突出、充血、...详细",
+  "disease_link": "https://jbk.39.net/jdmhmdl/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "血管结扎、瘘孔栓塞术、眼上...",
+  "治愈率：": "外科手术治愈率约为50-60%",
+  "治疗周期：": "1-3个月",
+  "多发人群：": "多见于有头部外伤史的青年男...",
+  "治疗费用：": "市三甲医院约（30000 —— 60000元）",
+  "典型症状：": "眼球运动障碍\n红眼\n视力障碍",
+  "临床检查：": "CT检查",
+  "并发症：": "骨折",
+  "常用药品：": "阿司匹林肠溶片\n阿司匹林肠溶片\n颅内覆膜支架系统",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "血管结扎、瘘孔栓塞术、眼上...",
+      "symptom_link": "https://jbk.39.net/jdmhmdl/yyzl/"
+    },
+    {
+      "symptom": "眼球运动障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "symptom": "红眼",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/hy/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "CT检查",
+      "symptom_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "symptom": "骨折",
+      "symptom_link": "https://jbk.39.net/gz/"
+    },
+    {
+      "symptom": "阿司匹林肠溶片",
+      "symptom_link": "http://ypk.39.net/1000009865/"
+    },
+    {
+      "symptom": "阿司匹林肠溶片",
+      "symptom_link": "http://ypk.39.net/2029508/"
+    },
+    {
+      "symptom": "颅内覆膜支架系统",
+      "symptom_link": "http://ypk.39.net/2188665/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "血管结扎、瘘孔栓塞术、眼上...",
+      "check_link": "https://jbk.39.net/jdmhmdl/yyzl/"
+    },
+    {
+      "check": "眼球运动障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "check": "红眼",
+      "check_link": "https://jbk.39.net/zhengzhuang/hy/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "CT检查",
+      "check_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "check": "骨折",
+      "check_link": "https://jbk.39.net/gz/"
+    },
+    {
+      "check": "阿司匹林肠溶片",
+      "check_link": "http://ypk.39.net/1000009865/"
+    },
+    {
+      "check": "阿司匹林肠溶片",
+      "check_link": "http://ypk.39.net/2029508/"
+    },
+    {
+      "check": "颅内覆膜支架系统",
+      "check_link": "http://ypk.39.net/2188665/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "血管结扎、瘘孔栓塞术、眼上...",
+      "complication_link": "https://jbk.39.net/jdmhmdl/yyzl/"
+    },
+    {
+      "complication": "眼球运动障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "complication": "红眼",
+      "complication_link": "https://jbk.39.net/zhengzhuang/hy/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "CT检查",
+      "complication_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "complication": "骨折",
+      "complication_link": "https://jbk.39.net/gz/"
+    },
+    {
+      "complication": "阿司匹林肠溶片",
+      "complication_link": "http://ypk.39.net/1000009865/"
+    },
+    {
+      "complication": "阿司匹林肠溶片",
+      "complication_link": "http://ypk.39.net/2029508/"
+    },
+    {
+      "complication": "颅内覆膜支架系统",
+      "complication_link": "http://ypk.39.net/2188665/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "血管结扎、瘘孔栓塞术、眼上...",
+      "drug_link": "https://jbk.39.net/jdmhmdl/yyzl/"
+    },
+    {
+      "drug": "眼球运动障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yqydza/"
+    },
+    {
+      "drug": "红眼",
+      "drug_link": "https://jbk.39.net/zhengzhuang/hy/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "CT检查",
+      "drug_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "drug": "骨折",
+      "drug_link": "https://jbk.39.net/gz/"
+    },
+    {
+      "drug": "阿司匹林肠溶片",
+      "drug_link": "http://ypk.39.net/1000009865/"
+    },
+    {
+      "drug": "阿司匹林肠溶片",
+      "drug_link": "http://ypk.39.net/2029508/"
+    },
+    {
+      "drug": "颅内覆膜支架系统",
+      "drug_link": "http://ypk.39.net/2188665/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cf2c15c52bff9c74b5f"
+  },
+  "title": "上睑翻转法",
+  "simple_description": "翻转上睑方法是每位医生必须熟练的动作，有技巧的方法，对医学及其他眼科疾病有重要的意义。",
+  "link": "https://jbk.39.net/jiancha/fzsjff/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/fzsjff/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf3c15c52bff9c74b60"
+  },
+  "title": "裂隙灯",
+  "simple_description": "全称“裂隙灯显微镜”，是眼科使用最频繁的一种光学设备。通过裂隙灯显微镜可以清楚地观察眼睑、结膜、巩膜、角膜、前房、虹膜、瞳孔、晶状体及玻璃体前1/3，可确定病变的位置、性质、大小及其深度。若配以附件，...",
+  "link": "https://jbk.39.net/jiancha/lxd/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/lxd/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf3c15c52bff9c74b61"
+  },
+  "title": "翼状胬肉",
+  "simple_description": "翼状胬肉(pterygium)是眼科常见病和多发病，一般认为是受外界刺激而引起的局部球结膜纤维血管组织的一种慢性炎症性病变，呈三角形，可侵犯角膜，单眼或双眼受累。因其形状酷似昆虫的翅膀故名为翼状胬肉，中医称为“...",
+  "link": "https://jbk.39.net/yznr/",
+  "description": "翼状胬肉(pterygium)是眼科常见病和多发病，一般认为是受外界刺激而引起的局部球结膜纤维血管组织的一种慢性炎症性病变，呈三角形，可侵犯角膜，单眼或双眼受累。因其形状酷似昆虫的翅膀故名为翼状胬肉，中医称为“胬肉攀睛”。...详细",
+  "disease_link": "https://jbk.39.net/yznr/",
+  "别名：": "胬肉攀睛",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗、手术治疗",
+  "治愈率：": "80%",
+  "治疗周期：": "1-3月",
+  "多发人群：": "户外劳动者",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约（1000 —— 3000元）",
+  "典型症状：": "眼结膜上出现瘀点\n结膜充血\n结膜乳头增生",
+  "临床检查：": "p53蛋白",
+  "并发症：": "散光\n翼状胬肉\n颅咽管瘤",
+  "常用药品：": "拨云退翳丸\n注射用盐酸平阳霉素\n拨云复光散",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "药物治疗、手术治疗",
+      "symptom_link": "https://jbk.39.net/yznr/yyzl/"
+    },
+    {
+      "symptom": "眼结膜上出现瘀点",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yjmscxyd/"
+    },
+    {
+      "symptom": "结膜充血",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "symptom": "结膜乳头增生",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "symptom": "p53蛋白",
+      "symptom_link": "https://jbk.39.net/jiancha/p53db/"
+    },
+    {
+      "symptom": "散光",
+      "symptom_link": "https://jbk.39.net/sg/"
+    },
+    {
+      "symptom": "翼状胬肉",
+      "symptom_link": "https://jbk.39.net/yznr/"
+    },
+    {
+      "symptom": "颅咽管瘤",
+      "symptom_link": "https://jbk.39.net/lygl/"
+    },
+    {
+      "symptom": "拨云退翳丸",
+      "symptom_link": "http://ypk.39.net/768430/"
+    },
+    {
+      "symptom": "注射用盐酸平阳霉素",
+      "symptom_link": "http://ypk.39.net/496706/"
+    },
+    {
+      "symptom": "拨云复光散",
+      "symptom_link": "http://ypk.39.net/825938/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "药物治疗、手术治疗",
+      "check_link": "https://jbk.39.net/yznr/yyzl/"
+    },
+    {
+      "check": "眼结膜上出现瘀点",
+      "check_link": "https://jbk.39.net/zhengzhuang/yjmscxyd/"
+    },
+    {
+      "check": "结膜充血",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "check": "结膜乳头增生",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "check": "p53蛋白",
+      "check_link": "https://jbk.39.net/jiancha/p53db/"
+    },
+    {
+      "check": "散光",
+      "check_link": "https://jbk.39.net/sg/"
+    },
+    {
+      "check": "翼状胬肉",
+      "check_link": "https://jbk.39.net/yznr/"
+    },
+    {
+      "check": "颅咽管瘤",
+      "check_link": "https://jbk.39.net/lygl/"
+    },
+    {
+      "check": "拨云退翳丸",
+      "check_link": "http://ypk.39.net/768430/"
+    },
+    {
+      "check": "注射用盐酸平阳霉素",
+      "check_link": "http://ypk.39.net/496706/"
+    },
+    {
+      "check": "拨云复光散",
+      "check_link": "http://ypk.39.net/825938/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "药物治疗、手术治疗",
+      "complication_link": "https://jbk.39.net/yznr/yyzl/"
+    },
+    {
+      "complication": "眼结膜上出现瘀点",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yjmscxyd/"
+    },
+    {
+      "complication": "结膜充血",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "complication": "结膜乳头增生",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "complication": "p53蛋白",
+      "complication_link": "https://jbk.39.net/jiancha/p53db/"
+    },
+    {
+      "complication": "散光",
+      "complication_link": "https://jbk.39.net/sg/"
+    },
+    {
+      "complication": "翼状胬肉",
+      "complication_link": "https://jbk.39.net/yznr/"
+    },
+    {
+      "complication": "颅咽管瘤",
+      "complication_link": "https://jbk.39.net/lygl/"
+    },
+    {
+      "complication": "拨云退翳丸",
+      "complication_link": "http://ypk.39.net/768430/"
+    },
+    {
+      "complication": "注射用盐酸平阳霉素",
+      "complication_link": "http://ypk.39.net/496706/"
+    },
+    {
+      "complication": "拨云复光散",
+      "complication_link": "http://ypk.39.net/825938/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "药物治疗、手术治疗",
+      "drug_link": "https://jbk.39.net/yznr/yyzl/"
+    },
+    {
+      "drug": "眼结膜上出现瘀点",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yjmscxyd/"
+    },
+    {
+      "drug": "结膜充血",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "drug": "结膜乳头增生",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "drug": "p53蛋白",
+      "drug_link": "https://jbk.39.net/jiancha/p53db/"
+    },
+    {
+      "drug": "散光",
+      "drug_link": "https://jbk.39.net/sg/"
+    },
+    {
+      "drug": "翼状胬肉",
+      "drug_link": "https://jbk.39.net/yznr/"
+    },
+    {
+      "drug": "颅咽管瘤",
+      "drug_link": "https://jbk.39.net/lygl/"
+    },
+    {
+      "drug": "拨云退翳丸",
+      "drug_link": "http://ypk.39.net/768430/"
+    },
+    {
+      "drug": "注射用盐酸平阳霉素",
+      "drug_link": "http://ypk.39.net/496706/"
+    },
+    {
+      "drug": "拨云复光散",
+      "drug_link": "http://ypk.39.net/825938/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cf4c15c52bff9c74b62"
+  },
+  "title": "新生儿眼屎多",
+  "simple_description": "新生儿眼屎多可分为生理特殊结构所致的生理性现象和眼睛感染所致的病理现象，中医认为上火也会导致眼屎多，应尽去眼科医院检查，排除眼部的感染或是器质性疾病。",
+  "link": "https://jbk.39.net/zhengzhuang/xseysd/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/xseysd/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf5c15c52bff9c74b63"
+  },
+  "title": "小眼球",
+  "simple_description": "可见于先天性小眼球(congenital microphthalmia,CMIC)，是一种先天发育异常性眼科疾病,主要表现为眼球前后径小于正常范围,睑裂窄,眼眶小,眼球深陷于眼眶内。患者视力通常较差,且难以治疗。",
+  "link": "https://jbk.39.net/zhengzhuang/xyq/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/xyq/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf6c15c52bff9c74b64"
+  },
+  "title": "眼屎多",
+  "simple_description": "眼部分泌物，也就是老百姓常说的“眼屎”，与不少眼科疾病关系密切。因此，通过对眼分泌物的观察，就可以帮助人们早期发现某些眼科疾病。这一点，对新生儿、儿童及戴隐形眼镜的人来说尤为重要。当眼睛发生某...",
+  "link": "https://jbk.39.net/zhengzhuang/ysd/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/ysd/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf6c15c52bff9c74b65"
+  },
+  "title": "检眼镜检查法",
+  "simple_description": "检眼镜检查法是用以检查眼的屈光间质(角膜、房水、晶状体及玻璃体)和眼底(视盘、视网膜及脉络膜)，是眼科的常用检查方法。",
+  "link": "https://jbk.39.net/jiancha/jyjjcf/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/jyjjcf/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf7c15c52bff9c74b66"
+  },
+  "title": "眼睑检查",
+  "simple_description": "眼睑检查是眼科检查的一种，对于那些屈光不正(双眼视力在未经矫正的情况下，或矫正不正确时，视力不正常)更应该进行这项检查。",
+  "link": "https://jbk.39.net/jiancha/yjjc1/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/yjjc1/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cf8c15c52bff9c74b67"
+  },
+  "title": "风轮湿热",
+  "simple_description": "风轮湿热证又称黑睛湿热证，为眼科常见证候之一。相当于西医的病毒性角膜炎，泡性角膜炎，角膜基质炎，霉菌性角膜溃疡，前房积脓。",
+  "link": "https://jbk.39.net/flsr/",
+  "description": "风轮湿热证又称黑睛湿热证，为眼科常见证候之一。相当于西医的病毒性角膜炎，泡性角膜炎，角膜基质炎，霉菌性角膜溃疡，前房积脓。详细",
+  "disease_link": "https://jbk.39.net/flsr/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "中医科",
+  "传染性：": "无传染性",
+  "治疗方法：": "中医药物治疗",
+  "治愈率：": "40-50%",
+  "治疗周期：": "1-3年",
+  "多发人群：": "用眼过多",
+  "治疗费用：": "市三甲医院约(5000--10000元)",
+  "典型症状：": "强硬舌\n持续低烧\n无名指半月甲呈粉红色",
+  "并发症：": "Thygeson浅层点状角膜病变\n脑囊虫病\n棘阿米巴性角膜炎",
+  "常用药品：": "保妇康栓\n妇科千金片\n消糜栓",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "中医科",
+      "symptom_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "symptom": "中医药物治疗",
+      "symptom_link": "https://jbk.39.net/flsr/yyzl/"
+    },
+    {
+      "symptom": "强硬舌",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/qys1/"
+    },
+    {
+      "symptom": "持续低烧",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/cxds/"
+    },
+    {
+      "symptom": "无名指半月甲呈粉红色",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/wmzbyjcfhs/"
+    },
+    {
+      "symptom": "Thygeson浅层点状角膜病变",
+      "symptom_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "symptom": "脑囊虫病",
+      "symptom_link": "https://jbk.39.net/nncb/"
+    },
+    {
+      "symptom": "棘阿米巴性角膜炎",
+      "symptom_link": "https://jbk.39.net/jambxjmy/"
+    },
+    {
+      "symptom": "保妇康栓",
+      "symptom_link": "http://ypk.39.net/509025/"
+    },
+    {
+      "symptom": "妇科千金片",
+      "symptom_link": "http://ypk.39.net/508601/"
+    },
+    {
+      "symptom": "消糜栓",
+      "symptom_link": "http://ypk.39.net/508999/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "中医科",
+      "check_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "check": "中医药物治疗",
+      "check_link": "https://jbk.39.net/flsr/yyzl/"
+    },
+    {
+      "check": "强硬舌",
+      "check_link": "https://jbk.39.net/zhengzhuang/qys1/"
+    },
+    {
+      "check": "持续低烧",
+      "check_link": "https://jbk.39.net/zhengzhuang/cxds/"
+    },
+    {
+      "check": "无名指半月甲呈粉红色",
+      "check_link": "https://jbk.39.net/zhengzhuang/wmzbyjcfhs/"
+    },
+    {
+      "check": "Thygeson浅层点状角膜病变",
+      "check_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "check": "脑囊虫病",
+      "check_link": "https://jbk.39.net/nncb/"
+    },
+    {
+      "check": "棘阿米巴性角膜炎",
+      "check_link": "https://jbk.39.net/jambxjmy/"
+    },
+    {
+      "check": "保妇康栓",
+      "check_link": "http://ypk.39.net/509025/"
+    },
+    {
+      "check": "妇科千金片",
+      "check_link": "http://ypk.39.net/508601/"
+    },
+    {
+      "check": "消糜栓",
+      "check_link": "http://ypk.39.net/508999/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "中医科",
+      "complication_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "complication": "中医药物治疗",
+      "complication_link": "https://jbk.39.net/flsr/yyzl/"
+    },
+    {
+      "complication": "强硬舌",
+      "complication_link": "https://jbk.39.net/zhengzhuang/qys1/"
+    },
+    {
+      "complication": "持续低烧",
+      "complication_link": "https://jbk.39.net/zhengzhuang/cxds/"
+    },
+    {
+      "complication": "无名指半月甲呈粉红色",
+      "complication_link": "https://jbk.39.net/zhengzhuang/wmzbyjcfhs/"
+    },
+    {
+      "complication": "Thygeson浅层点状角膜病变",
+      "complication_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "complication": "脑囊虫病",
+      "complication_link": "https://jbk.39.net/nncb/"
+    },
+    {
+      "complication": "棘阿米巴性角膜炎",
+      "complication_link": "https://jbk.39.net/jambxjmy/"
+    },
+    {
+      "complication": "保妇康栓",
+      "complication_link": "http://ypk.39.net/509025/"
+    },
+    {
+      "complication": "妇科千金片",
+      "complication_link": "http://ypk.39.net/508601/"
+    },
+    {
+      "complication": "消糜栓",
+      "complication_link": "http://ypk.39.net/508999/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "中医科",
+      "drug_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "drug": "中医药物治疗",
+      "drug_link": "https://jbk.39.net/flsr/yyzl/"
+    },
+    {
+      "drug": "强硬舌",
+      "drug_link": "https://jbk.39.net/zhengzhuang/qys1/"
+    },
+    {
+      "drug": "持续低烧",
+      "drug_link": "https://jbk.39.net/zhengzhuang/cxds/"
+    },
+    {
+      "drug": "无名指半月甲呈粉红色",
+      "drug_link": "https://jbk.39.net/zhengzhuang/wmzbyjcfhs/"
+    },
+    {
+      "drug": "Thygeson浅层点状角膜病变",
+      "drug_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "drug": "脑囊虫病",
+      "drug_link": "https://jbk.39.net/nncb/"
+    },
+    {
+      "drug": "棘阿米巴性角膜炎",
+      "drug_link": "https://jbk.39.net/jambxjmy/"
+    },
+    {
+      "drug": "保妇康栓",
+      "drug_link": "http://ypk.39.net/509025/"
+    },
+    {
+      "drug": "妇科千金片",
+      "drug_link": "http://ypk.39.net/508601/"
+    },
+    {
+      "drug": "消糜栓",
+      "drug_link": "http://ypk.39.net/508999/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cf8c15c52bff9c74b68"
+  },
+  "title": "畏光及流泪",
+  "simple_description": "畏光及流泪很突出，有异物感是角膜异物临床表现。异物进入瞳孔区者可以引起视力障碍。角膜异物(corneal foreign body)是指灰沫、小昆虫、金属碎块及木屑等异物意外进入眼内角膜所致的一种眼科急症。",
+  "link": "https://jbk.39.net/zhengzhuang/wgjll/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/wgjll/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cfcc15c52bff9c74b69"
+  },
+  "title": "圆翳内障",
+  "simple_description": "圆翳内障是指晶珠混浊，视力缓降，渐至失明的慢性眼病。因最终在瞳神之中出现圆形银白色或棕褐色的翳障，故《秘传眼科龙木论》称之为圆翳内障。本病多见于老年人。常两眼发病，但有先后发生或轻重程度不同之别。...",
+  "link": "https://jbk.39.net/yynz/",
+  "description": "圆翳内障是指晶珠混浊，视力缓降，渐至失明的慢性眼病。因最终在瞳神之中出现圆形银白色或棕褐色的翳障，故《秘传眼科龙木论》称之为圆翳内障。本病多见于老年人。常两眼发病，但有先后发生或轻重程度不同之别。历代眼科文献...详细",
+  "disease_link": "https://jbk.39.net/yynz/",
+  "别名：": "老年性白内障",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "中医科\n眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "外用药治疗、手术治疗",
+  "治愈率：": "85%",
+  "治疗周期：": "3-6月",
+  "多发人群：": "中老年人",
+  "治疗费用：": "市三甲医院约（5000 —— 30000元）",
+  "典型症状：": "眼前黑影\n眼胀\n视力障碍",
+  "并发症：": "化脓性眼内炎\n脉络膜脱离型视网膜脱离\n后发性白内障",
+  "常用药品：": "杞菊地黄丸(浓缩丸)\n注射用硫普罗宁\n冰珍去翳滴眼液",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "中医科",
+      "symptom_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "外用药治疗、手术治疗",
+      "symptom_link": "https://jbk.39.net/yynz/yyzl/"
+    },
+    {
+      "symptom": "眼前黑影",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yqhy/"
+    },
+    {
+      "symptom": "眼胀",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yz/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "化脓性眼内炎",
+      "symptom_link": "https://jbk.39.net/hnxyny/"
+    },
+    {
+      "symptom": "脉络膜脱离型视网膜脱离",
+      "symptom_link": "https://jbk.39.net/mlmtlxswmtl/"
+    },
+    {
+      "symptom": "后发性白内障",
+      "symptom_link": "https://jbk.39.net/hfxbnz/"
+    },
+    {
+      "symptom": "杞菊地黄丸(浓缩丸)",
+      "symptom_link": "http://ypk.39.net/769294/"
+    },
+    {
+      "symptom": "注射用硫普罗宁",
+      "symptom_link": "http://ypk.39.net/715160/"
+    },
+    {
+      "symptom": "冰珍去翳滴眼液",
+      "symptom_link": "http://ypk.39.net/764635/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "中医科",
+      "check_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "外用药治疗、手术治疗",
+      "check_link": "https://jbk.39.net/yynz/yyzl/"
+    },
+    {
+      "check": "眼前黑影",
+      "check_link": "https://jbk.39.net/zhengzhuang/yqhy/"
+    },
+    {
+      "check": "眼胀",
+      "check_link": "https://jbk.39.net/zhengzhuang/yz/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "化脓性眼内炎",
+      "check_link": "https://jbk.39.net/hnxyny/"
+    },
+    {
+      "check": "脉络膜脱离型视网膜脱离",
+      "check_link": "https://jbk.39.net/mlmtlxswmtl/"
+    },
+    {
+      "check": "后发性白内障",
+      "check_link": "https://jbk.39.net/hfxbnz/"
+    },
+    {
+      "check": "杞菊地黄丸(浓缩丸)",
+      "check_link": "http://ypk.39.net/769294/"
+    },
+    {
+      "check": "注射用硫普罗宁",
+      "check_link": "http://ypk.39.net/715160/"
+    },
+    {
+      "check": "冰珍去翳滴眼液",
+      "check_link": "http://ypk.39.net/764635/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "中医科",
+      "complication_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "外用药治疗、手术治疗",
+      "complication_link": "https://jbk.39.net/yynz/yyzl/"
+    },
+    {
+      "complication": "眼前黑影",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yqhy/"
+    },
+    {
+      "complication": "眼胀",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yz/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "化脓性眼内炎",
+      "complication_link": "https://jbk.39.net/hnxyny/"
+    },
+    {
+      "complication": "脉络膜脱离型视网膜脱离",
+      "complication_link": "https://jbk.39.net/mlmtlxswmtl/"
+    },
+    {
+      "complication": "后发性白内障",
+      "complication_link": "https://jbk.39.net/hfxbnz/"
+    },
+    {
+      "complication": "杞菊地黄丸(浓缩丸)",
+      "complication_link": "http://ypk.39.net/769294/"
+    },
+    {
+      "complication": "注射用硫普罗宁",
+      "complication_link": "http://ypk.39.net/715160/"
+    },
+    {
+      "complication": "冰珍去翳滴眼液",
+      "complication_link": "http://ypk.39.net/764635/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "中医科",
+      "drug_link": "https://jbk.39.net/bw/zhongyike/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "外用药治疗、手术治疗",
+      "drug_link": "https://jbk.39.net/yynz/yyzl/"
+    },
+    {
+      "drug": "眼前黑影",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yqhy/"
+    },
+    {
+      "drug": "眼胀",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yz/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "化脓性眼内炎",
+      "drug_link": "https://jbk.39.net/hnxyny/"
+    },
+    {
+      "drug": "脉络膜脱离型视网膜脱离",
+      "drug_link": "https://jbk.39.net/mlmtlxswmtl/"
+    },
+    {
+      "drug": "后发性白内障",
+      "drug_link": "https://jbk.39.net/hfxbnz/"
+    },
+    {
+      "drug": "杞菊地黄丸(浓缩丸)",
+      "drug_link": "http://ypk.39.net/769294/"
+    },
+    {
+      "drug": "注射用硫普罗宁",
+      "drug_link": "http://ypk.39.net/715160/"
+    },
+    {
+      "drug": "冰珍去翳滴眼液",
+      "drug_link": "http://ypk.39.net/764635/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cfcc15c52bff9c74b6a"
+  },
+  "title": "角膜染色法",
+  "simple_description": "在眼科众多检查中，角膜染色是最常用的检查角膜损害的方法之一，有助于医生准确判断角膜炎症浸润或角膜损伤程度以及指导如何用药和疗效观察等。",
+  "link": "https://jbk.39.net/jiancha/jmrsf/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/jmrsf/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cfdc15c52bff9c74b6b"
+  },
+  "title": "睫状充血",
+  "simple_description": "眼部的充血发红是眼科患者常见的体征之一。常说的红眼是一个笼统的概念，泛指眼结膜充血与睫状充血。结膜充血病变仅限于结膜疾病或有关的表浅刺激，而睫状充血则包括角膜、巩膜、前色素膜的疾病，常有一定严重性...",
+  "link": "https://jbk.39.net/zhengzhuang/jzcx/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/jzcx/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cfdc15c52bff9c74b6c"
+  },
+  "title": "中毒性白内障",
+  "simple_description": "很多物质可以使实验动物发生白内障已得到公认。在人类，局部或全身用药以及毒性物质诱发产生白内障，临床已有诸多报道，并引起人们的重视。许多药物和化学物质都可以引起白内障，与眼科临床有直接关联的中毒性白...",
+  "link": "https://jbk.39.net/zdxbnz/",
+  "description": "很多物质可以使实验动物发生白内障已得到公认。在人类，局部或全身用药以及毒性物质诱发产生白内障，临床已有诸多报道，并引起人们的重视。许多药物和化学物质都可以引起白内障，与眼科临床有直接关联的中毒性白内障(toxic catar...详细",
+  "disease_link": "https://jbk.39.net/zdxbnz/",
+  "别名：": "中毒性内障",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "中医药物治疗、西医药物治疗",
+  "治愈率：": "80%",
+  "治疗周期：": "10--30天",
+  "多发人群：": "所有人群",
+  "治疗费用：": "市三甲医院约（5000 —— 10000元）",
+  "典型症状：": "晶状体混浊\n角膜混浊\n视力障碍",
+  "临床检查：": "常规小瞳孔检查\n瞳孔检查\n角膜内皮细胞计数仪",
+  "并发症：": "骨质疏松\n青光眼",
+  "常用药品：": "苄达赖氨酸滴眼液\n妥布霉素眼膏\n谷胱甘肽",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "中医药物治疗、西医药物治疗",
+      "symptom_link": "https://jbk.39.net/zdxbnz/yyzl/"
+    },
+    {
+      "symptom": "晶状体混浊",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jzthz/"
+    },
+    {
+      "symptom": "角膜混浊",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmhz/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "常规小瞳孔检查",
+      "symptom_link": "https://jbk.39.net/jiancha/cgxtkjc/"
+    },
+    {
+      "symptom": "瞳孔检查",
+      "symptom_link": "https://jbk.39.net/jiancha/tkjc/"
+    },
+    {
+      "symptom": "角膜内皮细胞计数仪",
+      "symptom_link": "https://jbk.39.net/jiancha/jmnpxbjsy/"
+    },
+    {
+      "symptom": "骨质疏松",
+      "symptom_link": "https://jbk.39.net/gzss/"
+    },
+    {
+      "symptom": "青光眼",
+      "symptom_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "symptom": "苄达赖氨酸滴眼液",
+      "symptom_link": "http://ypk.39.net/888710/"
+    },
+    {
+      "symptom": "妥布霉素眼膏",
+      "symptom_link": "http://ypk.39.net/2001357/"
+    },
+    {
+      "symptom": "谷胱甘肽",
+      "symptom_link": "http://ypk.39.net/2005966/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "中医药物治疗、西医药物治疗",
+      "check_link": "https://jbk.39.net/zdxbnz/yyzl/"
+    },
+    {
+      "check": "晶状体混浊",
+      "check_link": "https://jbk.39.net/zhengzhuang/jzthz/"
+    },
+    {
+      "check": "角膜混浊",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmhz/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "常规小瞳孔检查",
+      "check_link": "https://jbk.39.net/jiancha/cgxtkjc/"
+    },
+    {
+      "check": "瞳孔检查",
+      "check_link": "https://jbk.39.net/jiancha/tkjc/"
+    },
+    {
+      "check": "角膜内皮细胞计数仪",
+      "check_link": "https://jbk.39.net/jiancha/jmnpxbjsy/"
+    },
+    {
+      "check": "骨质疏松",
+      "check_link": "https://jbk.39.net/gzss/"
+    },
+    {
+      "check": "青光眼",
+      "check_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "check": "苄达赖氨酸滴眼液",
+      "check_link": "http://ypk.39.net/888710/"
+    },
+    {
+      "check": "妥布霉素眼膏",
+      "check_link": "http://ypk.39.net/2001357/"
+    },
+    {
+      "check": "谷胱甘肽",
+      "check_link": "http://ypk.39.net/2005966/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "中医药物治疗、西医药物治疗",
+      "complication_link": "https://jbk.39.net/zdxbnz/yyzl/"
+    },
+    {
+      "complication": "晶状体混浊",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jzthz/"
+    },
+    {
+      "complication": "角膜混浊",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmhz/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "常规小瞳孔检查",
+      "complication_link": "https://jbk.39.net/jiancha/cgxtkjc/"
+    },
+    {
+      "complication": "瞳孔检查",
+      "complication_link": "https://jbk.39.net/jiancha/tkjc/"
+    },
+    {
+      "complication": "角膜内皮细胞计数仪",
+      "complication_link": "https://jbk.39.net/jiancha/jmnpxbjsy/"
+    },
+    {
+      "complication": "骨质疏松",
+      "complication_link": "https://jbk.39.net/gzss/"
+    },
+    {
+      "complication": "青光眼",
+      "complication_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "complication": "苄达赖氨酸滴眼液",
+      "complication_link": "http://ypk.39.net/888710/"
+    },
+    {
+      "complication": "妥布霉素眼膏",
+      "complication_link": "http://ypk.39.net/2001357/"
+    },
+    {
+      "complication": "谷胱甘肽",
+      "complication_link": "http://ypk.39.net/2005966/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "中医药物治疗、西医药物治疗",
+      "drug_link": "https://jbk.39.net/zdxbnz/yyzl/"
+    },
+    {
+      "drug": "晶状体混浊",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jzthz/"
+    },
+    {
+      "drug": "角膜混浊",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmhz/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "常规小瞳孔检查",
+      "drug_link": "https://jbk.39.net/jiancha/cgxtkjc/"
+    },
+    {
+      "drug": "瞳孔检查",
+      "drug_link": "https://jbk.39.net/jiancha/tkjc/"
+    },
+    {
+      "drug": "角膜内皮细胞计数仪",
+      "drug_link": "https://jbk.39.net/jiancha/jmnpxbjsy/"
+    },
+    {
+      "drug": "骨质疏松",
+      "drug_link": "https://jbk.39.net/gzss/"
+    },
+    {
+      "drug": "青光眼",
+      "drug_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "drug": "苄达赖氨酸滴眼液",
+      "drug_link": "http://ypk.39.net/888710/"
+    },
+    {
+      "drug": "妥布霉素眼膏",
+      "drug_link": "http://ypk.39.net/2001357/"
+    },
+    {
+      "drug": "谷胱甘肽",
+      "drug_link": "http://ypk.39.net/2005966/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cfec15c52bff9c74b6d"
+  },
+  "title": "视野计",
+  "simple_description": "视野检查是指测量视网膜斑注视点以外的视力即周边视力而言。视野计检查为了了解视野变化，为青光眼等眼科疾病提供诊断依据。包括周边和中心视野检查法。",
+  "link": "https://jbk.39.net/jiancha/syjjc/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/syjjc/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cfec15c52bff9c74b6e"
+  },
+  "title": "黑睛溃破",
+  "simple_description": "黑睛溃破是指黑睛因暴露于外，直接与外界接触，赊易受外伤外，也易受风热邪毒侵袭，还可由胞睑、两眦、白睛、瞳神等病变以及某些全身性疾病的影响而发病，故黑睛疾病发生率高.是眼科的常见病。",
+  "link": "https://jbk.39.net/zhengzhuang/hjkp/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/hjkp/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cfec15c52bff9c74b6f"
+  },
+  "title": "角膜内皮细胞计数",
+  "simple_description": "角膜内皮细胞计数仪是一种眼科医疗器械，角膜内皮显微镜通过所拍摄的照片可以观察角膜内皮细胞的大小、形状、细胞密度和细胞的转变过程，对内皮细胞的形态改变可以做深入的了解。",
+  "link": "https://jbk.39.net/jiancha/jmnpxbjsy/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/jmnpxbjsy/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76cffc15c52bff9c74b70"
+  },
+  "title": "角膜病变",
+  "simple_description": "角膜病变是眼科中比较常见的，常见的有大泡性角膜病变与带状角膜病变，由于角膜病变会引起角膜的透明性，因此会对视力产生影响，甚至会引起失明，因此大家一定不要忽略了常见的角膜病变的现象，不要自行在家治疗...",
+  "link": "https://jbk.39.net/jmbb/",
+  "description": "角膜病变是眼科中比较常见的，常见的有大泡性角膜病变与带状角膜病变，由于角膜病变会引起角膜的透明性，因此会对视力产生影响，甚至会引起失明，因此大家一定不要忽略了常见的角膜病变的现象，不要自行在家治疗，以免贻误病...详细",
+  "disease_link": "https://jbk.39.net/jmbb/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "多发人群：": "所有人群",
+  "典型症状：": "雾视\n疼痛\n流泪",
+  "临床检查：": "小儿角膜检查法\n角膜映光法\n角膜检查",
+  "并发症：": "Thygeson浅层点状角膜病变\n带状角膜病变\n梅毒性角膜病变",
+  "常用药品：": "重组牛碱性成纤维细胞生子因子滴眼液\n重组牛碱性成纤维细胞生长因子眼用凝胶\n恩替卡韦分散片",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "雾视",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ws/"
+    },
+    {
+      "symptom": "疼痛",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/tt1/"
+    },
+    {
+      "symptom": "流泪",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "symptom": "小儿角膜检查法",
+      "symptom_link": "https://jbk.39.net/jiancha/xejmjcf/"
+    },
+    {
+      "symptom": "角膜映光法",
+      "symptom_link": "https://jbk.39.net/jiancha/jmygf/"
+    },
+    {
+      "symptom": "角膜检查",
+      "symptom_link": "https://jbk.39.net/jiancha/jmjc/"
+    },
+    {
+      "symptom": "Thygeson浅层点状角膜病变",
+      "symptom_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "symptom": "带状角膜病变",
+      "symptom_link": "https://jbk.39.net/dzjmbb/"
+    },
+    {
+      "symptom": "梅毒性角膜病变",
+      "symptom_link": "https://jbk.39.net/mdxjmbb/"
+    },
+    {
+      "symptom": "重组牛碱性成纤维细胞生子因子滴眼液",
+      "symptom_link": "http://ypk.39.net/499123/"
+    },
+    {
+      "symptom": "重组牛碱性成纤维细胞生长因子眼用凝胶",
+      "symptom_link": "http://ypk.39.net/766424/"
+    },
+    {
+      "symptom": "恩替卡韦分散片",
+      "symptom_link": "http://ypk.39.net/2302861/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "雾视",
+      "check_link": "https://jbk.39.net/zhengzhuang/ws/"
+    },
+    {
+      "check": "疼痛",
+      "check_link": "https://jbk.39.net/zhengzhuang/tt1/"
+    },
+    {
+      "check": "流泪",
+      "check_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "check": "小儿角膜检查法",
+      "check_link": "https://jbk.39.net/jiancha/xejmjcf/"
+    },
+    {
+      "check": "角膜映光法",
+      "check_link": "https://jbk.39.net/jiancha/jmygf/"
+    },
+    {
+      "check": "角膜检查",
+      "check_link": "https://jbk.39.net/jiancha/jmjc/"
+    },
+    {
+      "check": "Thygeson浅层点状角膜病变",
+      "check_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "check": "带状角膜病变",
+      "check_link": "https://jbk.39.net/dzjmbb/"
+    },
+    {
+      "check": "梅毒性角膜病变",
+      "check_link": "https://jbk.39.net/mdxjmbb/"
+    },
+    {
+      "check": "重组牛碱性成纤维细胞生子因子滴眼液",
+      "check_link": "http://ypk.39.net/499123/"
+    },
+    {
+      "check": "重组牛碱性成纤维细胞生长因子眼用凝胶",
+      "check_link": "http://ypk.39.net/766424/"
+    },
+    {
+      "check": "恩替卡韦分散片",
+      "check_link": "http://ypk.39.net/2302861/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "雾视",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ws/"
+    },
+    {
+      "complication": "疼痛",
+      "complication_link": "https://jbk.39.net/zhengzhuang/tt1/"
+    },
+    {
+      "complication": "流泪",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "complication": "小儿角膜检查法",
+      "complication_link": "https://jbk.39.net/jiancha/xejmjcf/"
+    },
+    {
+      "complication": "角膜映光法",
+      "complication_link": "https://jbk.39.net/jiancha/jmygf/"
+    },
+    {
+      "complication": "角膜检查",
+      "complication_link": "https://jbk.39.net/jiancha/jmjc/"
+    },
+    {
+      "complication": "Thygeson浅层点状角膜病变",
+      "complication_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "complication": "带状角膜病变",
+      "complication_link": "https://jbk.39.net/dzjmbb/"
+    },
+    {
+      "complication": "梅毒性角膜病变",
+      "complication_link": "https://jbk.39.net/mdxjmbb/"
+    },
+    {
+      "complication": "重组牛碱性成纤维细胞生子因子滴眼液",
+      "complication_link": "http://ypk.39.net/499123/"
+    },
+    {
+      "complication": "重组牛碱性成纤维细胞生长因子眼用凝胶",
+      "complication_link": "http://ypk.39.net/766424/"
+    },
+    {
+      "complication": "恩替卡韦分散片",
+      "complication_link": "http://ypk.39.net/2302861/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "雾视",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ws/"
+    },
+    {
+      "drug": "疼痛",
+      "drug_link": "https://jbk.39.net/zhengzhuang/tt1/"
+    },
+    {
+      "drug": "流泪",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "drug": "小儿角膜检查法",
+      "drug_link": "https://jbk.39.net/jiancha/xejmjcf/"
+    },
+    {
+      "drug": "角膜映光法",
+      "drug_link": "https://jbk.39.net/jiancha/jmygf/"
+    },
+    {
+      "drug": "角膜检查",
+      "drug_link": "https://jbk.39.net/jiancha/jmjc/"
+    },
+    {
+      "drug": "Thygeson浅层点状角膜病变",
+      "drug_link": "https://jbk.39.net/thygesonqcdzjmbb/"
+    },
+    {
+      "drug": "带状角膜病变",
+      "drug_link": "https://jbk.39.net/dzjmbb/"
+    },
+    {
+      "drug": "梅毒性角膜病变",
+      "drug_link": "https://jbk.39.net/mdxjmbb/"
+    },
+    {
+      "drug": "重组牛碱性成纤维细胞生子因子滴眼液",
+      "drug_link": "http://ypk.39.net/499123/"
+    },
+    {
+      "drug": "重组牛碱性成纤维细胞生长因子眼用凝胶",
+      "drug_link": "http://ypk.39.net/766424/"
+    },
+    {
+      "drug": "恩替卡韦分散片",
+      "drug_link": "http://ypk.39.net/2302861/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76cffc15c52bff9c74b71"
+  },
+  "title": "结膜炎",
+  "simple_description": "结膜炎(conjunctivitis)是眼科的常见病，但是其发病率目前尚未确定。由于大部分结膜与外界直接接触，因此容易受到周围环境中感染性(如细菌、病毒、及衣原体等)和非感染性因素(外伤、化学物质及物理因素等)的刺激，而且...",
+  "link": "https://jbk.39.net/jmy3/",
+  "description": "结膜炎(conjunctivitis)是眼科的常见病，但是其发病率目前尚未确定。由于大部分结膜与外界直接接触，因此容易受到周围环境中感染性(如细菌、病毒、及衣原体等)和非感染性因素(外伤、化学物质及物理因素等)的刺激，而且结膜的血管和...详细",
+  "disease_link": "https://jbk.39.net/jmy3/",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "局部治疗、全身治疗",
+  "治愈率：": "70%",
+  "治疗周期：": "20-30天",
+  "多发人群：": "所有人群,青少年占多数",
+  "治疗费用：": "市三甲医院约（500-1000元）",
+  "典型症状：": "眼睑异物\n结膜乳头增生\n结膜充血",
+  "临床检查：": "氧化酶试验\n泪液分泌型免疫球蛋白A\n眼标本的细菌学检查",
+  "并发症：": "春季卡他性结膜炎\n流行性角结膜炎\n包涵体性结膜炎",
+  "常用药品：": "依诺沙星滴眼液\n氯霉素滴眼液\n珍珠明目滴眼液",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "局部治疗、全身治疗",
+      "symptom_link": "https://jbk.39.net/jmy3/yyzl/"
+    },
+    {
+      "symptom": "眼睑异物",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yjyw/"
+    },
+    {
+      "symptom": "结膜乳头增生",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "symptom": "结膜充血",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "symptom": "氧化酶试验",
+      "symptom_link": "https://jbk.39.net/jiancha/yhmsy/"
+    },
+    {
+      "symptom": "泪液分泌型免疫球蛋白A",
+      "symptom_link": "https://jbk.39.net/jiancha/lyfmxmyqdba/"
+    },
+    {
+      "symptom": "眼标本的细菌学检查",
+      "symptom_link": "https://jbk.39.net/jiancha/ybbdxjxjc/"
+    },
+    {
+      "symptom": "春季卡他性结膜炎",
+      "symptom_link": "https://jbk.39.net/cjktxjmy/"
+    },
+    {
+      "symptom": "流行性角结膜炎",
+      "symptom_link": "https://jbk.39.net/lhxjjmy/"
+    },
+    {
+      "symptom": "包涵体性结膜炎",
+      "symptom_link": "https://jbk.39.net/bhtxjmy/"
+    },
+    {
+      "symptom": "依诺沙星滴眼液",
+      "symptom_link": "http://ypk.39.net/884621/"
+    },
+    {
+      "symptom": "氯霉素滴眼液",
+      "symptom_link": "http://ypk.39.net/709868/"
+    },
+    {
+      "symptom": "珍珠明目滴眼液",
+      "symptom_link": "http://ypk.39.net/510153/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "局部治疗、全身治疗",
+      "check_link": "https://jbk.39.net/jmy3/yyzl/"
+    },
+    {
+      "check": "眼睑异物",
+      "check_link": "https://jbk.39.net/zhengzhuang/yjyw/"
+    },
+    {
+      "check": "结膜乳头增生",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "check": "结膜充血",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "check": "氧化酶试验",
+      "check_link": "https://jbk.39.net/jiancha/yhmsy/"
+    },
+    {
+      "check": "泪液分泌型免疫球蛋白A",
+      "check_link": "https://jbk.39.net/jiancha/lyfmxmyqdba/"
+    },
+    {
+      "check": "眼标本的细菌学检查",
+      "check_link": "https://jbk.39.net/jiancha/ybbdxjxjc/"
+    },
+    {
+      "check": "春季卡他性结膜炎",
+      "check_link": "https://jbk.39.net/cjktxjmy/"
+    },
+    {
+      "check": "流行性角结膜炎",
+      "check_link": "https://jbk.39.net/lhxjjmy/"
+    },
+    {
+      "check": "包涵体性结膜炎",
+      "check_link": "https://jbk.39.net/bhtxjmy/"
+    },
+    {
+      "check": "依诺沙星滴眼液",
+      "check_link": "http://ypk.39.net/884621/"
+    },
+    {
+      "check": "氯霉素滴眼液",
+      "check_link": "http://ypk.39.net/709868/"
+    },
+    {
+      "check": "珍珠明目滴眼液",
+      "check_link": "http://ypk.39.net/510153/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "局部治疗、全身治疗",
+      "complication_link": "https://jbk.39.net/jmy3/yyzl/"
+    },
+    {
+      "complication": "眼睑异物",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yjyw/"
+    },
+    {
+      "complication": "结膜乳头增生",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "complication": "结膜充血",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "complication": "氧化酶试验",
+      "complication_link": "https://jbk.39.net/jiancha/yhmsy/"
+    },
+    {
+      "complication": "泪液分泌型免疫球蛋白A",
+      "complication_link": "https://jbk.39.net/jiancha/lyfmxmyqdba/"
+    },
+    {
+      "complication": "眼标本的细菌学检查",
+      "complication_link": "https://jbk.39.net/jiancha/ybbdxjxjc/"
+    },
+    {
+      "complication": "春季卡他性结膜炎",
+      "complication_link": "https://jbk.39.net/cjktxjmy/"
+    },
+    {
+      "complication": "流行性角结膜炎",
+      "complication_link": "https://jbk.39.net/lhxjjmy/"
+    },
+    {
+      "complication": "包涵体性结膜炎",
+      "complication_link": "https://jbk.39.net/bhtxjmy/"
+    },
+    {
+      "complication": "依诺沙星滴眼液",
+      "complication_link": "http://ypk.39.net/884621/"
+    },
+    {
+      "complication": "氯霉素滴眼液",
+      "complication_link": "http://ypk.39.net/709868/"
+    },
+    {
+      "complication": "珍珠明目滴眼液",
+      "complication_link": "http://ypk.39.net/510153/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "局部治疗、全身治疗",
+      "drug_link": "https://jbk.39.net/jmy3/yyzl/"
+    },
+    {
+      "drug": "眼睑异物",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yjyw/"
+    },
+    {
+      "drug": "结膜乳头增生",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmrtzs/"
+    },
+    {
+      "drug": "结膜充血",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmcx/"
+    },
+    {
+      "drug": "氧化酶试验",
+      "drug_link": "https://jbk.39.net/jiancha/yhmsy/"
+    },
+    {
+      "drug": "泪液分泌型免疫球蛋白A",
+      "drug_link": "https://jbk.39.net/jiancha/lyfmxmyqdba/"
+    },
+    {
+      "drug": "眼标本的细菌学检查",
+      "drug_link": "https://jbk.39.net/jiancha/ybbdxjxjc/"
+    },
+    {
+      "drug": "春季卡他性结膜炎",
+      "drug_link": "https://jbk.39.net/cjktxjmy/"
+    },
+    {
+      "drug": "流行性角结膜炎",
+      "drug_link": "https://jbk.39.net/lhxjjmy/"
+    },
+    {
+      "drug": "包涵体性结膜炎",
+      "drug_link": "https://jbk.39.net/bhtxjmy/"
+    },
+    {
+      "drug": "依诺沙星滴眼液",
+      "drug_link": "http://ypk.39.net/884621/"
+    },
+    {
+      "drug": "氯霉素滴眼液",
+      "drug_link": "http://ypk.39.net/709868/"
+    },
+    {
+      "drug": "珍珠明目滴眼液",
+      "drug_link": "http://ypk.39.net/510153/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d00c15c52bff9c74b72"
+  },
+  "title": "眼疲劳",
+  "simple_description": "眼疲劳是一种眼科常见病，它所引起的眼干、眼涩、眼酸胀，视物模糊甚至视力下降直接影响着人的工作与生活。眼疲劳主要是由于人们平时全神贯注看电脑屏幕时，眼睛眨眼次数减少，造成眼泪分泌相应减少，同时闪烁荧...",
+  "link": "https://jbk.39.net/zhengzhuang/ypl/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/ypl/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d00c15c52bff9c74b73"
+  },
+  "title": "垂体卒中",
+  "simple_description": "垂体卒中(pituitary apoplexy)一词在文献中的含义是相当混乱的。有些学者认为，只要垂体内出现梗死或出血坏死，不论临床上是否有症状，都应归入垂体卒中;另一些学者则主张，只有在垂体腺瘤的基础上发生急性梗死或出血坏...",
+  "link": "https://jbk.39.net/ctzz/",
+  "description": "垂体卒中(pituitary apoplexy)一词在文献中的含义是相当混乱的。有些学者认为，只要垂体内出现梗死或出血坏死，不论临床上是否有症状，都应归入垂体卒中;另一些学者则主张，只有在垂体腺瘤的基础上发生急性梗死或出血坏死，产生垂体...详细",
+  "disease_link": "https://jbk.39.net/ctzz/",
+  "是否医保：": "是",
+  "发病部位：": "颅脑",
+  "挂号科室：": "脑外科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗、手术治疗、放疗",
+  "治愈率：": "75%",
+  "治疗周期：": "4-8月",
+  "多发人群：": "所有人群",
+  "治疗费用：": "市三甲医院约(20000--50000元)",
+  "典型症状：": "昏迷\n视野缺损\n恶心",
+  "临床检查：": "MRI\n头颅平片\n白细胞分类计数",
+  "并发症：": "尿崩症",
+  "常用药品：": "血塞通片\n司美格鲁肽注射液\n司美格鲁肽注射液",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "颅脑",
+      "symptom_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "symptom": "脑外科",
+      "symptom_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "symptom": "药物治疗、手术治疗、放疗",
+      "symptom_link": "https://jbk.39.net/ctzz/yyzl/"
+    },
+    {
+      "symptom": "昏迷",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/hm/"
+    },
+    {
+      "symptom": "视野缺损",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/syqs/"
+    },
+    {
+      "symptom": "恶心",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ex/"
+    },
+    {
+      "symptom": "MRI",
+      "symptom_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "symptom": "头颅平片",
+      "symptom_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "symptom": "白细胞分类计数",
+      "symptom_link": "https://jbk.39.net/jiancha/bxbfljs/"
+    },
+    {
+      "symptom": "尿崩症",
+      "symptom_link": "https://jbk.39.net/nbz/"
+    },
+    {
+      "symptom": "血塞通片",
+      "symptom_link": "http://ypk.39.net/827007/"
+    },
+    {
+      "symptom": "司美格鲁肽注射液",
+      "symptom_link": "http://ypk.39.net/2310025/"
+    },
+    {
+      "symptom": "司美格鲁肽注射液",
+      "symptom_link": "http://ypk.39.net/2310026/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "颅脑",
+      "check_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "check": "脑外科",
+      "check_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "check": "药物治疗、手术治疗、放疗",
+      "check_link": "https://jbk.39.net/ctzz/yyzl/"
+    },
+    {
+      "check": "昏迷",
+      "check_link": "https://jbk.39.net/zhengzhuang/hm/"
+    },
+    {
+      "check": "视野缺损",
+      "check_link": "https://jbk.39.net/zhengzhuang/syqs/"
+    },
+    {
+      "check": "恶心",
+      "check_link": "https://jbk.39.net/zhengzhuang/ex/"
+    },
+    {
+      "check": "MRI",
+      "check_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "check": "头颅平片",
+      "check_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "check": "白细胞分类计数",
+      "check_link": "https://jbk.39.net/jiancha/bxbfljs/"
+    },
+    {
+      "check": "尿崩症",
+      "check_link": "https://jbk.39.net/nbz/"
+    },
+    {
+      "check": "血塞通片",
+      "check_link": "http://ypk.39.net/827007/"
+    },
+    {
+      "check": "司美格鲁肽注射液",
+      "check_link": "http://ypk.39.net/2310025/"
+    },
+    {
+      "check": "司美格鲁肽注射液",
+      "check_link": "http://ypk.39.net/2310026/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "颅脑",
+      "complication_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "complication": "脑外科",
+      "complication_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "complication": "药物治疗、手术治疗、放疗",
+      "complication_link": "https://jbk.39.net/ctzz/yyzl/"
+    },
+    {
+      "complication": "昏迷",
+      "complication_link": "https://jbk.39.net/zhengzhuang/hm/"
+    },
+    {
+      "complication": "视野缺损",
+      "complication_link": "https://jbk.39.net/zhengzhuang/syqs/"
+    },
+    {
+      "complication": "恶心",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ex/"
+    },
+    {
+      "complication": "MRI",
+      "complication_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "complication": "头颅平片",
+      "complication_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "complication": "白细胞分类计数",
+      "complication_link": "https://jbk.39.net/jiancha/bxbfljs/"
+    },
+    {
+      "complication": "尿崩症",
+      "complication_link": "https://jbk.39.net/nbz/"
+    },
+    {
+      "complication": "血塞通片",
+      "complication_link": "http://ypk.39.net/827007/"
+    },
+    {
+      "complication": "司美格鲁肽注射液",
+      "complication_link": "http://ypk.39.net/2310025/"
+    },
+    {
+      "complication": "司美格鲁肽注射液",
+      "complication_link": "http://ypk.39.net/2310026/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "颅脑",
+      "drug_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "drug": "脑外科",
+      "drug_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "drug": "药物治疗、手术治疗、放疗",
+      "drug_link": "https://jbk.39.net/ctzz/yyzl/"
+    },
+    {
+      "drug": "昏迷",
+      "drug_link": "https://jbk.39.net/zhengzhuang/hm/"
+    },
+    {
+      "drug": "视野缺损",
+      "drug_link": "https://jbk.39.net/zhengzhuang/syqs/"
+    },
+    {
+      "drug": "恶心",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ex/"
+    },
+    {
+      "drug": "MRI",
+      "drug_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "drug": "头颅平片",
+      "drug_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "drug": "白细胞分类计数",
+      "drug_link": "https://jbk.39.net/jiancha/bxbfljs/"
+    },
+    {
+      "drug": "尿崩症",
+      "drug_link": "https://jbk.39.net/nbz/"
+    },
+    {
+      "drug": "血塞通片",
+      "drug_link": "http://ypk.39.net/827007/"
+    },
+    {
+      "drug": "司美格鲁肽注射液",
+      "drug_link": "http://ypk.39.net/2310025/"
+    },
+    {
+      "drug": "司美格鲁肽注射液",
+      "drug_link": "http://ypk.39.net/2310026/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d01c15c52bff9c74b74"
+  },
+  "title": "健康体检",
+  "simple_description": "常规体检是为掌握自身健康状况而进行的定期健康检查。包括一般形态、内科、外科、眼科、耳鼻喉科、口腔科、妇科放射科、检验科、辅诊科等的检查，可以反应现阶段的身体健康状况，可以预防和及时治疗。",
+  "link": "https://jbk.39.net/jiancha/cgtj/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/cgtj/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d01c15c52bff9c74b75"
+  },
+  "title": "眼白发红",
+  "simple_description": "眼白发红 通常是由细菌、病毒感染发炎引起的充血现象。倘若同时还伴有分泌物、异物感、发痒及眼痛等症状，应去医院眼科诊治一下，问题可能更复杂一些。另外，血压高的人发生脑溢血之前、羊角风病发作之前和严重...",
+  "link": "https://jbk.39.net/zhengzhuang/ybfh1/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/ybfh1/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d01c15c52bff9c74b76"
+  },
+  "title": "乌珠生翳如葱白",
+  "simple_description": "乌珠生翳如葱白同水霞翳障，病名。清·佚名《眼科捷径》：“此眼初患之时，因肝脏壅热，肝受毒风，时常发歇不定，致令乌珠生翳如葱白，淡淡如水霞之状。”治宜清肝泻热，可选用龙胆泻肝汤加减。参见冰瑕翳深外障",
+  "link": "https://jbk.39.net/zhengzhuang/wzsyrcb/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/wzsyrcb/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d01c15c52bff9c74b77"
+  },
+  "title": "前房深度",
+  "simple_description": "前房深度测量在眼科临床上是很重要的。闭角型青光眼发病的解剖学基础是前房浅、房角窄、晶状体不成比例的增大。故前房中轴深度的测量在闭角型青光眼的早期诊断、病程演变的估计上都是非常重要的。",
+  "link": "https://jbk.39.net/jiancha/qfsdcl/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/qfsdcl/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d04c15c52bff9c74b78"
+  },
+  "title": "眼球摘除术",
+  "simple_description": "眼球摘除手术是眼科手术的一种。眼球摘除术是一项破坏性手术，其目的是解除无视力眼的疼痛、防止恶性肿瘤扩散和改善容貌。由于术后为终身残愈，术前必须明确诊断，并经病人及家属签名同意手术，办理合法术前手续...",
+  "link": "https://jbk.39.net/shoushu/yqzcs/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/shoushu/yqzcs/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d05c15c52bff9c74b79"
+  },
+  "title": "眼底病",
+  "simple_description": "眼球前面的角膜、虹膜、晶体等被眼科界定义为眼前节，后面的玻璃体、视网膜、脉络膜等定义为眼后节。在眼后节的底部都称之为眼底。眼底由视网膜、眼底血管、视神经乳头、视神经纤维、视网膜上的黄斑部，以及视网膜后...",
+  "link": "https://jbk.39.net/ydb/",
+  "description": "眼球前面的角膜、虹膜、晶体等被眼科界定义为眼前节，后面的玻璃体、视网膜、脉络膜等定义为眼后节。在眼后节的底部都称之为眼底。眼底由视网膜、眼底血管、视神经乳头、视神经纤维、视网膜上的黄斑部，以及视网膜后的脉络膜等构...详细",
+  "disease_link": "https://jbk.39.net/ydb/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗、手术治疗",
+  "治愈率：": "50--70%",
+  "治疗周期：": "14--30天",
+  "多发人群：": "所有人群",
+  "治疗费用：": "市三甲医院约（10000-30000元）",
+  "典型症状：": "视网膜出血\n视网膜水肿\n视力常呈雾状模糊感",
+  "临床检查：": "中年男性体检",
+  "常用药品：": "胰激肽原酶肠溶片\n胰激肽原酶肠溶片\n胰激肽原酶肠溶片",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "药物治疗、手术治疗",
+      "symptom_link": "https://jbk.39.net/ydb/yyzl/"
+    },
+    {
+      "symptom": "视网膜出血",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/swmcx/"
+    },
+    {
+      "symptom": "视网膜水肿",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/swmsz/"
+    },
+    {
+      "symptom": "视力常呈雾状模糊感",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slccwzmhg/"
+    },
+    {
+      "symptom": "中年男性体检",
+      "symptom_link": "https://jbk.39.net/jiancha/znnxtj/"
+    },
+    {
+      "symptom": "胰激肽原酶肠溶片",
+      "symptom_link": "http://ypk.39.net/585706/"
+    },
+    {
+      "symptom": "胰激肽原酶肠溶片",
+      "symptom_link": "http://ypk.39.net/508398/"
+    },
+    {
+      "symptom": "胰激肽原酶肠溶片",
+      "symptom_link": "http://ypk.39.net/764196/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "药物治疗、手术治疗",
+      "check_link": "https://jbk.39.net/ydb/yyzl/"
+    },
+    {
+      "check": "视网膜出血",
+      "check_link": "https://jbk.39.net/zhengzhuang/swmcx/"
+    },
+    {
+      "check": "视网膜水肿",
+      "check_link": "https://jbk.39.net/zhengzhuang/swmsz/"
+    },
+    {
+      "check": "视力常呈雾状模糊感",
+      "check_link": "https://jbk.39.net/zhengzhuang/slccwzmhg/"
+    },
+    {
+      "check": "中年男性体检",
+      "check_link": "https://jbk.39.net/jiancha/znnxtj/"
+    },
+    {
+      "check": "胰激肽原酶肠溶片",
+      "check_link": "http://ypk.39.net/585706/"
+    },
+    {
+      "check": "胰激肽原酶肠溶片",
+      "check_link": "http://ypk.39.net/508398/"
+    },
+    {
+      "check": "胰激肽原酶肠溶片",
+      "check_link": "http://ypk.39.net/764196/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "药物治疗、手术治疗",
+      "complication_link": "https://jbk.39.net/ydb/yyzl/"
+    },
+    {
+      "complication": "视网膜出血",
+      "complication_link": "https://jbk.39.net/zhengzhuang/swmcx/"
+    },
+    {
+      "complication": "视网膜水肿",
+      "complication_link": "https://jbk.39.net/zhengzhuang/swmsz/"
+    },
+    {
+      "complication": "视力常呈雾状模糊感",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slccwzmhg/"
+    },
+    {
+      "complication": "中年男性体检",
+      "complication_link": "https://jbk.39.net/jiancha/znnxtj/"
+    },
+    {
+      "complication": "胰激肽原酶肠溶片",
+      "complication_link": "http://ypk.39.net/585706/"
+    },
+    {
+      "complication": "胰激肽原酶肠溶片",
+      "complication_link": "http://ypk.39.net/508398/"
+    },
+    {
+      "complication": "胰激肽原酶肠溶片",
+      "complication_link": "http://ypk.39.net/764196/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "药物治疗、手术治疗",
+      "drug_link": "https://jbk.39.net/ydb/yyzl/"
+    },
+    {
+      "drug": "视网膜出血",
+      "drug_link": "https://jbk.39.net/zhengzhuang/swmcx/"
+    },
+    {
+      "drug": "视网膜水肿",
+      "drug_link": "https://jbk.39.net/zhengzhuang/swmsz/"
+    },
+    {
+      "drug": "视力常呈雾状模糊感",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slccwzmhg/"
+    },
+    {
+      "drug": "中年男性体检",
+      "drug_link": "https://jbk.39.net/jiancha/znnxtj/"
+    },
+    {
+      "drug": "胰激肽原酶肠溶片",
+      "drug_link": "http://ypk.39.net/585706/"
+    },
+    {
+      "drug": "胰激肽原酶肠溶片",
+      "drug_link": "http://ypk.39.net/508398/"
+    },
+    {
+      "drug": "胰激肽原酶肠溶片",
+      "drug_link": "http://ypk.39.net/764196/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d05c15c52bff9c74b7a"
+  },
+  "title": "角膜表面三角形胬...",
+  "simple_description": "睑裂部球结膜充血肥厚，逐渐向角膜表面伸展，形成一三角形带有血管组织的胬肉，状似昆虫的翅膀，故名翼状胬肉。多发生于鼻侧，颞侧者较少，伸向角膜时，可侵及前弹力层及浅层基质。角膜表面三角形胬肉是翼状胬肉...",
+  "link": "https://jbk.39.net/zhengzhuang/jmbmsjxnr/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/jmbmsjxnr/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d05c15c52bff9c74b7b"
+  },
+  "title": "眼球破裂伤",
+  "simple_description": "眼球破裂伤(眼科)是眼球受暴力作用所引起眼球壁组织破裂的一种严重眼外伤。眼球破裂，透明的屈光介质、感光的视网膜，都将受到影响，可能发生严重的视力减退。同时常发生眼内出血，而影响视力。受伤后，可发生交...",
+  "link": "https://jbk.39.net/yqpls/",
+  "description": "眼球破裂伤(眼科)是眼球受暴力作用所引起眼球壁组织破裂的一种严重眼外伤。眼球破裂，透明的屈光介质、感光的视网膜，都将受到影响，可能发生严重的视力减退。同时常发生眼内出血，而影响视力。受伤后，可发生交感性眼炎，有...详细",
+  "disease_link": "https://jbk.39.net/yqpls/",
+  "别名：": "眼球破裂",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "外伤科\n眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "手术清创，缝合伤口",
+  "治愈率：": "40%",
+  "治疗周期：": "2-4周",
+  "多发人群：": "外伤、中青年 车祸等斗殴事...",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约（10000 —— 20000元）",
+  "典型症状：": "视力障碍\n眼球挫伤\n眼底出血和渗出",
+  "临床检查：": "眼及眶区CT\n眼底荧光血管造影\n眼球和眼眶的超声检查",
+  "并发症：": "交感性眼炎",
+  "常用药品：": "地塞米松\n地塞米松\n眼科用重水",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "外伤科",
+      "symptom_link": "https://jbk.39.net/bw/waishangke/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "手术清创，缝合伤口",
+      "symptom_link": "https://jbk.39.net/yqpls/yyzl/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "眼球挫伤",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yqcs/"
+    },
+    {
+      "symptom": "眼底出血和渗出",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ydcxhsc/"
+    },
+    {
+      "symptom": "眼及眶区CT",
+      "symptom_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "symptom": "眼底荧光血管造影",
+      "symptom_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "symptom": "眼球和眼眶的超声检查",
+      "symptom_link": "https://jbk.39.net/jiancha/yqhykdcsjc/"
+    },
+    {
+      "symptom": "交感性眼炎",
+      "symptom_link": "https://jbk.39.net/jgxyy/"
+    },
+    {
+      "symptom": "地塞米松",
+      "symptom_link": "http://ypk.39.net/2002034/"
+    },
+    {
+      "symptom": "地塞米松",
+      "symptom_link": "http://ypk.39.net/737448/"
+    },
+    {
+      "symptom": "眼科用重水",
+      "symptom_link": "http://ypk.39.net/2190253/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "外伤科",
+      "check_link": "https://jbk.39.net/bw/waishangke/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "手术清创，缝合伤口",
+      "check_link": "https://jbk.39.net/yqpls/yyzl/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "眼球挫伤",
+      "check_link": "https://jbk.39.net/zhengzhuang/yqcs/"
+    },
+    {
+      "check": "眼底出血和渗出",
+      "check_link": "https://jbk.39.net/zhengzhuang/ydcxhsc/"
+    },
+    {
+      "check": "眼及眶区CT",
+      "check_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "check": "眼底荧光血管造影",
+      "check_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "check": "眼球和眼眶的超声检查",
+      "check_link": "https://jbk.39.net/jiancha/yqhykdcsjc/"
+    },
+    {
+      "check": "交感性眼炎",
+      "check_link": "https://jbk.39.net/jgxyy/"
+    },
+    {
+      "check": "地塞米松",
+      "check_link": "http://ypk.39.net/2002034/"
+    },
+    {
+      "check": "地塞米松",
+      "check_link": "http://ypk.39.net/737448/"
+    },
+    {
+      "check": "眼科用重水",
+      "check_link": "http://ypk.39.net/2190253/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "外伤科",
+      "complication_link": "https://jbk.39.net/bw/waishangke/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "手术清创，缝合伤口",
+      "complication_link": "https://jbk.39.net/yqpls/yyzl/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "眼球挫伤",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yqcs/"
+    },
+    {
+      "complication": "眼底出血和渗出",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ydcxhsc/"
+    },
+    {
+      "complication": "眼及眶区CT",
+      "complication_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "complication": "眼底荧光血管造影",
+      "complication_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "complication": "眼球和眼眶的超声检查",
+      "complication_link": "https://jbk.39.net/jiancha/yqhykdcsjc/"
+    },
+    {
+      "complication": "交感性眼炎",
+      "complication_link": "https://jbk.39.net/jgxyy/"
+    },
+    {
+      "complication": "地塞米松",
+      "complication_link": "http://ypk.39.net/2002034/"
+    },
+    {
+      "complication": "地塞米松",
+      "complication_link": "http://ypk.39.net/737448/"
+    },
+    {
+      "complication": "眼科用重水",
+      "complication_link": "http://ypk.39.net/2190253/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "外伤科",
+      "drug_link": "https://jbk.39.net/bw/waishangke/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "手术清创，缝合伤口",
+      "drug_link": "https://jbk.39.net/yqpls/yyzl/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "眼球挫伤",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yqcs/"
+    },
+    {
+      "drug": "眼底出血和渗出",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ydcxhsc/"
+    },
+    {
+      "drug": "眼及眶区CT",
+      "drug_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "drug": "眼底荧光血管造影",
+      "drug_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "drug": "眼球和眼眶的超声检查",
+      "drug_link": "https://jbk.39.net/jiancha/yqhykdcsjc/"
+    },
+    {
+      "drug": "交感性眼炎",
+      "drug_link": "https://jbk.39.net/jgxyy/"
+    },
+    {
+      "drug": "地塞米松",
+      "drug_link": "http://ypk.39.net/2002034/"
+    },
+    {
+      "drug": "地塞米松",
+      "drug_link": "http://ypk.39.net/737448/"
+    },
+    {
+      "drug": "眼科用重水",
+      "drug_link": "http://ypk.39.net/2190253/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d05c15c52bff9c74b7c"
+  },
+  "title": "花翳白陷",
+  "simple_description": "花翳白陷是以黑睛生翳，灰白混浊，四周高起，中间低陷，形如花办为主要特征的眼病。病名见于《秘传眼科龙木论》。多因风热毒邪引起。其病情严重者，可伴瞳神紧小，若黑睛溃破，黄仁自溃口突出，则变生蟹睛等恶候...",
+  "link": "https://jbk.39.net/zhengzhuang/hybx/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/hybx/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d05c15c52bff9c74b7d"
+  },
+  "title": "飞行员体格检查",
+  "simple_description": "飞行员体格检查是为选拔体格合格的飞行员，由专业医务人员按照统一的方法和标准对飞行员实施全面医学检查，包括外科、内科、神经精神科、眼科和耳鼻喉科等。除临床各科外，还作航空医学特定项目的检查，如离心机...",
+  "link": "https://jbk.39.net/jiancha/fxytgjc/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/fxytgjc/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d06c15c52bff9c74b7e"
+  },
+  "title": "瘦脸针",
+  "simple_description": "瘦脸针即A型肉毒素针剂，首要作用于肌肉组织，因常用解决咬肌肥大，被称为瘦脸针。瘦脸针专业名称为肉毒素，是一种生物制品，可以通过基因工程的方法大规模生产。由于它具有神经阻断作用，在神经内科、眼科、整...",
+  "link": "https://jbk.39.net/shoushu/slz/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/shoushu/slz/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d06c15c52bff9c74b7f"
+  },
+  "title": "脑膜瘤",
+  "simple_description": "脑膜瘤(Meningiomas)很常见，占颅内肿瘤的15.31%，仅次于胶质瘤。成年较多，老年与儿童较少，婴幼儿更少。女性稍多于男性。是发生于脑膜细胞的良性肿瘤，也是眼眶内很重要的一种肿瘤。因其发病率较高，严重的破坏视力...",
+  "link": "https://jbk.39.net/nml/",
+  "description": "脑膜瘤(Meningiomas)很常见，占颅内肿瘤的15.31%，仅次于胶质瘤。成年较多，老年与儿童较少，婴幼儿更少。女性稍多于男性。是发生于脑膜细胞的良性肿瘤，也是眼眶内很重要的一种肿瘤。因其发病率较高，严重的破坏视力，侵犯范围较...详细",
+  "disease_link": "https://jbk.39.net/nml/",
+  "别名：": "脑脊膜瘤,硬脑脊膜肉瘤,硬脑膜肉瘤",
+  "是否医保：": "是",
+  "发病部位：": "颅脑",
+  "挂号科室：": "肿瘤科\n脑外科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗",
+  "治愈率：": "75%",
+  "治疗周期：": "3-6月",
+  "多发人群：": "所有人群，多发生于中年女性...",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约（3000 —— 5000元）",
+  "典型症状：": "颅内压增高\n头痛\n继发性视神经萎缩",
+  "临床检查：": "头颅平片\n眼及眶区CT\n颅脑CT",
+  "并发症：": "神经纤维瘤病\n嗅觉障碍",
+  "常用药品：": "甘露聚糖肽注射液\n葡萄糖氯化钠注射液\n卡莫司汀注射液",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "颅脑",
+      "symptom_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "symptom": "肿瘤科",
+      "symptom_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "symptom": "脑外科",
+      "symptom_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "symptom": "药物治疗",
+      "symptom_link": "https://jbk.39.net/nml/yyzl/"
+    },
+    {
+      "symptom": "颅内压增高",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/lnyzg/"
+    },
+    {
+      "symptom": "头痛",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "symptom": "继发性视神经萎缩",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jfxssjws/"
+    },
+    {
+      "symptom": "头颅平片",
+      "symptom_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "symptom": "眼及眶区CT",
+      "symptom_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "symptom": "颅脑CT",
+      "symptom_link": "https://jbk.39.net/jiancha/lnctjc/"
+    },
+    {
+      "symptom": "神经纤维瘤病",
+      "symptom_link": "https://jbk.39.net/sjxwlb/"
+    },
+    {
+      "symptom": "嗅觉障碍",
+      "symptom_link": "https://jbk.39.net/xjza/"
+    },
+    {
+      "symptom": "甘露聚糖肽注射液",
+      "symptom_link": "http://ypk.39.net/1000003940/"
+    },
+    {
+      "symptom": "葡萄糖氯化钠注射液",
+      "symptom_link": "http://ypk.39.net/1000010181/"
+    },
+    {
+      "symptom": "卡莫司汀注射液",
+      "symptom_link": "http://ypk.39.net/502685/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "颅脑",
+      "check_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "check": "肿瘤科",
+      "check_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "check": "脑外科",
+      "check_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "check": "药物治疗",
+      "check_link": "https://jbk.39.net/nml/yyzl/"
+    },
+    {
+      "check": "颅内压增高",
+      "check_link": "https://jbk.39.net/zhengzhuang/lnyzg/"
+    },
+    {
+      "check": "头痛",
+      "check_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "check": "继发性视神经萎缩",
+      "check_link": "https://jbk.39.net/zhengzhuang/jfxssjws/"
+    },
+    {
+      "check": "头颅平片",
+      "check_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "check": "眼及眶区CT",
+      "check_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "check": "颅脑CT",
+      "check_link": "https://jbk.39.net/jiancha/lnctjc/"
+    },
+    {
+      "check": "神经纤维瘤病",
+      "check_link": "https://jbk.39.net/sjxwlb/"
+    },
+    {
+      "check": "嗅觉障碍",
+      "check_link": "https://jbk.39.net/xjza/"
+    },
+    {
+      "check": "甘露聚糖肽注射液",
+      "check_link": "http://ypk.39.net/1000003940/"
+    },
+    {
+      "check": "葡萄糖氯化钠注射液",
+      "check_link": "http://ypk.39.net/1000010181/"
+    },
+    {
+      "check": "卡莫司汀注射液",
+      "check_link": "http://ypk.39.net/502685/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "颅脑",
+      "complication_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "complication": "肿瘤科",
+      "complication_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "complication": "脑外科",
+      "complication_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "complication": "药物治疗",
+      "complication_link": "https://jbk.39.net/nml/yyzl/"
+    },
+    {
+      "complication": "颅内压增高",
+      "complication_link": "https://jbk.39.net/zhengzhuang/lnyzg/"
+    },
+    {
+      "complication": "头痛",
+      "complication_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "complication": "继发性视神经萎缩",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jfxssjws/"
+    },
+    {
+      "complication": "头颅平片",
+      "complication_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "complication": "眼及眶区CT",
+      "complication_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "complication": "颅脑CT",
+      "complication_link": "https://jbk.39.net/jiancha/lnctjc/"
+    },
+    {
+      "complication": "神经纤维瘤病",
+      "complication_link": "https://jbk.39.net/sjxwlb/"
+    },
+    {
+      "complication": "嗅觉障碍",
+      "complication_link": "https://jbk.39.net/xjza/"
+    },
+    {
+      "complication": "甘露聚糖肽注射液",
+      "complication_link": "http://ypk.39.net/1000003940/"
+    },
+    {
+      "complication": "葡萄糖氯化钠注射液",
+      "complication_link": "http://ypk.39.net/1000010181/"
+    },
+    {
+      "complication": "卡莫司汀注射液",
+      "complication_link": "http://ypk.39.net/502685/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "颅脑",
+      "drug_link": "https://jbk.39.net/bw/lunao/"
+    },
+    {
+      "drug": "肿瘤科",
+      "drug_link": "https://jbk.39.net/bw/zhongliuke/"
+    },
+    {
+      "drug": "脑外科",
+      "drug_link": "https://jbk.39.net/bw/naowaike/"
+    },
+    {
+      "drug": "药物治疗",
+      "drug_link": "https://jbk.39.net/nml/yyzl/"
+    },
+    {
+      "drug": "颅内压增高",
+      "drug_link": "https://jbk.39.net/zhengzhuang/lnyzg/"
+    },
+    {
+      "drug": "头痛",
+      "drug_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "drug": "继发性视神经萎缩",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jfxssjws/"
+    },
+    {
+      "drug": "头颅平片",
+      "drug_link": "https://jbk.39.net/jiancha/tlpp/"
+    },
+    {
+      "drug": "眼及眶区CT",
+      "drug_link": "https://jbk.39.net/jiancha/yjkqctjc/"
+    },
+    {
+      "drug": "颅脑CT",
+      "drug_link": "https://jbk.39.net/jiancha/lnctjc/"
+    },
+    {
+      "drug": "神经纤维瘤病",
+      "drug_link": "https://jbk.39.net/sjxwlb/"
+    },
+    {
+      "drug": "嗅觉障碍",
+      "drug_link": "https://jbk.39.net/xjza/"
+    },
+    {
+      "drug": "甘露聚糖肽注射液",
+      "drug_link": "http://ypk.39.net/1000003940/"
+    },
+    {
+      "drug": "葡萄糖氯化钠注射液",
+      "drug_link": "http://ypk.39.net/1000010181/"
+    },
+    {
+      "drug": "卡莫司汀注射液",
+      "drug_link": "http://ypk.39.net/502685/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d06c15c52bff9c74b80"
+  },
+  "title": "眼球震颤",
+  "simple_description": "眼球震颤（nystagmus），简称眼震。是一种不自主的、有节律性的、往返摆动的眼球运动。常由视觉系统、眼外肌、内耳迷路及中枢神经系统的疾病引起。眼震可依病因、临床特征和有关的神经眼科情况分为二大类：①知觉缺...",
+  "link": "https://jbk.39.net/yqzc/",
+  "description": "眼球震颤（nystagmus），简称眼震。是一种不自主的、有节律性的、往返摆动的眼球运动。常由视觉系统、眼外肌、内耳迷路及中枢神经系统的疾病引起。眼震可依病因、临床特征和有关的神经眼科情况分为二大类：①知觉缺陷型眼震（sen...详细",
+  "disease_link": "https://jbk.39.net/yqzc/",
+  "别名：": "眼震",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物、手术治疗",
+  "治愈率：": "55%-65%",
+  "治疗周期：": "12周",
+  "多发人群：": "先天性多见于儿童。成人亦可...",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约（6000 —— 10000元）",
+  "典型症状：": "两眼干涩\n眼干涩酸胀，易疲劳\n虹膜发炎",
+  "临床检查：": "Hertel氏眼球突出计\n眼震电图描记法",
+  "并发症：": "弱视\n斜视",
+  "常用药品：": "复方门冬维甘滴眼液\n聚乙烯醇滴眼液\n天麻钩藤颗粒",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "药物、手术治疗",
+      "symptom_link": "https://jbk.39.net/yqzc/yyzl/"
+    },
+    {
+      "symptom": "两眼干涩",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "symptom": "眼干涩酸胀，易疲劳",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ygsszypl/"
+    },
+    {
+      "symptom": "虹膜发炎",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/hmfy1/"
+    },
+    {
+      "symptom": "Hertel氏眼球突出计",
+      "symptom_link": "https://jbk.39.net/jiancha/hertelsyqtcj/"
+    },
+    {
+      "symptom": "眼震电图描记法",
+      "symptom_link": "https://jbk.39.net/jiancha/yzdtmjf/"
+    },
+    {
+      "symptom": "弱视",
+      "symptom_link": "https://jbk.39.net/rs/"
+    },
+    {
+      "symptom": "斜视",
+      "symptom_link": "https://jbk.39.net/xs/"
+    },
+    {
+      "symptom": "复方门冬维甘滴眼液",
+      "symptom_link": "http://ypk.39.net/506954/"
+    },
+    {
+      "symptom": "聚乙烯醇滴眼液",
+      "symptom_link": "http://ypk.39.net/502623/"
+    },
+    {
+      "symptom": "天麻钩藤颗粒",
+      "symptom_link": "http://ypk.39.net/510082/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "药物、手术治疗",
+      "check_link": "https://jbk.39.net/yqzc/yyzl/"
+    },
+    {
+      "check": "两眼干涩",
+      "check_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "check": "眼干涩酸胀，易疲劳",
+      "check_link": "https://jbk.39.net/zhengzhuang/ygsszypl/"
+    },
+    {
+      "check": "虹膜发炎",
+      "check_link": "https://jbk.39.net/zhengzhuang/hmfy1/"
+    },
+    {
+      "check": "Hertel氏眼球突出计",
+      "check_link": "https://jbk.39.net/jiancha/hertelsyqtcj/"
+    },
+    {
+      "check": "眼震电图描记法",
+      "check_link": "https://jbk.39.net/jiancha/yzdtmjf/"
+    },
+    {
+      "check": "弱视",
+      "check_link": "https://jbk.39.net/rs/"
+    },
+    {
+      "check": "斜视",
+      "check_link": "https://jbk.39.net/xs/"
+    },
+    {
+      "check": "复方门冬维甘滴眼液",
+      "check_link": "http://ypk.39.net/506954/"
+    },
+    {
+      "check": "聚乙烯醇滴眼液",
+      "check_link": "http://ypk.39.net/502623/"
+    },
+    {
+      "check": "天麻钩藤颗粒",
+      "check_link": "http://ypk.39.net/510082/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "药物、手术治疗",
+      "complication_link": "https://jbk.39.net/yqzc/yyzl/"
+    },
+    {
+      "complication": "两眼干涩",
+      "complication_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "complication": "眼干涩酸胀，易疲劳",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ygsszypl/"
+    },
+    {
+      "complication": "虹膜发炎",
+      "complication_link": "https://jbk.39.net/zhengzhuang/hmfy1/"
+    },
+    {
+      "complication": "Hertel氏眼球突出计",
+      "complication_link": "https://jbk.39.net/jiancha/hertelsyqtcj/"
+    },
+    {
+      "complication": "眼震电图描记法",
+      "complication_link": "https://jbk.39.net/jiancha/yzdtmjf/"
+    },
+    {
+      "complication": "弱视",
+      "complication_link": "https://jbk.39.net/rs/"
+    },
+    {
+      "complication": "斜视",
+      "complication_link": "https://jbk.39.net/xs/"
+    },
+    {
+      "complication": "复方门冬维甘滴眼液",
+      "complication_link": "http://ypk.39.net/506954/"
+    },
+    {
+      "complication": "聚乙烯醇滴眼液",
+      "complication_link": "http://ypk.39.net/502623/"
+    },
+    {
+      "complication": "天麻钩藤颗粒",
+      "complication_link": "http://ypk.39.net/510082/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "药物、手术治疗",
+      "drug_link": "https://jbk.39.net/yqzc/yyzl/"
+    },
+    {
+      "drug": "两眼干涩",
+      "drug_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "drug": "眼干涩酸胀，易疲劳",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ygsszypl/"
+    },
+    {
+      "drug": "虹膜发炎",
+      "drug_link": "https://jbk.39.net/zhengzhuang/hmfy1/"
+    },
+    {
+      "drug": "Hertel氏眼球突出计",
+      "drug_link": "https://jbk.39.net/jiancha/hertelsyqtcj/"
+    },
+    {
+      "drug": "眼震电图描记法",
+      "drug_link": "https://jbk.39.net/jiancha/yzdtmjf/"
+    },
+    {
+      "drug": "弱视",
+      "drug_link": "https://jbk.39.net/rs/"
+    },
+    {
+      "drug": "斜视",
+      "drug_link": "https://jbk.39.net/xs/"
+    },
+    {
+      "drug": "复方门冬维甘滴眼液",
+      "drug_link": "http://ypk.39.net/506954/"
+    },
+    {
+      "drug": "聚乙烯醇滴眼液",
+      "drug_link": "http://ypk.39.net/502623/"
+    },
+    {
+      "drug": "天麻钩藤颗粒",
+      "drug_link": "http://ypk.39.net/510082/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d07c15c52bff9c74b81"
+  },
+  "title": "电脑视觉综合症",
+  "simple_description": "电脑视觉综合症，简称CVS(Computer Vision Syndrome)。是由aoa (美国眼科协会)提出的名词。指令电脑使用者感到眼部疲倦和身体不适。进而影响其生产力的症状。该症状已困扰着七成五至九成每天经常使用电脑的人，全球人数接近...",
+  "link": "https://jbk.39.net/dnsjzhz/",
+  "description": "电脑视觉综合症，简称CVS(Computer Vision Syndrome)。是由aoa (美国眼科协会)提出的名词。指令电脑使用者感到眼部疲倦和身体不适。进而影响其生产力的症状。该症状已困扰着七成五至九成每天经常使用电脑的人，全球人数接近六千万。电脑...详细",
+  "disease_link": "https://jbk.39.net/dnsjzhz/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科\n营养科",
+  "传染性：": "无传染性",
+  "多发人群：": "经常使用电脑的人",
+  "典型症状：": "头痛\n头晕\n两眼干涩",
+  "临床检查：": "立体视觉\n视力",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "营养科",
+      "symptom_link": "https://jbk.39.net/bw/yingyangke/"
+    },
+    {
+      "symptom": "头痛",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "symptom": "头晕",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ty/"
+    },
+    {
+      "symptom": "两眼干涩",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "symptom": "立体视觉",
+      "symptom_link": "https://jbk.39.net/jiancha/ltsj/"
+    },
+    {
+      "symptom": "视力",
+      "symptom_link": "https://jbk.39.net/jiancha/sl/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "营养科",
+      "check_link": "https://jbk.39.net/bw/yingyangke/"
+    },
+    {
+      "check": "头痛",
+      "check_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "check": "头晕",
+      "check_link": "https://jbk.39.net/zhengzhuang/ty/"
+    },
+    {
+      "check": "两眼干涩",
+      "check_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "check": "立体视觉",
+      "check_link": "https://jbk.39.net/jiancha/ltsj/"
+    },
+    {
+      "check": "视力",
+      "check_link": "https://jbk.39.net/jiancha/sl/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "营养科",
+      "complication_link": "https://jbk.39.net/bw/yingyangke/"
+    },
+    {
+      "complication": "头痛",
+      "complication_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "complication": "头晕",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ty/"
+    },
+    {
+      "complication": "两眼干涩",
+      "complication_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "complication": "立体视觉",
+      "complication_link": "https://jbk.39.net/jiancha/ltsj/"
+    },
+    {
+      "complication": "视力",
+      "complication_link": "https://jbk.39.net/jiancha/sl/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "营养科",
+      "drug_link": "https://jbk.39.net/bw/yingyangke/"
+    },
+    {
+      "drug": "头痛",
+      "drug_link": "https://jbk.39.net/zhengzhuang/tt/"
+    },
+    {
+      "drug": "头晕",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ty/"
+    },
+    {
+      "drug": "两眼干涩",
+      "drug_link": "https://jbk.39.net/zhengzhuang/lygs/"
+    },
+    {
+      "drug": "立体视觉",
+      "drug_link": "https://jbk.39.net/jiancha/ltsj/"
+    },
+    {
+      "drug": "视力",
+      "drug_link": "https://jbk.39.net/jiancha/sl/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d08c15c52bff9c74b82"
+  },
+  "title": "偏盲",
+  "simple_description": "偏盲：医学术语，指视野的某一部分缺损而言，因视路病变所引起的偏盲，常有助于神经病变的定位诊断。如视交叉部受到肿瘤压迫时，常造成典型的双颞侧偏盲。某些眼科疾病也可引起偏盲型视野缺损，如晚期青光眼的鼻...",
+  "link": "https://jbk.39.net/zhengzhuang/pm/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/pm/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d08c15c52bff9c74b83"
+  },
+  "title": "眨眼不止",
+  "simple_description": "一般情况下,两次瞬目的间隔在数秒以上,如果出现阵发性快速瞬目,则为异常现象.孩子频繁眨眼这种情况在临床眼科很常见，孩子的频繁眨眼有这么几种情况。一个是孩子的眼睛结膜有炎症的时候，孩子不舒服，眼睛有异物感...",
+  "link": "https://jbk.39.net/zhengzhuang/zybz/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/zybz/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d09c15c52bff9c74b84"
+  },
+  "title": "新生儿泪囊炎",
+  "simple_description": "新生儿泪囊炎是由于鼻泪管下端的胚胎残膜没有退化，阻塞鼻泪管下端，导致泪液和细菌潴留在泪囊内，引起继发性感染所致。新生儿泪囊炎是一种非常常见的婴幼儿先天性眼病，也是小儿眼科常见病，多发病。表现为...",
+  "link": "https://jbk.39.net/xselny/",
+  "description": "新生儿泪囊炎是由于鼻泪管下端的胚胎残膜没有退化，阻塞鼻泪管下端，导致泪液和细菌潴留在泪囊内，引起继发性感染所致。新生儿泪囊炎是一种非常常见的婴幼儿先天性眼病，也是小儿眼科常见病，多发病。表现为婴儿的眼睛经...详细",
+  "disease_link": "https://jbk.39.net/xselny/",
+  "别名：": "先天性泪道阻塞,先天性鼻泪管阻塞,先天性泪道狭窄",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "儿科\n眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "保守治疗、手术治疗",
+  "治愈率：": "80%",
+  "治疗周期：": "7-14天",
+  "多发人群：": "新生儿",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约（3500—— 5000元）",
+  "典型症状：": "眼屎多\n眼睛痒\n流泪",
+  "临床检查：": "CT检查\n挤压泪囊试验\n眼外部检查",
+  "并发症：": "结膜炎\n蜂窝织炎\n脑膜炎",
+  "常用药品：": "氧氟沙星眼膏\n乳酸左氧氟沙星滴眼液",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "儿科",
+      "symptom_link": "https://jbk.39.net/bw/erke/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "保守治疗、手术治疗",
+      "symptom_link": "https://jbk.39.net/xselny/yyzl/"
+    },
+    {
+      "symptom": "眼屎多",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ysd/"
+    },
+    {
+      "symptom": "眼睛痒",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yjy/"
+    },
+    {
+      "symptom": "流泪",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "symptom": "CT检查",
+      "symptom_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "symptom": "挤压泪囊试验",
+      "symptom_link": "https://jbk.39.net/jiancha/jylnsy/"
+    },
+    {
+      "symptom": "眼外部检查",
+      "symptom_link": "https://jbk.39.net/jiancha/ywbjc/"
+    },
+    {
+      "symptom": "结膜炎",
+      "symptom_link": "https://jbk.39.net/jmy3/"
+    },
+    {
+      "symptom": "蜂窝织炎",
+      "symptom_link": "https://jbk.39.net/fwzy/"
+    },
+    {
+      "symptom": "脑膜炎",
+      "symptom_link": "https://jbk.39.net/nmy/"
+    },
+    {
+      "symptom": "氧氟沙星眼膏",
+      "symptom_link": "http://ypk.39.net/766596/"
+    },
+    {
+      "symptom": "乳酸左氧氟沙星滴眼液",
+      "symptom_link": "http://ypk.39.net/623932/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "儿科",
+      "check_link": "https://jbk.39.net/bw/erke/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "保守治疗、手术治疗",
+      "check_link": "https://jbk.39.net/xselny/yyzl/"
+    },
+    {
+      "check": "眼屎多",
+      "check_link": "https://jbk.39.net/zhengzhuang/ysd/"
+    },
+    {
+      "check": "眼睛痒",
+      "check_link": "https://jbk.39.net/zhengzhuang/yjy/"
+    },
+    {
+      "check": "流泪",
+      "check_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "check": "CT检查",
+      "check_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "check": "挤压泪囊试验",
+      "check_link": "https://jbk.39.net/jiancha/jylnsy/"
+    },
+    {
+      "check": "眼外部检查",
+      "check_link": "https://jbk.39.net/jiancha/ywbjc/"
+    },
+    {
+      "check": "结膜炎",
+      "check_link": "https://jbk.39.net/jmy3/"
+    },
+    {
+      "check": "蜂窝织炎",
+      "check_link": "https://jbk.39.net/fwzy/"
+    },
+    {
+      "check": "脑膜炎",
+      "check_link": "https://jbk.39.net/nmy/"
+    },
+    {
+      "check": "氧氟沙星眼膏",
+      "check_link": "http://ypk.39.net/766596/"
+    },
+    {
+      "check": "乳酸左氧氟沙星滴眼液",
+      "check_link": "http://ypk.39.net/623932/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "儿科",
+      "complication_link": "https://jbk.39.net/bw/erke/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "保守治疗、手术治疗",
+      "complication_link": "https://jbk.39.net/xselny/yyzl/"
+    },
+    {
+      "complication": "眼屎多",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ysd/"
+    },
+    {
+      "complication": "眼睛痒",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yjy/"
+    },
+    {
+      "complication": "流泪",
+      "complication_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "complication": "CT检查",
+      "complication_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "complication": "挤压泪囊试验",
+      "complication_link": "https://jbk.39.net/jiancha/jylnsy/"
+    },
+    {
+      "complication": "眼外部检查",
+      "complication_link": "https://jbk.39.net/jiancha/ywbjc/"
+    },
+    {
+      "complication": "结膜炎",
+      "complication_link": "https://jbk.39.net/jmy3/"
+    },
+    {
+      "complication": "蜂窝织炎",
+      "complication_link": "https://jbk.39.net/fwzy/"
+    },
+    {
+      "complication": "脑膜炎",
+      "complication_link": "https://jbk.39.net/nmy/"
+    },
+    {
+      "complication": "氧氟沙星眼膏",
+      "complication_link": "http://ypk.39.net/766596/"
+    },
+    {
+      "complication": "乳酸左氧氟沙星滴眼液",
+      "complication_link": "http://ypk.39.net/623932/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "儿科",
+      "drug_link": "https://jbk.39.net/bw/erke/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "保守治疗、手术治疗",
+      "drug_link": "https://jbk.39.net/xselny/yyzl/"
+    },
+    {
+      "drug": "眼屎多",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ysd/"
+    },
+    {
+      "drug": "眼睛痒",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yjy/"
+    },
+    {
+      "drug": "流泪",
+      "drug_link": "https://jbk.39.net/zhengzhuang/ll/"
+    },
+    {
+      "drug": "CT检查",
+      "drug_link": "https://jbk.39.net/jiancha/ctjc/"
+    },
+    {
+      "drug": "挤压泪囊试验",
+      "drug_link": "https://jbk.39.net/jiancha/jylnsy/"
+    },
+    {
+      "drug": "眼外部检查",
+      "drug_link": "https://jbk.39.net/jiancha/ywbjc/"
+    },
+    {
+      "drug": "结膜炎",
+      "drug_link": "https://jbk.39.net/jmy3/"
+    },
+    {
+      "drug": "蜂窝织炎",
+      "drug_link": "https://jbk.39.net/fwzy/"
+    },
+    {
+      "drug": "脑膜炎",
+      "drug_link": "https://jbk.39.net/nmy/"
+    },
+    {
+      "drug": "氧氟沙星眼膏",
+      "drug_link": "http://ypk.39.net/766596/"
+    },
+    {
+      "drug": "乳酸左氧氟沙星滴眼液",
+      "drug_link": "http://ypk.39.net/623932/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d09c15c52bff9c74b85"
+  },
+  "title": "视野缺损",
+  "simple_description": "视野缺损：中心周围或中心旁盲点、中心盲点伴视敏度下降、罕见视野狭窄。视野意思是我们眼睛能够看到的整个范围，而视野的缺损则表示看事务时，视野不完整，好像有什麼阴影挡住视线，有时也会某角落完全黑影，看...",
+  "link": "https://jbk.39.net/zhengzhuang/syqs/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/syqs/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d0ac15c52bff9c74b86"
+  },
+  "title": "葡萄膜炎",
+  "simple_description": "葡萄膜炎指的是虹膜、睫状体、脉络膜的炎症;虹膜和睫状体的血液供给同为虹膜大环，故二者经常同时发炎，而总称为虹膜睫状体炎。如果脉络膜也同时发炎，则称为葡萄膜炎。葡萄膜炎是一种多发于青壮年的眼病，种类...",
+  "link": "https://jbk.39.net/ptmy/",
+  "description": "葡萄膜炎指的是虹膜、睫状体、脉络膜的炎症;虹膜和睫状体的血液供给同为虹膜大环，故二者经常同时发炎，而总称为虹膜睫状体炎。如果脉络膜也同时发炎，则称为葡萄膜炎。葡萄膜炎是一种多发于青壮年的眼病，种类繁多，病因相...详细",
+  "disease_link": "https://jbk.39.net/ptmy/",
+  "是否医保：": "是",
+  "发病部位：": "眼",
+  "挂号科室：": "眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗",
+  "治愈率：": "65%",
+  "治疗周期：": "10天",
+  "多发人群：": "多发于青壮年",
+  "治疗费用：": "市三甲医院约（3000-5000元）",
+  "典型症状：": "眼痛\n畏光及流泪\n视力障碍",
+  "临床检查：": "眼底荧光血管造影\n眼底镜检查法",
+  "并发症：": "中间葡萄膜炎\n幼年型慢性关节炎及其伴发的葡萄膜炎\n银屑病关节炎及其伴发的葡萄膜炎",
+  "常用药品：": "泛昔洛韦片\n双氯芬酸钠滴眼液\n硫酸氨基葡萄糖胶囊",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "药物治疗",
+      "symptom_link": "https://jbk.39.net/ptmy/yyzl/"
+    },
+    {
+      "symptom": "眼痛",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yt1/"
+    },
+    {
+      "symptom": "畏光及流泪",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/wgjll/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "眼底荧光血管造影",
+      "symptom_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "symptom": "眼底镜检查法",
+      "symptom_link": "https://jbk.39.net/jiancha/ydjjcf/"
+    },
+    {
+      "symptom": "中间葡萄膜炎",
+      "symptom_link": "https://jbk.39.net/zjptmy/"
+    },
+    {
+      "symptom": "幼年型慢性关节炎及其伴发的葡萄膜炎",
+      "symptom_link": "https://jbk.39.net/ynxmxgjyjqbfdptmy/"
+    },
+    {
+      "symptom": "银屑病关节炎及其伴发的葡萄膜炎",
+      "symptom_link": "https://jbk.39.net/yxbgjyjqbfdptmy/"
+    },
+    {
+      "symptom": "泛昔洛韦片",
+      "symptom_link": "http://ypk.39.net/501114/"
+    },
+    {
+      "symptom": "双氯芬酸钠滴眼液",
+      "symptom_link": "http://ypk.39.net/505931/"
+    },
+    {
+      "symptom": "硫酸氨基葡萄糖胶囊",
+      "symptom_link": "http://ypk.39.net/718737/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "药物治疗",
+      "check_link": "https://jbk.39.net/ptmy/yyzl/"
+    },
+    {
+      "check": "眼痛",
+      "check_link": "https://jbk.39.net/zhengzhuang/yt1/"
+    },
+    {
+      "check": "畏光及流泪",
+      "check_link": "https://jbk.39.net/zhengzhuang/wgjll/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "眼底荧光血管造影",
+      "check_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "check": "眼底镜检查法",
+      "check_link": "https://jbk.39.net/jiancha/ydjjcf/"
+    },
+    {
+      "check": "中间葡萄膜炎",
+      "check_link": "https://jbk.39.net/zjptmy/"
+    },
+    {
+      "check": "幼年型慢性关节炎及其伴发的葡萄膜炎",
+      "check_link": "https://jbk.39.net/ynxmxgjyjqbfdptmy/"
+    },
+    {
+      "check": "银屑病关节炎及其伴发的葡萄膜炎",
+      "check_link": "https://jbk.39.net/yxbgjyjqbfdptmy/"
+    },
+    {
+      "check": "泛昔洛韦片",
+      "check_link": "http://ypk.39.net/501114/"
+    },
+    {
+      "check": "双氯芬酸钠滴眼液",
+      "check_link": "http://ypk.39.net/505931/"
+    },
+    {
+      "check": "硫酸氨基葡萄糖胶囊",
+      "check_link": "http://ypk.39.net/718737/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "药物治疗",
+      "complication_link": "https://jbk.39.net/ptmy/yyzl/"
+    },
+    {
+      "complication": "眼痛",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yt1/"
+    },
+    {
+      "complication": "畏光及流泪",
+      "complication_link": "https://jbk.39.net/zhengzhuang/wgjll/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "眼底荧光血管造影",
+      "complication_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "complication": "眼底镜检查法",
+      "complication_link": "https://jbk.39.net/jiancha/ydjjcf/"
+    },
+    {
+      "complication": "中间葡萄膜炎",
+      "complication_link": "https://jbk.39.net/zjptmy/"
+    },
+    {
+      "complication": "幼年型慢性关节炎及其伴发的葡萄膜炎",
+      "complication_link": "https://jbk.39.net/ynxmxgjyjqbfdptmy/"
+    },
+    {
+      "complication": "银屑病关节炎及其伴发的葡萄膜炎",
+      "complication_link": "https://jbk.39.net/yxbgjyjqbfdptmy/"
+    },
+    {
+      "complication": "泛昔洛韦片",
+      "complication_link": "http://ypk.39.net/501114/"
+    },
+    {
+      "complication": "双氯芬酸钠滴眼液",
+      "complication_link": "http://ypk.39.net/505931/"
+    },
+    {
+      "complication": "硫酸氨基葡萄糖胶囊",
+      "complication_link": "http://ypk.39.net/718737/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "药物治疗",
+      "drug_link": "https://jbk.39.net/ptmy/yyzl/"
+    },
+    {
+      "drug": "眼痛",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yt1/"
+    },
+    {
+      "drug": "畏光及流泪",
+      "drug_link": "https://jbk.39.net/zhengzhuang/wgjll/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "眼底荧光血管造影",
+      "drug_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "drug": "眼底镜检查法",
+      "drug_link": "https://jbk.39.net/jiancha/ydjjcf/"
+    },
+    {
+      "drug": "中间葡萄膜炎",
+      "drug_link": "https://jbk.39.net/zjptmy/"
+    },
+    {
+      "drug": "幼年型慢性关节炎及其伴发的葡萄膜炎",
+      "drug_link": "https://jbk.39.net/ynxmxgjyjqbfdptmy/"
+    },
+    {
+      "drug": "银屑病关节炎及其伴发的葡萄膜炎",
+      "drug_link": "https://jbk.39.net/yxbgjyjqbfdptmy/"
+    },
+    {
+      "drug": "泛昔洛韦片",
+      "drug_link": "http://ypk.39.net/501114/"
+    },
+    {
+      "drug": "双氯芬酸钠滴眼液",
+      "drug_link": "http://ypk.39.net/505931/"
+    },
+    {
+      "drug": "硫酸氨基葡萄糖胶囊",
+      "drug_link": "http://ypk.39.net/718737/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d0fc15c52bff9c74b87"
+  },
+  "title": "葡萄膜恶性黑色素...",
+  "simple_description": "葡萄膜恶性黑色素瘤（maligment melanoma of uveal），是成年人中最多见的一种恶性眼内肿瘤，在国外其发病率占眼内肿瘤的首位，在国内则仅次于视网膜母细胞瘤，居眼内肿瘤的第二位。此瘤的恶性程度高，易经血流转移，在成...",
+  "link": "https://jbk.39.net/ptmexhssl/",
+  "description": "葡萄膜恶性黑色素瘤（maligment melanoma of uveal），是成年人中最多见的一种恶性眼内肿瘤，在国外其发病率占眼内肿瘤的首位，在国内则仅次于视网膜母细胞瘤，居眼内肿瘤的第二位。此瘤的恶性程度高，易经血流转移，在成年人中又是比...详细",
+  "disease_link": "https://jbk.39.net/ptmexhssl/",
+  "是否医保：": "否",
+  "发病部位：": "眼",
+  "挂号科室：": "皮肤科\n眼科",
+  "传染性：": "无传染性",
+  "治疗方法：": "手术治疗",
+  "治愈率：": "65%",
+  "治疗周期：": "8-12周",
+  "多发人群：": "成年人",
+  "治疗费用：": "不同医院收费标准不一致，市三甲医院约10000--50000",
+  "典型症状：": "视力障碍\n眼压升高\n自发性球内出血",
+  "临床检查：": "MRI\n巩膜透照\n眼底荧光血管造影",
+  "并发症：": "巩膜炎\n青光眼",
+  "常用药品：": "重组人干扰素α1b注射液\n注射用重组人白介素-2\n司莫司汀胶囊",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "皮肤科",
+      "symptom_link": "https://jbk.39.net/bw/pifuke/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "手术治疗",
+      "symptom_link": "https://jbk.39.net/ptmexhssl/yyzl/"
+    },
+    {
+      "symptom": "视力障碍",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "symptom": "眼压升高",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/yysg/"
+    },
+    {
+      "symptom": "自发性球内出血",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/zfxqncx/"
+    },
+    {
+      "symptom": "MRI",
+      "symptom_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "symptom": "巩膜透照",
+      "symptom_link": "https://jbk.39.net/jiancha/gmtz/"
+    },
+    {
+      "symptom": "眼底荧光血管造影",
+      "symptom_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "symptom": "巩膜炎",
+      "symptom_link": "https://jbk.39.net/gmy/"
+    },
+    {
+      "symptom": "青光眼",
+      "symptom_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "symptom": "重组人干扰素α1b注射液",
+      "symptom_link": "http://ypk.39.net/739785/"
+    },
+    {
+      "symptom": "注射用重组人白介素-2",
+      "symptom_link": "http://ypk.39.net/859887/"
+    },
+    {
+      "symptom": "司莫司汀胶囊",
+      "symptom_link": "http://ypk.39.net/498600/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "皮肤科",
+      "check_link": "https://jbk.39.net/bw/pifuke/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "手术治疗",
+      "check_link": "https://jbk.39.net/ptmexhssl/yyzl/"
+    },
+    {
+      "check": "视力障碍",
+      "check_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "check": "眼压升高",
+      "check_link": "https://jbk.39.net/zhengzhuang/yysg/"
+    },
+    {
+      "check": "自发性球内出血",
+      "check_link": "https://jbk.39.net/zhengzhuang/zfxqncx/"
+    },
+    {
+      "check": "MRI",
+      "check_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "check": "巩膜透照",
+      "check_link": "https://jbk.39.net/jiancha/gmtz/"
+    },
+    {
+      "check": "眼底荧光血管造影",
+      "check_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "check": "巩膜炎",
+      "check_link": "https://jbk.39.net/gmy/"
+    },
+    {
+      "check": "青光眼",
+      "check_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "check": "重组人干扰素α1b注射液",
+      "check_link": "http://ypk.39.net/739785/"
+    },
+    {
+      "check": "注射用重组人白介素-2",
+      "check_link": "http://ypk.39.net/859887/"
+    },
+    {
+      "check": "司莫司汀胶囊",
+      "check_link": "http://ypk.39.net/498600/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "皮肤科",
+      "complication_link": "https://jbk.39.net/bw/pifuke/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "手术治疗",
+      "complication_link": "https://jbk.39.net/ptmexhssl/yyzl/"
+    },
+    {
+      "complication": "视力障碍",
+      "complication_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "complication": "眼压升高",
+      "complication_link": "https://jbk.39.net/zhengzhuang/yysg/"
+    },
+    {
+      "complication": "自发性球内出血",
+      "complication_link": "https://jbk.39.net/zhengzhuang/zfxqncx/"
+    },
+    {
+      "complication": "MRI",
+      "complication_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "complication": "巩膜透照",
+      "complication_link": "https://jbk.39.net/jiancha/gmtz/"
+    },
+    {
+      "complication": "眼底荧光血管造影",
+      "complication_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "complication": "巩膜炎",
+      "complication_link": "https://jbk.39.net/gmy/"
+    },
+    {
+      "complication": "青光眼",
+      "complication_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "complication": "重组人干扰素α1b注射液",
+      "complication_link": "http://ypk.39.net/739785/"
+    },
+    {
+      "complication": "注射用重组人白介素-2",
+      "complication_link": "http://ypk.39.net/859887/"
+    },
+    {
+      "complication": "司莫司汀胶囊",
+      "complication_link": "http://ypk.39.net/498600/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "皮肤科",
+      "drug_link": "https://jbk.39.net/bw/pifuke/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "手术治疗",
+      "drug_link": "https://jbk.39.net/ptmexhssl/yyzl/"
+    },
+    {
+      "drug": "视力障碍",
+      "drug_link": "https://jbk.39.net/zhengzhuang/slza/"
+    },
+    {
+      "drug": "眼压升高",
+      "drug_link": "https://jbk.39.net/zhengzhuang/yysg/"
+    },
+    {
+      "drug": "自发性球内出血",
+      "drug_link": "https://jbk.39.net/zhengzhuang/zfxqncx/"
+    },
+    {
+      "drug": "MRI",
+      "drug_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "drug": "巩膜透照",
+      "drug_link": "https://jbk.39.net/jiancha/gmtz/"
+    },
+    {
+      "drug": "眼底荧光血管造影",
+      "drug_link": "https://jbk.39.net/jiancha/ydygxgzy/"
+    },
+    {
+      "drug": "巩膜炎",
+      "drug_link": "https://jbk.39.net/gmy/"
+    },
+    {
+      "drug": "青光眼",
+      "drug_link": "https://jbk.39.net/qgy/"
+    },
+    {
+      "drug": "重组人干扰素α1b注射液",
+      "drug_link": "http://ypk.39.net/739785/"
+    },
+    {
+      "drug": "注射用重组人白介素-2",
+      "drug_link": "http://ypk.39.net/859887/"
+    },
+    {
+      "drug": "司莫司汀胶囊",
+      "drug_link": "http://ypk.39.net/498600/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d0fc15c52bff9c74b88"
+  },
+  "title": "小儿青盲",
+  "simple_description": "皮质盲是大脑枕叶皮质受到毒素影响或血管痉挛缺血而引起的一种中枢性视功能障碍，以血管痉挛性损害最为常见。临床表现为双眼视觉完全丧失，瞳孔光反射正常，眼底正常，可有偏瘫等。本病常见于2～6岁小儿。现代西...",
+  "link": "https://jbk.39.net/zhengzhuang/xeqm/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/xeqm/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d0fc15c52bff9c74b89"
+  },
+  "title": "眼及眶区CT",
+  "simple_description": "眼及眶区的CT检查是通过CT对眼及眶区进行检查的一种方法。CT扫描可提供一种高分辨力、切面图像及灰阶眼部图像，它以X线为能源而显示人体的层面图像。目前CT已很普及，从而为眼科疾病的诊断提供了一种优越的检查...",
+  "link": "https://jbk.39.net/jiancha/yjkqctjc/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/yjkqctjc/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d10c15c52bff9c74b8a"
+  },
+  "title": "全身体检",
+  "simple_description": "全身体检是对人的身高、体重、血压等的检查，它包括内科系统、外科系统、眼科、耳鼻喉科、口腔科、妇科、彩超室、检验科、病理科等一系列的检查。系统的全身检查可以早期发现一些病症：了解有否缺铁性贫血、排除...",
+  "link": "https://jbk.39.net/jiancha/qstj/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/qstj/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d10c15c52bff9c74b8b"
+  },
+  "title": "国产晶体白内障囊",
+  "simple_description": "现代囊外白内障摘除术是现代眼科显微手术技术的发展和后房型人工晶状体植入技术发展的必然结果。同传统囊外白内障摘除术比较，现代囊外白内障摘除术的突出特点是显微手术和闭合注-吸系统的应用，更少盲目性和创...",
+  "link": "https://jbk.39.net/shoushu/bnznwzcsgcjt/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/shoushu/bnznwzcsgcjt/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d10c15c52bff9c74b8c"
+  },
+  "title": "进口晶体白内障囊",
+  "simple_description": "现代囊外白内障摘除术是现代眼科显微手术技术的发展和后房型人工晶状体植入技术发展的必然结果。同传统囊外白内障摘除术比较，现代囊外白内障摘除术的突出特点是显微手术和闭合注-吸系统的应用，更少盲目性和创...",
+  "link": "https://jbk.39.net/shoushu/bnznwzcsjkjt/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/shoushu/bnznwzcsjkjt/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d10c15c52bff9c74b8d"
+  },
+  "title": "甲状腺相关眼病",
+  "simple_description": "甲状腺相关眼病(thyroid associated ophthalmopathy，TAO)是眼眶最常见的疾病之一。过去命名较多，如甲状腺眼病、甲状腺毒性眼病、内分泌性眼肌病变、内分泌性眼球突出、眼球突出性甲状腺肿、甲状腺相关眼眶病、恶性突眼和浸润...",
+  "link": "https://jbk.39.net/jzxxgyb/",
+  "description": "甲状腺相关眼病(thyroid associated ophthalmopathy，TAO)是眼眶最常见的疾病之一。过去命名较多，如甲状腺眼病、甲状腺毒性眼病、内分泌性眼肌病变、内分泌性眼球突出、眼球突出性甲状腺肿、甲状腺相关眼眶病、恶性突眼和浸润性突眼等。Gra...详细",
+  "disease_link": "https://jbk.39.net/jzxxgyb/",
+  "别名：": "恶性突眼,格雷夫斯眼病,甲状腺毒性眼病,甲状腺眼病,浸润性突眼,内分泌性浸润性突眼,内分泌性眼肌病变,内分泌性眼球突出,眼球突出性甲状腺肿",
+  "是否医保：": "否",
+  "发病部位：": "眼\n甲状腺",
+  "挂号科室：": "眼科\n内分泌科",
+  "传染性：": "无传染性",
+  "治疗方法：": "药物治疗",
+  "治愈率：": "95%",
+  "多发人群：": "中青年多见",
+  "治疗费用：": "市三甲医院约（3000—— 5000元）",
+  "典型症状：": "眶周水肿\n角膜溃疡\n畏光流泪",
+  "临床检查：": "CT造影扫描\nMRI\n血清T3T4抗体",
+  "并发症：": "角膜炎\n视盘水肿\n暴露性角膜炎",
+  "常用药品：": "抑亢丸\n抑亢散\n甲状腺相关自身抗体质控品",
+  "在线购药：": "",
+  "typical_symptoms": [
+    {
+      "symptom": "眼",
+      "symptom_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "symptom": "甲状腺",
+      "symptom_link": "https://jbk.39.net/bw/jiazhuangxian/"
+    },
+    {
+      "symptom": "眼科",
+      "symptom_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "symptom": "内分泌科",
+      "symptom_link": "https://jbk.39.net/bw/neifenmike/"
+    },
+    {
+      "symptom": "药物治疗",
+      "symptom_link": "https://jbk.39.net/jzxxgyb/yyzl/"
+    },
+    {
+      "symptom": "眶周水肿",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/kzsz/"
+    },
+    {
+      "symptom": "角膜溃疡",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/jmky/"
+    },
+    {
+      "symptom": "畏光流泪",
+      "symptom_link": "https://jbk.39.net/zhengzhuang/wgll/"
+    },
+    {
+      "symptom": "CT造影扫描",
+      "symptom_link": "https://jbk.39.net/jiancha/ctzysm/"
+    },
+    {
+      "symptom": "MRI",
+      "symptom_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "symptom": "血清T3T4抗体",
+      "symptom_link": "https://jbk.39.net/jiancha/t3t4kt/"
+    },
+    {
+      "symptom": "角膜炎",
+      "symptom_link": "https://jbk.39.net/jmy1/"
+    },
+    {
+      "symptom": "视盘水肿",
+      "symptom_link": "https://jbk.39.net/spsz/"
+    },
+    {
+      "symptom": "暴露性角膜炎",
+      "symptom_link": "https://jbk.39.net/blxjmy/"
+    },
+    {
+      "symptom": "抑亢丸",
+      "symptom_link": "http://ypk.39.net/1000001171/"
+    },
+    {
+      "symptom": "抑亢散",
+      "symptom_link": "http://ypk.39.net/772614/"
+    },
+    {
+      "symptom": "甲状腺相关自身抗体质控品",
+      "symptom_link": "http://ypk.39.net/2227378/"
+    }
+  ],
+  "clinical_checks": [
+    {
+      "check": "眼",
+      "check_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "check": "甲状腺",
+      "check_link": "https://jbk.39.net/bw/jiazhuangxian/"
+    },
+    {
+      "check": "眼科",
+      "check_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "check": "内分泌科",
+      "check_link": "https://jbk.39.net/bw/neifenmike/"
+    },
+    {
+      "check": "药物治疗",
+      "check_link": "https://jbk.39.net/jzxxgyb/yyzl/"
+    },
+    {
+      "check": "眶周水肿",
+      "check_link": "https://jbk.39.net/zhengzhuang/kzsz/"
+    },
+    {
+      "check": "角膜溃疡",
+      "check_link": "https://jbk.39.net/zhengzhuang/jmky/"
+    },
+    {
+      "check": "畏光流泪",
+      "check_link": "https://jbk.39.net/zhengzhuang/wgll/"
+    },
+    {
+      "check": "CT造影扫描",
+      "check_link": "https://jbk.39.net/jiancha/ctzysm/"
+    },
+    {
+      "check": "MRI",
+      "check_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "check": "血清T3T4抗体",
+      "check_link": "https://jbk.39.net/jiancha/t3t4kt/"
+    },
+    {
+      "check": "角膜炎",
+      "check_link": "https://jbk.39.net/jmy1/"
+    },
+    {
+      "check": "视盘水肿",
+      "check_link": "https://jbk.39.net/spsz/"
+    },
+    {
+      "check": "暴露性角膜炎",
+      "check_link": "https://jbk.39.net/blxjmy/"
+    },
+    {
+      "check": "抑亢丸",
+      "check_link": "http://ypk.39.net/1000001171/"
+    },
+    {
+      "check": "抑亢散",
+      "check_link": "http://ypk.39.net/772614/"
+    },
+    {
+      "check": "甲状腺相关自身抗体质控品",
+      "check_link": "http://ypk.39.net/2227378/"
+    }
+  ],
+  "complications": [
+    {
+      "complication": "眼",
+      "complication_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "complication": "甲状腺",
+      "complication_link": "https://jbk.39.net/bw/jiazhuangxian/"
+    },
+    {
+      "complication": "眼科",
+      "complication_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "complication": "内分泌科",
+      "complication_link": "https://jbk.39.net/bw/neifenmike/"
+    },
+    {
+      "complication": "药物治疗",
+      "complication_link": "https://jbk.39.net/jzxxgyb/yyzl/"
+    },
+    {
+      "complication": "眶周水肿",
+      "complication_link": "https://jbk.39.net/zhengzhuang/kzsz/"
+    },
+    {
+      "complication": "角膜溃疡",
+      "complication_link": "https://jbk.39.net/zhengzhuang/jmky/"
+    },
+    {
+      "complication": "畏光流泪",
+      "complication_link": "https://jbk.39.net/zhengzhuang/wgll/"
+    },
+    {
+      "complication": "CT造影扫描",
+      "complication_link": "https://jbk.39.net/jiancha/ctzysm/"
+    },
+    {
+      "complication": "MRI",
+      "complication_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "complication": "血清T3T4抗体",
+      "complication_link": "https://jbk.39.net/jiancha/t3t4kt/"
+    },
+    {
+      "complication": "角膜炎",
+      "complication_link": "https://jbk.39.net/jmy1/"
+    },
+    {
+      "complication": "视盘水肿",
+      "complication_link": "https://jbk.39.net/spsz/"
+    },
+    {
+      "complication": "暴露性角膜炎",
+      "complication_link": "https://jbk.39.net/blxjmy/"
+    },
+    {
+      "complication": "抑亢丸",
+      "complication_link": "http://ypk.39.net/1000001171/"
+    },
+    {
+      "complication": "抑亢散",
+      "complication_link": "http://ypk.39.net/772614/"
+    },
+    {
+      "complication": "甲状腺相关自身抗体质控品",
+      "complication_link": "http://ypk.39.net/2227378/"
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "眼",
+      "drug_link": "https://jbk.39.net/bw/yan/"
+    },
+    {
+      "drug": "甲状腺",
+      "drug_link": "https://jbk.39.net/bw/jiazhuangxian/"
+    },
+    {
+      "drug": "眼科",
+      "drug_link": "https://jbk.39.net/bw/yanke/"
+    },
+    {
+      "drug": "内分泌科",
+      "drug_link": "https://jbk.39.net/bw/neifenmike/"
+    },
+    {
+      "drug": "药物治疗",
+      "drug_link": "https://jbk.39.net/jzxxgyb/yyzl/"
+    },
+    {
+      "drug": "眶周水肿",
+      "drug_link": "https://jbk.39.net/zhengzhuang/kzsz/"
+    },
+    {
+      "drug": "角膜溃疡",
+      "drug_link": "https://jbk.39.net/zhengzhuang/jmky/"
+    },
+    {
+      "drug": "畏光流泪",
+      "drug_link": "https://jbk.39.net/zhengzhuang/wgll/"
+    },
+    {
+      "drug": "CT造影扫描",
+      "drug_link": "https://jbk.39.net/jiancha/ctzysm/"
+    },
+    {
+      "drug": "MRI",
+      "drug_link": "https://jbk.39.net/jiancha/hcgzcxmri/"
+    },
+    {
+      "drug": "血清T3T4抗体",
+      "drug_link": "https://jbk.39.net/jiancha/t3t4kt/"
+    },
+    {
+      "drug": "角膜炎",
+      "drug_link": "https://jbk.39.net/jmy1/"
+    },
+    {
+      "drug": "视盘水肿",
+      "drug_link": "https://jbk.39.net/spsz/"
+    },
+    {
+      "drug": "暴露性角膜炎",
+      "drug_link": "https://jbk.39.net/blxjmy/"
+    },
+    {
+      "drug": "抑亢丸",
+      "drug_link": "http://ypk.39.net/1000001171/"
+    },
+    {
+      "drug": "抑亢散",
+      "drug_link": "http://ypk.39.net/772614/"
+    },
+    {
+      "drug": "甲状腺相关自身抗体质控品",
+      "drug_link": "http://ypk.39.net/2227378/"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f76d11c15c52bff9c74b8e"
+  },
+  "title": "结膜乳头增生",
+  "simple_description": "结膜乳头增生：为结膜上皮细胞大量增殖，并伴有血管增生和炎性细胞浸润所导致的结膜局部病变，呈点状或小球状隆起，肉眼下结膜表面为绒布样，不光滑，裂隙灯生物显微镜下乳头中央可见伞状新生血管增生，使乳头为...",
+  "link": "https://jbk.39.net/zhengzhuang/jmrtzs/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/zhengzhuang/jmrtzs/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d11c15c52bff9c74b8f"
+  },
+  "title": "眼底镜检查法",
+  "simple_description": "借助眼底镜，医生可以看清眼球后面视网膜上的血管以及视神经（在眼睛和大脑之间传送信息）。这是人体中唯一不需要切开而能够看到血管和神经的地方。借助眼底镜进行玻璃体及眼底检查，以发现影响视力的眼病。高血...",
+  "link": "https://jbk.39.net/jiancha/ydjjcf/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/ydjjcf/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d11c15c52bff9c74b90"
+  },
+  "title": "眼压",
+  "simple_description": "眼球内部的压力，简称为眼压。是眼内容物对眼球壁施加的均衡压力。正常人的眼压稳定在一定范围内，以维持眼球的正常形态和眼睛的视觉功能。正常眼压的范围为1.47～2.79kPa(11～21mmHg)。眼压的检测方法主要有指测眼...",
+  "link": "https://jbk.39.net/jiancha/yy/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/yy/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d12c15c52bff9c74b91"
+  },
+  "title": "眼球和眼眶的超声",
+  "simple_description": "眼球和眼眶的超声检查主要是针对眼内白瞳孔、先天性白内障、视网膜脱离、视网膜母细胞瘤、渗出性视网膜炎、晶体后纤维增生、先天性第一玻璃体永存以及继发于全身感染引起的眼前房积脓、玻璃体脓肿等眶内炎症进行...",
+  "link": "https://jbk.39.net/jiancha/yqhykdcsjc/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/yqhykdcsjc/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d12c15c52bff9c74b92"
+  },
+  "title": "交替遮盖法",
+  "simple_description": "多用于隐斜视及间歇性斜视患者。",
+  "link": "https://jbk.39.net/jiancha/jtzgf/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/jtzgf/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d12c15c52bff9c74b93"
+  },
+  "title": "Cochet和Bonnet氏角膜",
+  "simple_description": "角膜知觉检查法 为要证明角膜溃疡区与非溃疡区是否有知觉的不同，或证明三叉神经机能有无减低或麻痹现象，应作角膜知觉检查。",
+  "link": "https://jbk.39.net/jiancha/cochethbonnetsjmzjclj/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/cochethbonnetsjmzjclj/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d13c15c52bff9c74b94"
+  },
+  "title": "沙眼衣原体抗体",
+  "simple_description": "沙眼衣原体是沙眼的主要病原微生物。沙眼衣原体抗体指细胞内寄生的沙眼衣原体感染后产生的特异性抗体。",
+  "link": "https://jbk.39.net/jiancha/syyytkt/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/syyytkt/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+},
+{
+  "_id": {
+    "$oid": "67f76d13c15c52bff9c74b95"
+  },
+  "title": "眼睑肌力测量计",
+  "simple_description": "睑肌力测量计，用于测量提上睑肌力和睑裂大小，其包括用于制约患者的额肌对其上眼睑施力的额肌压迫器，所述额肌压迫器上设置有带刻度的标尺，所述标尺垂直连接于所述额肌压迫器的中点，所述标尺上设置有游标，用...",
+  "link": "https://jbk.39.net/jiancha/yjjlclj/",
+  "description": "",
+  "disease_link": "https://jbk.39.net/jiancha/yjjlclj/",
+  "typical_symptoms": [],
+  "clinical_checks": [],
+  "complications": [],
+  "drugs": []
+}]
