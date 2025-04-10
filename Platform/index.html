@@ -83,7 +83,10 @@
 					</defs>
 				</svg>
 				<!--平台名称-->
-				<div class="brand-title" width="123" height="68" viewbox="0 0 123 68" style="display: flex;text-align: center;" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!--				<div class="brand-title d-none d-md-flex" width="123" height="68" viewbox="0 0 123 68" style="display: flex;text-align: center;" fill="none">-->
+<!--					<p class="platform-name" style="font-size: 35px;">明眸智诊</p>-->
+<!--				</div>-->
+				<div class="brand-title d-none d-lg-flex" style="text-align: center;">
 					<p style="font-size: 35px;">明眸智诊</p>
 				</div>
             </a>
@@ -263,35 +266,48 @@
         <div class="deznav">
             <div class="deznav-scroll">
 				<ul class="metismenu" id="menu">
-                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
+                    <li><a class="ai-icon" href="index.html" aria-expanded="false">
 							<i class="flaticon-025-dashboard"></i>
 							<span class="nav-text"><strong>疾病诊断</strong></span>
 						</a>
-                        <ul aria-expanded="false">
-							<!--首页导航栏链接-->
-							<li><a href="index.html">疾病诊断</a></li>
-							<li><a href="#">眼疾科普</a></li>
-							<!-- ...... -->
-						</ul>
-
+<!--                        <ul aria-expanded="false">-->
+<!--							&lt;!&ndash;首页导航栏链接&ndash;&gt;-->
+<!--							<li><a href="index.html">疾病诊断</a></li>-->
+<!--							<li><a href="#">眼疾科普</a></li>-->
+<!--							&lt;!&ndash; ...... &ndash;&gt;-->
+<!--						</ul>-->
                     </li>
-                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">
-						<i class="flaticon-050-info"></i>
-							<span class="nav-text"><strong>功能扩展</strong></span>
+					<li><a href="eyetables.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-033-feather"></i>
+							<span class="nav-text"><strong>眼疾科普</strong></span>
 						</a>
-                        <ul aria-expanded="false">
-                            <li><a href="#">页面</a></li>
-							<li><a href="#">页面</a></li>
-                            <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">页面</a>
-                                <ul aria-expanded="false">
-                                    <li><a href="#">子页面1</a></li>
-                                    <li><a href="#">子页面2</a></li>
-                                    <li><a href="#">子页面3</a></li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </li>
+					</li>
+					<li><a href="graph.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-021-command"></i>
+							<span class="nav-text"><strong>知识图谱</strong></span>
+						</a>
+					</li>
+					<li><a href="chatbot.html" class="ai-icon" aria-expanded="false">
+							<i class="flaticon-050-info"></i>
+							<span class="nav-text"><strong>咨询助手</strong></span>
+						</a>
+					</li>
+<!--                    <li><a class="has-arrow ai-icon" href="javascript:void(0)" aria-expanded="false">-->
+<!--						<i class="flaticon-050-info"></i>-->
+<!--							<span class="nav-text"><strong>功能扩展</strong></span>-->
+<!--						</a>-->
+<!--                        <ul aria-expanded="false">-->
+<!--                            <li><a href="#">页面</a></li>-->
+<!--							<li><a href="#">页面</a></li>-->
+<!--                            <li><a class="has-arrow" href="javascript:void(0)" aria-expanded="false">页面</a>-->
+<!--                                <ul aria-expanded="false">-->
+<!--                                    <li><a href="#">子页面1</a></li>-->
+<!--                                    <li><a href="#">子页面2</a></li>-->
+<!--                                    <li><a href="#">子页面3</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
 					<!--个人中心-->
 					<li><a href="profile.html" class="ai-icon" aria-expanded="false">
 							<i class="flaticon-029-ellipsis"></i>
@@ -364,8 +380,8 @@
 										<div id="wizard_Upload" class="tab-pane" role="tabpanel">
 											<!-- 此处写相关信息与图片上传的相关代码 -->
 											<div class="card">
-												<div class="card-header">
-													<h3 class="card-title">步骤1：上传信息</h3>
+												<div class="card-header d-flex justify-content-between align-items-center">
+													<h3 class="card-title mb-0">步骤1：上传信息</h3>
 													<div class="basic-dropdown">
 														<div class="dropdown">
 															<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -467,8 +483,8 @@
 											<!-- 此处写预处理图片以及图像对比的相关代码 -->
 											<div class="row">
 												<div class="card">
-													<div class="card-header">
-														<h4 class="card-title">步骤2：图像预处理</h4>
+													<div class="card-header d-flex justify-content-between align-items-center">
+														<h4 class="card-title mb-0">步骤2：图像预处理</h4>
 														<button id="startPreprocessBtn" class="btn btn-primary sw-btn">开始预处理</button>
 													</div>
 													<div class="card-body">
@@ -500,8 +516,8 @@
 											<div class="row">
 												<div class="col-12 mb-4">
 													<div class="card">
-														<div class="card-header">
-															<h4 class="card-title">步骤3：疾病检测</h4>
+														<div class="card-header d-flex justify-content-between align-items-center">
+															<h4 class="card-title mb-0">步骤3：疾病检测</h4>
 															<button class="btn btn-primary" id="startPredictBtn">
 																<i class="fas fa-play"></i> 开始检测
 															</button>
@@ -569,8 +585,8 @@
 										<div id="wizard_Report" class="tab-pane" role="tabpanel">
 											<!-- 此处写报告生成的相关代码 -->
 											<div class="card">
-												<div class="card-header">
-													<h4 class="card-title">步骤4：诊断报告</h4>
+												<div class="card-header d-flex justify-content-between align-items-center">
+													<h4 class="card-title mb-0">步骤4：诊断报告</h4>
 												</div>
 												<div class="card-body">
 													<!-- 预测结果表格 -->

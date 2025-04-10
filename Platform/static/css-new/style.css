@@ -66,3 +66,41 @@
     max-width: 100px;
     height: auto;
 }
+
+
+.contacts_body{height:calc(100vh - 7.5rem)}
+.card-header{background:#f4f7ff;padding:0.9375rem 1.25rem;justify-content:center}
+.card-header h6,.chatbox .card-header .h6{font-size:0.9375rem}
+.card-header p{line-height:1.2;font-size:0.75rem;color:#969ba0}
+.chat-list-header{justify-content:space-between;background:#fff}
+[data-theme-version="dark"] .chat-list-header{background:#212130}
+.chat-list-header a{text-align:center;width:1.875rem;height:1.875rem;background:#FCFCFC;border-radius:0.375rem;line-height:1.875rem;display:block}
+[data-theme-version="dark"].chat-list-header a{background:var(--rgba-primary-1)}
+[data-theme-version="dark"]
+.chat-list-header a svg g [fill]{fill:#fff}
+.img_cont_msg{width:1.875rem;height:1.875rem;display:block;max-width:1.875rem;min-width:1.875rem}
+.img_cont_msg img{width:100%}
+.msg_cotainer{background:var(--primary);margin-left:0.625rem;border-radius:0 1.375rem 1.375rem 1.375rem;padding:0.625rem 0.9375rem;color:#fff;position:relative}
+.msg_cotainer .msg_time{display:block;font-size:0.6875rem;color:#fff;margin-top:0.3125rem;opacity:0.5}
+.msg_cotainer:after{content:"";position:absolute;left:-0.625rem;border-right:0.625rem solid var(--primary);border-bottom:0.625rem solid transparent;border-top:0rem solid;top:0}
+.msg_cotainer_send{background:#FCFCFC;padding:0.625rem 0.9375rem;border-radius:0.375rem 0rem 0.375rem 0.375rem;margin-right:0.625rem;color:#222;position:relative;text-align:right}
+[data-theme-version="dark"] .msg_cotainer_send{background:#171622;color:#fff}
+.msg_cotainer_send .msg_time_send{display:block;font-size:0.6875rem;text-align:right;margin-top:0.3125rem;opacity:0.6}
+.msg_cotainer_send:after{content:"";position:absolute;right:-0.625rem;border-left:0.625rem solid #FCFCFC;border-bottom:0.625rem solid transparent;border-top:0rem solid;top:0}
+[data-theme-version="dark"] .msg_cotainer_send:after{border-left:0.625rem solid #171622}
+.type_msg .form-control{padding:0.625rem 0;height:3.125rem;border:0;resize:none}
+.type_msg .form-control:focus{z-index:0}
+.type_msg .btn{font-size:1.125rem;border-radius:2.375rem !important;width:2.375rem;height:2.375rem;padding:0;margin-top:0.375rem}
+.video_cam{margin-left:0.9375rem}
+.video_cam span{width:2.1875rem;height:2.1875rem;background:#10ca93;text-align:center;line-height:2.1875rem;border-radius:2.1875rem;color:#fff;margin-right:0.3125rem;align-self:center;font-size:1rem;padding:0 0.1875rem;display:inline-block}
+.note_card .contacts li{padding:0.75rem 1rem}@media only screen and (max-width: 36rem){.chatbox{width:17.5rem}.chatbox-close{right:17.5rem}}
+
+.dz-chat-history-box {
+    height: 700px; /* 根据需求设置固定高度 */
+    overflow-y: auto; /* 如果内容超过高度，将出现滚动条 */
+}
+.msg_card_body {
+    height: 650px; /* 设置一个固定高度 */
+    overflow-y: auto; /* 内容超出时显示滚动条 */
+}
+
