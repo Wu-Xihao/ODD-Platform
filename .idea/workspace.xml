@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="配置">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="925639be-41af-43c3-ab58-42b7266567a3" name="Changes" comment="前端修改">
+      <change afterPath="$PROJECT_DIR$/Server/build_medicalgraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/data/medical.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/check.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/deny.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/department.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/disease.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/drug.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/food.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/producer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/dict/symptom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/css-new/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/css-new/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/static/js/styleSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/static/js/styleSwitcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/eyeDiseasePredictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/eyeDiseasePredictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/origin-img/0_left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/origin-img/0_right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/origin-img/1_left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/origin-img/1_right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/processed-img/left_0_left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/processed-img/left_1_left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/processed-img/right_0_right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/upload/processed-img/right_1_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +29,9 @@
       <list>
         <option value="Jupyter Notebook" />
         <option value="CSS File" />
+        <option value="Python Script" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -71,24 +68,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/My_Code/Pycharm_Code/ODD-Platform/Server/model/checkpoints&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/My_Code/Pycharm_Code/ODD-Platform/Server",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model\checkpoints" />
@@ -97,11 +94,11 @@
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\upload\origin-img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\static\data" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\src" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Server\model\checkpoints" />
       <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\static\img" />
-      <recent name="D:\My_Code\Pycharm_Code\ODD-Platform\Platform\html-old" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -146,47 +143,10 @@
       <workItem from="1744182594583" duration="9565000" />
       <workItem from="1744210528871" duration="993000" />
       <workItem from="1744223781152" duration="21000" />
-      <workItem from="1744263183799" duration="2533000" />
-    </task>
-    <task id="LOCAL-00001" summary="筛减后的模板源代码">
-      <option name="closed" value="true" />
-      <created>1740851555175</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740851555175</updated>
-    </task>
-    <task id="LOCAL-00002" summary="流程界面">
-      <option name="closed" value="true" />
-      <created>1740905176689</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740905176689</updated>
-    </task>
-    <task id="LOCAL-00003" summary="原始html源代码存入一个单独的文件夹">
-      <option name="closed" value="true" />
-      <created>1740910598242</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740910598242</updated>
-    </task>
-    <task id="LOCAL-00004" summary="管理员头像图片">
-      <option name="closed" value="true" />
-      <created>1740920589632</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1740920589632</updated>
-    </task>
-    <task id="LOCAL-00005" summary="表单步骤处理js文件修改">
-      <option name="closed" value="true" />
-      <created>1740920618136</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740920618136</updated>
+      <workItem from="1744263183799" duration="12423000" />
+      <workItem from="1744304045626" duration="1209000" />
+      <workItem from="1744474550483" duration="16000" />
+      <workItem from="1744483482080" duration="1221000" />
     </task>
     <task id="LOCAL-00006" summary="修改位置">
       <option name="closed" value="true" />
@@ -508,7 +468,79 @@
       <option name="project" value="LOCAL" />
       <updated>1741284644649</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="咨询助手html、js">
+      <option name="closed" value="true" />
+      <created>1744280342475</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280342475</updated>
+    </task>
+    <task id="LOCAL-00047" summary="知识图谱html、js">
+      <option name="closed" value="true" />
+      <created>1744280392718</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280392718</updated>
+    </task>
+    <task id="LOCAL-00048" summary="疾病科普html、js">
+      <option name="closed" value="true" />
+      <created>1744280431785</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280431785</updated>
+    </task>
+    <task id="LOCAL-00049" summary="个人中心html">
+      <option name="closed" value="true" />
+      <created>1744280471312</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280471312</updated>
+    </task>
+    <task id="LOCAL-00050" summary="眼科信息json文件">
+      <option name="closed" value="true" />
+      <created>1744280546945</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280546946</updated>
+    </task>
+    <task id="LOCAL-00051" summary="后端">
+      <option name="closed" value="true" />
+      <created>1744280593906</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280593906</updated>
+    </task>
+    <task id="LOCAL-00052" summary="删除图片">
+      <option name="closed" value="true" />
+      <created>1744280623805</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280623805</updated>
+    </task>
+    <task id="LOCAL-00053" summary="qian'dua">
+      <option name="closed" value="true" />
+      <created>1744280649507</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280649507</updated>
+    </task>
+    <task id="LOCAL-00054" summary="前端修改">
+      <option name="closed" value="true" />
+      <created>1744280688945</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1744280688946</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,13 +558,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除预训练模型" />
-    <MESSAGE value="js空文件" />
-    <MESSAGE value="提示文件" />
-    <MESSAGE value="字体文件" />
-    <MESSAGE value="字体与配置文件" />
-    <MESSAGE value="添加登录、注册HTML文件" />
-    <MESSAGE value="删除预训练模型文件" />
     <MESSAGE value="css文件" />
     <MESSAGE value="示例图片文件" />
     <MESSAGE value="新增css文件" />
@@ -550,8 +575,15 @@
     <MESSAGE value="个人中心背景图片" />
     <MESSAGE value="index文件" />
     <MESSAGE value="改bug:点击后界面不更新，左右眼提交与显示逻辑错误" />
+    <MESSAGE value="咨询助手html、js" />
+    <MESSAGE value="疾病科普html、js" />
+    <MESSAGE value="个人中心html" />
+    <MESSAGE value="眼科信息json文件" />
+    <MESSAGE value="后端" />
+    <MESSAGE value="删除图片" />
     <MESSAGE value="配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置" />
+    <MESSAGE value="前端修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端修改" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ODD_Platform$eyeDiseasePredictor.coverage" NAME="eyeDiseasePredictor Coverage Results" MODIFIED="1741268397434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
@@ -560,7 +592,7 @@
     <SUITE FILE_PATH="coverage/ODD_Platform$client.coverage" NAME="client Coverage Results" MODIFIED="1743919168156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/ODD_Platform$upload.coverage" NAME="upload Coverage Results" MODIFIED="1741238978869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$pre_process.coverage" NAME="pre-process Coverage Results" MODIFIED="1741159243187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
-    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1744090018229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
+    <SUITE FILE_PATH="coverage/ODD_Platform$app.coverage" NAME="app Coverage Results" MODIFIED="1744278296360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1741238999108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
     <SUITE FILE_PATH="coverage/ODD_Platform$graph.coverage" NAME="graph Coverage Results" MODIFIED="1744193502514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Server/src" />
   </component>
